@@ -1,0 +1,236 @@
+{
+  "workbook": "/workspace/attachments/c7ccdeb6-0e70-4b07-a755-212a824125ff/KidSense_PLSpredict_10x10.xlsx",
+  "workbook_sha256": "9e7986e732964003978f57f19362d29c5b9731690e44f51537c8d75bc1f68dd9",
+  "csv": "/workspace/smartpls4_native/KidSense_SmartPLS4_Input_271.csv",
+  "csv_sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624",
+  "metadata": {
+    "Model": "Report (KidSense_Model)",
+    "Project": "KidSense_Replikasi",
+    "Data file": "KidSense_SmartPLS4_Input_271",
+    "Calculated": "Nov 6, 2026, 11:36:04\u202fAM",
+    "SmartPLS version": "4.1.2.1"
+  },
+  "checks": {
+    "rows_271": true,
+    "columns_20": true,
+    "same_normalized_column_names": true,
+    "case_indices_0_to_270": true,
+    "all_5420_original_values_same_in_row_order": true,
+    "four_structural_edges_same": true,
+    "twenty_outer_links": true,
+    "all_reflective_codes_minus1": true,
+    "all_expected_indicator_assignments": true,
+    "ten_folds": true,
+    "ten_repetitions": true,
+    "prediction_type_direct_antecedents": true,
+    "fixed_seed_label": true,
+    "log_completed": true
+  },
+  "row_count": 271,
+  "column_count": 20,
+  "exact_cell_comparisons": 5420,
+  "max_abs_cell_difference": 0.0,
+  "native_column_order_after_BOM_normalization": [
+    "AD1",
+    "AD2",
+    "AD3",
+    "AD4",
+    "AIR2",
+    "AIR3",
+    "AIR4",
+    "EXP1",
+    "EXP2",
+    "EXP3",
+    "EXP4",
+    "PP1",
+    "PP2",
+    "PP3",
+    "PP4",
+    "TR1",
+    "TR2",
+    "TR3",
+    "TR4",
+    "AIR1"
+  ],
+  "BOM_note": "The native AIR1 name contains U+FEFF; removed only to map names. All original numeric values are unchanged.",
+  "settings": {
+    "Max. number of iterations": "3000",
+    "Stop criterion": "10\u207b\u2077",
+    "Use Lohmoeller settings?": "No",
+    "Initial weights": "1.0",
+    "Weighting scheme": "Path",
+    "Type of results": "Standardized",
+    "Vary copula by binary categories": "yes",
+    "Number of folds": "10",
+    "No. of repetitions": "10",
+    "Prediction type": "Direct antecedents",
+    "Seed": "Fixed seed"
+  },
+  "outer_weighting_modes": {
+    "AD": "AUTOMATIC",
+    "AIR": "AUTOMATIC",
+    "EXP": "AUTOMATIC",
+    "PP": "AUTOMATIC",
+    "TR": "AUTOMATIC"
+  },
+  "outer_mode_note": "Export says AUTOMATIC for all constructs; outer model stores reflective -1 codes. Do not claim explicit Mode A label in settings.",
+  "prediction_design_interpretation": "Native run is Direct antecedents, not Early antecedents. AD has direct predecessor TR, so this configuration is the appropriate direct-antecedent comparator to earlier conditional AD prediction. Any implementation equality must be checked from prediction values separately.",
+  "numeric_seed_value_present": false,
+  "seed_evidence": [
+    {
+      "row": 10993,
+      "values": [
+        "Seed",
+        "Fixed seed"
+      ]
+    }
+  ],
+  "seed_limit": "Only Fixed seed is exported; no numeric seed or RNG algorithm is recorded in this settings/log section. Do not infer seed20261106 or same folds as Python.",
+  "structural_edges": [
+    [
+      "AIR",
+      "TR"
+    ],
+    [
+      "EXP",
+      "TR"
+    ],
+    [
+      "PP",
+      "TR"
+    ],
+    [
+      "TR",
+      "AD"
+    ]
+  ],
+  "outer_links": [
+    {
+      "indicator": "AD1",
+      "construct": "AD",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!C11031"
+    },
+    {
+      "indicator": "AD2",
+      "construct": "AD",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!C11032"
+    },
+    {
+      "indicator": "AD3",
+      "construct": "AD",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!C11033"
+    },
+    {
+      "indicator": "AD4",
+      "construct": "AD",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!C11034"
+    },
+    {
+      "indicator": "AIR2",
+      "construct": "AIR",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!D11035"
+    },
+    {
+      "indicator": "AIR3",
+      "construct": "AIR",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!D11036"
+    },
+    {
+      "indicator": "AIR4",
+      "construct": "AIR",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!D11037"
+    },
+    {
+      "indicator": "EXP1",
+      "construct": "EXP",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!E11038"
+    },
+    {
+      "indicator": "EXP2",
+      "construct": "EXP",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!E11039"
+    },
+    {
+      "indicator": "EXP3",
+      "construct": "EXP",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!E11040"
+    },
+    {
+      "indicator": "EXP4",
+      "construct": "EXP",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!E11041"
+    },
+    {
+      "indicator": "PP1",
+      "construct": "PP",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!F11042"
+    },
+    {
+      "indicator": "PP2",
+      "construct": "PP",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!F11043"
+    },
+    {
+      "indicator": "PP3",
+      "construct": "PP",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!F11044"
+    },
+    {
+      "indicator": "PP4",
+      "construct": "PP",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!F11045"
+    },
+    {
+      "indicator": "TR1",
+      "construct": "TR",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!G11046"
+    },
+    {
+      "indicator": "TR2",
+      "construct": "TR",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!G11047"
+    },
+    {
+      "indicator": "TR3",
+      "construct": "TR",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!G11048"
+    },
+    {
+      "indicator": "TR4",
+      "construct": "TR",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!G11049"
+    },
+    {
+      "indicator": "AIR1",
+      "construct": "AIR",
+      "native_code": -1.0,
+      "source_cell": "'Complete data set'!D11050"
+    }
+  ],
+  "log": [
+    "Reading score matrix of complete data set",
+    "Calculating full data set.",
+    "Calculating 10-fold predictive cross-validation 10 times",
+    "All calculations done."
+  ],
+  "read_only_original_files": true
+}

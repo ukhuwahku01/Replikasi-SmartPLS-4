@@ -1,0 +1,25 @@
+metric,model_type,quantity,saturated,estimated,abs_difference,saturated_cell,estimated_cell
+SRMR,mixed,Original sample (O),0.049034132624745756,0.04903413262474561,1.457167719820518e-16,'Complete data set'!C664,'Complete data set'!C665
+SRMR,mixed,Sample mean (M),0.03968750320737916,0.039687503207379154,6.938893903907228e-18,'Complete data set'!D664,'Complete data set'!D665
+SRMR,mixed,HI95,0.04469634311889124,0.044696343118890924,3.122502256758253e-16,'Complete data set'!E664,'Complete data set'!E665
+SRMR,mixed,HI99,0.047184984052293565,0.04718498405229435,7.840950111415168e-16,'Complete data set'!F664,'Complete data set'!F665
+SRMR,composite,Original sample (O),0.031025617192689436,0.031025617192689425,1.0408340855860843e-17,'Complete data set'!C666,'Complete data set'!C667
+SRMR,composite,Sample mean (M),0.02919501947545534,0.02919501947545533,1.0408340855860843e-17,'Complete data set'!D666,'Complete data set'!D667
+SRMR,composite,HI95,0.03450845440297345,0.034508454402973385,6.245004513516506e-17,'Complete data set'!E666,'Complete data set'!E667
+SRMR,composite,HI99,0.037013038565741715,0.03701303856574172,6.938893903907228e-18,'Complete data set'!F666,'Complete data set'!F667
+d_ULS,mixed,Original sample (O),0.5049126940748432,0.50491269407484,3.219646771412954e-15,'Complete data set'!C674,'Complete data set'!C675
+d_ULS,mixed,Sample mean (M),0.3326203975956561,0.3326203975956556,4.996003610813204e-16,'Complete data set'!D674,'Complete data set'!D675
+d_ULS,mixed,HI95,0.4195302485223482,0.4195302485223421,6.106226635438361e-15,'Complete data set'!E674,'Complete data set'!E675
+d_ULS,mixed,HI99,0.4675487712031919,0.4675487712032076,1.5709655798445965e-14,'Complete data set'!F674,'Complete data set'!F675
+d_ULS,composite,Original sample (O),0.20214367365933428,0.2021436736593343,2.7755575615628914e-17,'Complete data set'!C676,'Complete data set'!C677
+d_ULS,composite,Sample mean (M),0.18094929318106875,0.18094929318106823,5.273559366969494e-16,'Complete data set'!D676,'Complete data set'!D677
+d_ULS,composite,HI95,0.25007501930924037,0.25007501930923953,8.326672684688674e-16,'Complete data set'!E676,'Complete data set'!E677
+d_ULS,composite,HI99,0.2876926550125075,0.2876926550125076,1.1102230246251565e-16,'Complete data set'!F676,'Complete data set'!F677
+d_G,mixed,Original sample (O),0.27555050660640396,0.275550506606403,9.43689570931383e-16,'Complete data set'!C684,'Complete data set'!C685
+d_G,mixed,Sample mean (M),0.24199588491558197,0.2419958849155818,1.6653345369377348e-16,'Complete data set'!D684,'Complete data set'!D685
+d_G,mixed,HI95,0.27468191063569414,0.2746819106356942,5.551115123125783e-17,'Complete data set'!E684,'Complete data set'!E685
+d_G,mixed,HI99,0.2895440785764425,0.28954407857644127,1.2212453270876722e-15,'Complete data set'!F684,'Complete data set'!F685
+d_G,composite,Original sample (O),0.14543998324589463,0.14543998324589455,8.326672684688674e-17,'Complete data set'!C686,'Complete data set'!C687
+d_G,composite,Sample mean (M),0.12716048584453407,0.12716048584453413,5.551115123125783e-17,'Complete data set'!D686,'Complete data set'!D687
+d_G,composite,HI95,0.16405150357051812,0.16405150357051945,1.3322676295501878e-15,'Complete data set'!E686,'Complete data set'!E687
+d_G,composite,HI99,0.18144281596220577,0.18144281596220657,8.049116928532385e-16,'Complete data set'!F686,'Complete data set'!F687

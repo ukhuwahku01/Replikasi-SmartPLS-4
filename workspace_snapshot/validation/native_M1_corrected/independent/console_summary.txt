@@ -1,0 +1,57 @@
+{
+  "source": "/workspace/attachments/510e4ab6-8e13-4421-bf7e-f75ae9606f06/KidSense_M1_DenganTR_Bootstrap_10000.xlsx",
+  "source_sha256": "a12a4feffa63cd5233a00dcf3df3aeab3f751b5a856dfef8df67c1dbb6c47278",
+  "metadata": {
+    "Model": "Report (KidSense_M1_Eksploratori)",
+    "Project": "KidSense_Replikasi",
+    "Data file": "KidSense_SmartPLS4_Input_271",
+    "Calculated": "Nov 6, 2026, 4:17:50\u202fPM",
+    "SmartPLS version": "4.1.2.1"
+  },
+  "settings": {
+    "Data file": "KidSense_SmartPLS4_Input_271",
+    "Weighting vector": "-",
+    "Max. number of iterations": "3000",
+    "Stop criterion": "10\u207b\u2077",
+    "Use Lohmoeller settings?": "No",
+    "Initial weights": "1.0",
+    "Weighting scheme": "Path",
+    "Type of results": "Standardized",
+    "Vary copula by binary categories": "yes",
+    "Complexity": "Complete (slower)",
+    "Save results per sample": "No",
+    "Confidence interval method": "Percentile bootstrap",
+    "Parallel processing": "Yes",
+    "Significance level": "0.05",
+    "Test type": "Two-tailed",
+    "Samples": "10000",
+    "Seed": "Fixed seed",
+    "AD": "AUTOMATIC",
+    "AIR": "AUTOMATIC",
+    "EXP": "AUTOMATIC",
+    "PP": "AUTOMATIC",
+    "TR": "AUTOMATIC"
+  },
+  "max_abs_t_difference": 0.0,
+  "max_abs_p_t9999_numeric_check_difference": 1.3861137793114153e-08,
+  "max_abs_HTMT_table_difference_vs_M0native": 0.0,
+  "current_HTMT_header_PCT": [
+    "2.5%",
+    "97.5%"
+  ],
+  "current_HTMT_header_corrected": [
+    "2.5%",
+    "97.5%"
+  ],
+  "prior_authoritative_one_sided_native_file": "/workspace/attachments/666e1de7-a27b-4946-9db1-3c78729861ed/KidSense_HTMT_BCa_10000_OneTailed.xlsx",
+  "conclusion_notes": [
+    "Corrected bootstrap belongs to KidSense_M1_Eksploratori and estimates all seven paths plus three specific indirect effects.",
+    "AIR direct effect is not significant at nominalalpha.05 and its interval includes0; this is not proof the populationdirecteffect is0 and not proof fullmediation.",
+    "EXP and PP direct effects plus allthree specificindirect effects are positive with percentile95% intervals excluding0. Report directandindirect associations in exploratoryM1, not causal mediation or confirmatorymodeldiscovery.",
+    "AIR TOTAL effect differs from AIR DIRECT: nativep.047521 andpct95% excludes0, but corrected95% crosses0. Preserve this methoddifference if totaleffect is discussed.",
+    "CurrentHTMT bounds are two-sided2.5%/97.5%; allpoints andCIbounds match earlierM0native exactly. Addingdirectpaths did not resolve measurementdiscrimination.",
+    "Keep priornativeBCaONE-sided95% run as source for threshold.90:EXP-PPupper.908139 andEXP-ADupper.912789 remain not established;8of10meetcriterion. Do not rename currentupper97.5 to95.",
+    "The p numerical cross-check using t(df9999) differs by at most 1.4e-8 and gives identical alpha.05 decisions; retain native p, do not claim an exact reproduction of its numerical routine or a rerun of bootstrap draws.",
+    "No modelselection or causalclaim follows merely from significantposthoc paths. Retain design-only parentalperception/hypotheticalconditionaladoption interpretation."
+  ]
+}

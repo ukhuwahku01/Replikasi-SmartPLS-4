@@ -1,0 +1,36 @@
+kind,entity,native,reference,abs_difference,native_cell,reference_method
+loading,AD1 <- AD,0.828404806808067,0.8284048064688913,3.391757985582444e-10,'Complete data set'!C124,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,AD2 <- AD,0.8400729991190667,0.8400729989386523,1.8041446114835935e-10,'Complete data set'!C125,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,AD3 <- AD,0.8225348701945355,0.8225348704788765,2.8434099519358824e-10,'Complete data set'!C126,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,AD4 <- AD,0.8198146128758793,0.8198146131310957,2.5521640356629405e-10,'Complete data set'!C127,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,AIR2 <- AIR,0.8261605446006645,0.8261605447306076,1.2994316733738742e-10,'Complete data set'!C128,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,AIR3 <- AIR,0.8523856448569148,0.8523856448191218,3.779299095896249e-11,'Complete data set'!C129,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,AIR4 <- AIR,0.8520097070012673,0.852009707170048,1.6878065611791726e-10,'Complete data set'!C130,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,EXP1 <- EXP,0.8122739813259704,0.8122739814271358,1.0116540938298613e-10,'Complete data set'!C131,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,EXP2 <- EXP,0.83718847450371,0.8371884744655378,3.8172243144174445e-11,'Complete data set'!C132,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,EXP3 <- EXP,0.8012320556351329,0.8012320556597748,2.4641955143067662e-11,'Complete data set'!C133,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,EXP4 <- EXP,0.8359075031626196,0.8359075030919487,7.067091356560695e-11,'Complete data set'!C134,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,PP1 <- PP,0.8514335082931701,0.8514335084348565,1.4168644035805755e-10,'Complete data set'!C135,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,PP2 <- PP,0.8593173611009121,0.8593173606212456,4.796664176964782e-10,'Complete data set'!C136,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,PP3 <- PP,0.857680977977383,0.8576809781167674,1.393843929164973e-10,'Complete data set'!C137,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,PP4 <- PP,0.8574287305089693,0.8574287307488588,2.3988955266673884e-10,'Complete data set'!C138,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,TR1 <- TR,0.8473981435610467,0.8473981435845593,2.3512636282418953e-11,'Complete data set'!C139,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,TR2 <- TR,0.8428468922178933,0.8428468922911704,7.327705109361204e-11,'Complete data set'!C140,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,TR3 <- TR,0.8309431731241902,0.8309431731554482,3.1257996191413895e-11,'Complete data set'!C141,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,TR4 <- TR,0.8414732779766393,0.8414732778569491,1.1969014668267164e-10,'Complete data set'!C142,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+loading,AIR1 <- AIR,0.822448689963664,0.822448689685478,2.7818602976736884e-10,'Complete data set'!C143,"Independent covariance PLS Mode A, path weighting, tol1e-12"
+AVE,AD,0.685159194990596,0.6851591949958832,5.287215110172383e-12,'Complete data set'!C350,Previously independently verified CSV measurement result
+AVE,AIR,0.7028612303650845,0.7028612303601587,4.9258375156568945e-12,'Complete data set'!C351,Previously independently verified CSV measurement result
+AVE,EXP,0.6753469308504645,0.6753469308559075,5.4429794005272925e-12,'Complete data set'!C352,Previously independently verified CSV measurement result
+AVE,PP,0.7335415085050784,0.7335415085219217,1.6843304528890712e-11,'Complete data set'!C353,Previously independently verified CSV measurement result
+AVE,TR,0.7067545829856294,0.7067545829891012,3.471778420305327e-12,'Complete data set'!C354,Previously independently verified CSV measurement result
+rho_C,AD,0.8969503849477799,0.8969503849504471,2.667199794359476e-12,'Complete data set'!C379,Previously independently verified CSV measurement result
+rho_C,AIR,0.90438931299003,0.9043893129877068,2.3232527013306026e-12,'Complete data set'!C380,Previously independently verified CSV measurement result
+rho_C,EXP,0.8926799093991278,0.892679909401723,2.595257342363766e-12,'Complete data set'!C381,Previously independently verified CSV measurement result
+rho_C,PP,0.9167470364737696,0.9167470364804339,6.664224727614965e-12,'Complete data set'!C382,Previously independently verified CSV measurement result
+rho_C,TR,0.9060146534997894,0.9060146535012207,1.4312995233467518e-12,'Complete data set'!C383,Previously independently verified CSV measurement result
+alpha_standardized,AD,0.8469031427542622,0.846903142754262,1.1102230246251565e-16,'Complete data set'!C437,Previously independently verified CSV measurement result
+alpha_standardized,AIR,0.8590073922255256,0.8590073922255256,0.0,'Complete data set'!C438,Previously independently verified CSV measurement result
+alpha_standardized,EXP,0.8401203295583554,0.8401203295583554,0.0,'Complete data set'!C439,Previously independently verified CSV measurement result
+alpha_standardized,PP,0.8790105373091815,0.8790105373091808,7.771561172376096e-16,'Complete data set'!C440,Previously independently verified CSV measurement result
+alpha_standardized,TR,0.8617724371660072,0.8617724371660073,1.1102230246251565e-16,'Complete data set'!C441,Previously independently verified CSV measurement result

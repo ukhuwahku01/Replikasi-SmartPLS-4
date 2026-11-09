@@ -1,0 +1,376 @@
+{
+  "files": [
+    {
+      "file": "KidSense_M1_Eksploratori.xlsx",
+      "sha256": "56871556240fffdf0cbbbefb82c92cd2d5476e317f8ab7b4dea9708fa7af4435",
+      "metadata": {
+        "Model": "Report (KidSense_M1_Eksploratori)",
+        "Project": "KidSense_Replikasi",
+        "Data file": "KidSense_SmartPLS4_Input_271",
+        "Calculated": "Nov 6, 2026, 1:16:06\u202fPM",
+        "SmartPLS version": "4.1.2.1"
+      },
+      "constructs": [
+        "AD",
+        "AIR",
+        "EXP",
+        "PP",
+        "TR"
+      ],
+      "n_constructs": 5,
+      "n_items_in_model": 20,
+      "n_paths": 7,
+      "paths": {
+        "AIR -> AD": {
+          "estimate": 0.04560458323517901,
+          "row": 21
+        },
+        "AIR -> TR": {
+          "estimate": 0.2629958678860406,
+          "row": 22
+        },
+        "EXP -> AD": {
+          "estimate": 0.3371908894905286,
+          "row": 23
+        },
+        "EXP -> TR": {
+          "estimate": 0.2929233611015383,
+          "row": 24
+        },
+        "PP -> AD": {
+          "estimate": 0.1564633783802753,
+          "row": 25
+        },
+        "PP -> TR": {
+          "estimate": 0.31346321425413864,
+          "row": 26
+        },
+        "TR -> AD": {
+          "estimate": 0.30401188783830463,
+          "row": 27
+        }
+      },
+      "edges": [
+        "AIR -> AD",
+        "AIR -> TR",
+        "EXP -> AD",
+        "EXP -> TR",
+        "PP -> AD",
+        "PP -> TR",
+        "TR -> AD"
+      ],
+      "missing_expected_M1_paths": [],
+      "extra_paths": [],
+      "contains_TR": true,
+      "model_items": [
+        "AD1",
+        "AD2",
+        "AD3",
+        "AD4",
+        "AIR2",
+        "AIR3",
+        "AIR4",
+        "EXP1",
+        "EXP2",
+        "EXP3",
+        "EXP4",
+        "PP1",
+        "PP2",
+        "PP3",
+        "PP4",
+        "TR1",
+        "TR2",
+        "TR3",
+        "TR4",
+        "AIR1"
+      ],
+      "R2": {
+        "AD": 0.57590444650168,
+        "TR": 0.6156559031050265
+      },
+      "settings": {
+        "Weighting scheme": "Path",
+        "Type of results": "Standardized"
+      },
+      "correct_M1_structure": true,
+      "status": "M1 algorithm correct; bootstrap still needed",
+      "indirect_available": true
+    },
+    {
+      "file": "KidSense_M1_Algorithm.xlsx",
+      "sha256": "27b956eacc01dc77d3d86fc8a7602056667901d2f417328a5947e4c86e735c95",
+      "metadata": {
+        "Model": "Report (pls-sem)",
+        "Project": "KidSense_Replikasi",
+        "Data file": "KidSense_SmartPLS4_Input_271",
+        "Calculated": "Nov 6, 2026, 3:24:18\u202fPM",
+        "SmartPLS version": "4.1.2.1"
+      },
+      "constructs": [
+        "AD",
+        "AIR",
+        "EXP",
+        "PP"
+      ],
+      "n_constructs": 4,
+      "n_items_in_model": 16,
+      "n_paths": 3,
+      "paths": {
+        "AIR -> AD": {
+          "estimate": 0.12819352187763727,
+          "row": 20
+        },
+        "EXP -> AD": {
+          "estimate": 0.4232998775297938,
+          "row": 21
+        },
+        "PP -> AD": {
+          "estimate": 0.25287410075452943,
+          "row": 22
+        }
+      },
+      "edges": [
+        "AIR -> AD",
+        "EXP -> AD",
+        "PP -> AD"
+      ],
+      "missing_expected_M1_paths": [
+        "AIR -> TR",
+        "EXP -> TR",
+        "PP -> TR",
+        "TR -> AD"
+      ],
+      "extra_paths": [],
+      "contains_TR": false,
+      "model_items": [
+        "AD1",
+        "AD2",
+        "AD3",
+        "AD4",
+        "AIR2",
+        "AIR3",
+        "AIR4",
+        "EXP1",
+        "EXP2",
+        "EXP3",
+        "EXP4",
+        "PP1",
+        "PP2",
+        "PP3",
+        "PP4",
+        "AIR1"
+      ],
+      "R2": {
+        "AD": 0.5408602335953043
+      },
+      "settings": {
+        "Weighting scheme": "Path",
+        "Type of results": "Standardized"
+      },
+      "correct_M1_structure": false,
+      "status": "Different direct-only model withoutTR; cannot substitute M1",
+      "indirect_available": false
+    },
+    {
+      "file": "KidSense_M1_Bootstrap_10000.xlsx",
+      "sha256": "d1c5357ab6bd8d1297d5d0828b9d6f2f3ea864f11e774641c60c195e84ae7426",
+      "metadata": {
+        "Model": "Report (pls-sem)",
+        "Project": "KidSense_Replikasi",
+        "Data file": "KidSense_SmartPLS4_Input_271",
+        "Calculated": "Nov 6, 2026, 3:29:37\u202fPM",
+        "SmartPLS version": "4.1.2.1"
+      },
+      "constructs": [
+        "AD",
+        "AIR",
+        "EXP",
+        "PP"
+      ],
+      "n_constructs": 4,
+      "n_items_in_model": 16,
+      "n_paths": 3,
+      "paths": {
+        "AIR -> AD": {
+          "estimate": 0.12819352187763727,
+          "SE": 0.06308909911045595,
+          "t": 2.031944086777923,
+          "p": 0.04218569835308017,
+          "row": 12,
+          "CI_low": 0.005675785020963572,
+          "CI_high": 0.25591457961081404
+        },
+        "EXP -> AD": {
+          "estimate": 0.4232998775297938,
+          "SE": 0.09184941668846335,
+          "t": 4.608628914493281,
+          "p": 4.103733829197154e-06,
+          "row": 13,
+          "CI_low": 0.23068902557185988,
+          "CI_high": 0.5859552749974029
+        },
+        "PP -> AD": {
+          "estimate": 0.25287410075452943,
+          "SE": 0.07422995939766534,
+          "t": 3.406631268647612,
+          "p": 0.000660288382221097,
+          "row": 14,
+          "CI_low": 0.10893114406220625,
+          "CI_high": 0.4015717898671005
+        }
+      },
+      "edges": [
+        "AIR -> AD",
+        "EXP -> AD",
+        "PP -> AD"
+      ],
+      "missing_expected_M1_paths": [
+        "AIR -> TR",
+        "EXP -> TR",
+        "PP -> TR",
+        "TR -> AD"
+      ],
+      "extra_paths": [],
+      "contains_TR": false,
+      "model_items": [
+        "AD1",
+        "AD2",
+        "AD3",
+        "AD4",
+        "AIR2",
+        "AIR3",
+        "AIR4",
+        "EXP1",
+        "EXP2",
+        "EXP3",
+        "EXP4",
+        "PP1",
+        "PP2",
+        "PP3",
+        "PP4",
+        "AIR1"
+      ],
+      "R2": {
+        "AD": 0.5408602335953043
+      },
+      "settings": {
+        "Weighting scheme": "Path",
+        "Type of results": "Standardized",
+        "Complexity": "Complete (slower)",
+        "Confidence interval method": "Percentile bootstrap",
+        "Parallel processing": "Yes",
+        "Significance level": "0.05",
+        "Test type": "Two-tailed",
+        "Samples": null,
+        "Seed": "Fixed seed"
+      },
+      "correct_M1_structure": false,
+      "status": "Different direct-only model withoutTR; cannot substitute M1",
+      "indirect_available": false
+    }
+  ],
+  "M1_point_comparisons": [
+    {
+      "metric": "path",
+      "label": "AIR -> AD",
+      "native": 0.04560458323517901,
+      "Python_M1": 0.0456045832624699,
+      "abs_difference": 2.729088482977815e-11,
+      "source_row": 21
+    },
+    {
+      "metric": "path",
+      "label": "AIR -> TR",
+      "native": 0.2629958678860406,
+      "Python_M1": 0.26299586790984975,
+      "abs_difference": 2.38091213411451e-11,
+      "source_row": 22
+    },
+    {
+      "metric": "path",
+      "label": "EXP -> AD",
+      "native": 0.3371908894905286,
+      "Python_M1": 0.3371908894723194,
+      "abs_difference": 1.8209211916087042e-11,
+      "source_row": 23
+    },
+    {
+      "metric": "path",
+      "label": "EXP -> TR",
+      "native": 0.2929233611015383,
+      "Python_M1": 0.2929233610954252,
+      "abs_difference": 6.113110018191037e-12,
+      "source_row": 24
+    },
+    {
+      "metric": "path",
+      "label": "PP -> AD",
+      "native": 0.1564633783802753,
+      "Python_M1": 0.15646337837594637,
+      "abs_difference": 4.328926106467179e-12,
+      "source_row": 25
+    },
+    {
+      "metric": "path",
+      "label": "PP -> TR",
+      "native": 0.31346321425413864,
+      "Python_M1": 0.31346321422559736,
+      "abs_difference": 2.8541280450156137e-11,
+      "source_row": 26
+    },
+    {
+      "metric": "path",
+      "label": "TR -> AD",
+      "native": 0.30401188783830463,
+      "Python_M1": 0.30401188783210503,
+      "abs_difference": 6.199596391809337e-12,
+      "source_row": 27
+    },
+    {
+      "metric": "specific_indirect",
+      "label": "AIR -> TR -> AD",
+      "native": 0.07995387028970856,
+      "Python_M1": 0.07995387029531635,
+      "abs_difference": 5.607792008532897e-12,
+      "source_row": 52
+    },
+    {
+      "metric": "specific_indirect",
+      "label": "EXP -> TR -> AD",
+      "native": 0.08905218400042007,
+      "Python_M1": 0.08905218399674561,
+      "abs_difference": 3.674463511238457e-12,
+      "source_row": 53
+    },
+    {
+      "metric": "specific_indirect",
+      "label": "PP -> TR -> AD",
+      "native": 0.09529654353326365,
+      "Python_M1": 0.09529654352264341,
+      "abs_difference": 1.0620240797898362e-11,
+      "source_row": 54
+    },
+    {
+      "metric": "R2",
+      "label": "AD",
+      "native": 0.57590444650168,
+      "Python_M1": 0.5759044464905884,
+      "abs_difference": 1.1091683127517626e-11,
+      "source_row": null
+    },
+    {
+      "metric": "R2",
+      "label": "TR",
+      "native": 0.6156559031050265,
+      "Python_M1": 0.6156559030858442,
+      "abs_difference": 1.9182322397170992e-11,
+      "source_row": null
+    }
+  ],
+  "point_comparison_count": 12,
+  "max_M1_point_abs_difference": 2.8541280450156137e-11,
+  "native_M1_bootstrap_available": false,
+  "conclusion": "One correct5construct20item7path M1 algorithm export, but uploaded bootstrap and namedAlgorithm use a4construct16item3path direct-only model withoutTR. Do not join bootstrap to the correct M1 point estimates.",
+  "needed": "Bootstrap10000 two-sided percentile from the actual KidSense_M1_Eksploratori model withTR and all7paths.",
+  "original_files_modified": false
+}

@@ -1,0 +1,515 @@
+{
+  "source_workbook": "/workspace/attachments/881a3fc0-4752-40da-b923-58fd2e3add93/KidSense_Bootstrap_10000.xlsx",
+  "source_workbook_sha256": "34fbb57b2a0cce95c1792fdcea91a275d6da5417b64b55e1b6e1b5451b3ae5bd",
+  "input_CSV_sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624",
+  "input_data_verification": {
+    "native_original_rows": 271,
+    "native_original_columns": 20,
+    "normalized_header_names_match": true,
+    "row_order_same": true,
+    "all_5420_item_values_exact_match": true,
+    "max_abs_cell_difference": 0.0,
+    "BOM_header_note": "Native export retains U+FEFF before AIR1; normalized ONLY for name mapping. It does not change any item value or construct assignment."
+  },
+  "settings": {
+    "Max. number of iterations": "3000",
+    "Stop criterion": "10\u207b\u2077",
+    "Use Lohmoeller settings?": "No",
+    "Initial weights": "1.0",
+    "Weighting scheme": "Path",
+    "Type of results": "Standardized",
+    "Complexity": "Complete (slower)",
+    "Save results per sample": "No",
+    "Confidence interval method": "Percentile bootstrap",
+    "Parallel processing": "Yes",
+    "Significance level": "0.05",
+    "Test type": "Two-tailed",
+    "Samples": "10000",
+    "Seed": "Fixed seed"
+  },
+  "native_construct_outer_weighting_modes": {
+    "AD": "AUTOMATIC",
+    "AIR": "AUTOMATIC",
+    "EXP": "AUTOMATIC",
+    "PP": "AUTOMATIC",
+    "TR": "AUTOMATIC"
+  },
+  "outer_mode_note": "Export records AUTOMATIC for all five constructs, not an explicit Mode A label. Native outer model has -1 codes for all 20 reflective links. Independent reflective Mode A fit reproduces their loadings to numerical precision.",
+  "outer_model_mapping": [
+    {
+      "indicator": "AD1",
+      "construct": "AD",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "AD2",
+      "construct": "AD",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "AD3",
+      "construct": "AD",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "AD4",
+      "construct": "AD",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "AIR2",
+      "construct": "AIR",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "AIR3",
+      "construct": "AIR",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "AIR4",
+      "construct": "AIR",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "EXP1",
+      "construct": "EXP",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "EXP2",
+      "construct": "EXP",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "EXP3",
+      "construct": "EXP",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "EXP4",
+      "construct": "EXP",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "PP1",
+      "construct": "PP",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "PP2",
+      "construct": "PP",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "PP3",
+      "construct": "PP",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "PP4",
+      "construct": "PP",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "TR1",
+      "construct": "TR",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "TR2",
+      "construct": "TR",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "TR3",
+      "construct": "TR",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "TR4",
+      "construct": "TR",
+      "native_outer_model_code": -1.0
+    },
+    {
+      "indicator": "AIR1",
+      "construct": "AIR",
+      "native_outer_model_code": -1.0
+    }
+  ],
+  "inner_edges": [
+    [
+      "AIR",
+      "TR"
+    ],
+    [
+      "EXP",
+      "TR"
+    ],
+    [
+      "PP",
+      "TR"
+    ],
+    [
+      "TR",
+      "AD"
+    ]
+  ],
+  "comparison_count": 35,
+  "max_abs_numeric_difference": 4.796664176964782e-10,
+  "comparisons": [
+    {
+      "kind": "loading",
+      "entity": "AD1 <- AD",
+      "native": 0.828404806808067,
+      "reference": 0.8284048064688913,
+      "abs_difference": 3.391757985582444e-10,
+      "native_cell": "'Complete data set'!C124",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "AD2 <- AD",
+      "native": 0.8400729991190667,
+      "reference": 0.8400729989386523,
+      "abs_difference": 1.8041446114835935e-10,
+      "native_cell": "'Complete data set'!C125",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "AD3 <- AD",
+      "native": 0.8225348701945355,
+      "reference": 0.8225348704788765,
+      "abs_difference": 2.8434099519358824e-10,
+      "native_cell": "'Complete data set'!C126",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "AD4 <- AD",
+      "native": 0.8198146128758793,
+      "reference": 0.8198146131310957,
+      "abs_difference": 2.5521640356629405e-10,
+      "native_cell": "'Complete data set'!C127",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "AIR2 <- AIR",
+      "native": 0.8261605446006645,
+      "reference": 0.8261605447306076,
+      "abs_difference": 1.2994316733738742e-10,
+      "native_cell": "'Complete data set'!C128",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "AIR3 <- AIR",
+      "native": 0.8523856448569148,
+      "reference": 0.8523856448191218,
+      "abs_difference": 3.779299095896249e-11,
+      "native_cell": "'Complete data set'!C129",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "AIR4 <- AIR",
+      "native": 0.8520097070012673,
+      "reference": 0.852009707170048,
+      "abs_difference": 1.6878065611791726e-10,
+      "native_cell": "'Complete data set'!C130",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "EXP1 <- EXP",
+      "native": 0.8122739813259704,
+      "reference": 0.8122739814271358,
+      "abs_difference": 1.0116540938298613e-10,
+      "native_cell": "'Complete data set'!C131",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "EXP2 <- EXP",
+      "native": 0.83718847450371,
+      "reference": 0.8371884744655378,
+      "abs_difference": 3.8172243144174445e-11,
+      "native_cell": "'Complete data set'!C132",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "EXP3 <- EXP",
+      "native": 0.8012320556351329,
+      "reference": 0.8012320556597748,
+      "abs_difference": 2.4641955143067662e-11,
+      "native_cell": "'Complete data set'!C133",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "EXP4 <- EXP",
+      "native": 0.8359075031626196,
+      "reference": 0.8359075030919487,
+      "abs_difference": 7.067091356560695e-11,
+      "native_cell": "'Complete data set'!C134",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "PP1 <- PP",
+      "native": 0.8514335082931701,
+      "reference": 0.8514335084348565,
+      "abs_difference": 1.4168644035805755e-10,
+      "native_cell": "'Complete data set'!C135",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "PP2 <- PP",
+      "native": 0.8593173611009121,
+      "reference": 0.8593173606212456,
+      "abs_difference": 4.796664176964782e-10,
+      "native_cell": "'Complete data set'!C136",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "PP3 <- PP",
+      "native": 0.857680977977383,
+      "reference": 0.8576809781167674,
+      "abs_difference": 1.393843929164973e-10,
+      "native_cell": "'Complete data set'!C137",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "PP4 <- PP",
+      "native": 0.8574287305089693,
+      "reference": 0.8574287307488588,
+      "abs_difference": 2.3988955266673884e-10,
+      "native_cell": "'Complete data set'!C138",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "TR1 <- TR",
+      "native": 0.8473981435610467,
+      "reference": 0.8473981435845593,
+      "abs_difference": 2.3512636282418953e-11,
+      "native_cell": "'Complete data set'!C139",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "TR2 <- TR",
+      "native": 0.8428468922178933,
+      "reference": 0.8428468922911704,
+      "abs_difference": 7.327705109361204e-11,
+      "native_cell": "'Complete data set'!C140",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "TR3 <- TR",
+      "native": 0.8309431731241902,
+      "reference": 0.8309431731554482,
+      "abs_difference": 3.1257996191413895e-11,
+      "native_cell": "'Complete data set'!C141",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "TR4 <- TR",
+      "native": 0.8414732779766393,
+      "reference": 0.8414732778569491,
+      "abs_difference": 1.1969014668267164e-10,
+      "native_cell": "'Complete data set'!C142",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "loading",
+      "entity": "AIR1 <- AIR",
+      "native": 0.822448689963664,
+      "reference": 0.822448689685478,
+      "abs_difference": 2.7818602976736884e-10,
+      "native_cell": "'Complete data set'!C143",
+      "reference_method": "Independent covariance PLS Mode A, path weighting, tol1e-12"
+    },
+    {
+      "kind": "AVE",
+      "entity": "AD",
+      "native": 0.685159194990596,
+      "reference": 0.6851591949958832,
+      "abs_difference": 5.287215110172383e-12,
+      "native_cell": "'Complete data set'!C350",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "AVE",
+      "entity": "AIR",
+      "native": 0.7028612303650845,
+      "reference": 0.7028612303601587,
+      "abs_difference": 4.9258375156568945e-12,
+      "native_cell": "'Complete data set'!C351",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "AVE",
+      "entity": "EXP",
+      "native": 0.6753469308504645,
+      "reference": 0.6753469308559075,
+      "abs_difference": 5.4429794005272925e-12,
+      "native_cell": "'Complete data set'!C352",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "AVE",
+      "entity": "PP",
+      "native": 0.7335415085050784,
+      "reference": 0.7335415085219217,
+      "abs_difference": 1.6843304528890712e-11,
+      "native_cell": "'Complete data set'!C353",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "AVE",
+      "entity": "TR",
+      "native": 0.7067545829856294,
+      "reference": 0.7067545829891012,
+      "abs_difference": 3.471778420305327e-12,
+      "native_cell": "'Complete data set'!C354",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "rho_C",
+      "entity": "AD",
+      "native": 0.8969503849477799,
+      "reference": 0.8969503849504471,
+      "abs_difference": 2.667199794359476e-12,
+      "native_cell": "'Complete data set'!C379",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "rho_C",
+      "entity": "AIR",
+      "native": 0.90438931299003,
+      "reference": 0.9043893129877068,
+      "abs_difference": 2.3232527013306026e-12,
+      "native_cell": "'Complete data set'!C380",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "rho_C",
+      "entity": "EXP",
+      "native": 0.8926799093991278,
+      "reference": 0.892679909401723,
+      "abs_difference": 2.595257342363766e-12,
+      "native_cell": "'Complete data set'!C381",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "rho_C",
+      "entity": "PP",
+      "native": 0.9167470364737696,
+      "reference": 0.9167470364804339,
+      "abs_difference": 6.664224727614965e-12,
+      "native_cell": "'Complete data set'!C382",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "rho_C",
+      "entity": "TR",
+      "native": 0.9060146534997894,
+      "reference": 0.9060146535012207,
+      "abs_difference": 1.4312995233467518e-12,
+      "native_cell": "'Complete data set'!C383",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "alpha_standardized",
+      "entity": "AD",
+      "native": 0.8469031427542622,
+      "reference": 0.846903142754262,
+      "abs_difference": 1.1102230246251565e-16,
+      "native_cell": "'Complete data set'!C437",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "alpha_standardized",
+      "entity": "AIR",
+      "native": 0.8590073922255256,
+      "reference": 0.8590073922255256,
+      "abs_difference": 0.0,
+      "native_cell": "'Complete data set'!C438",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "alpha_standardized",
+      "entity": "EXP",
+      "native": 0.8401203295583554,
+      "reference": 0.8401203295583554,
+      "abs_difference": 0.0,
+      "native_cell": "'Complete data set'!C439",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "alpha_standardized",
+      "entity": "PP",
+      "native": 0.8790105373091815,
+      "reference": 0.8790105373091808,
+      "abs_difference": 7.771561172376096e-16,
+      "native_cell": "'Complete data set'!C440",
+      "reference_method": "Previously independently verified CSV measurement result"
+    },
+    {
+      "kind": "alpha_standardized",
+      "entity": "TR",
+      "native": 0.8617724371660072,
+      "reference": 0.8617724371660073,
+      "abs_difference": 1.1102230246251565e-16,
+      "native_cell": "'Complete data set'!C441",
+      "reference_method": "Previously independently verified CSV measurement result"
+    }
+  ],
+  "rho_A_native_new": [
+    {
+      "construct": "AD",
+      "native_rho_A": 0.848220967409662,
+      "native_cell": "'Complete data set'!C408",
+      "prior_reference_available": false,
+      "note": "New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+    },
+    {
+      "construct": "AIR",
+      "native_rho_A": 0.8595253952948633,
+      "native_cell": "'Complete data set'!C409",
+      "prior_reference_available": false,
+      "note": "New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+    },
+    {
+      "construct": "EXP",
+      "native_rho_A": 0.8450979029611886,
+      "native_cell": "'Complete data set'!C410",
+      "prior_reference_available": false,
+      "note": "New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+    },
+    {
+      "construct": "PP",
+      "native_rho_A": 0.8802801027535126,
+      "native_cell": "'Complete data set'!C411",
+      "prior_reference_available": false,
+      "note": "New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+    },
+    {
+      "construct": "TR",
+      "native_rho_A": 0.8629584450611073,
+      "native_cell": "'Complete data set'!C412",
+      "prior_reference_available": false,
+      "note": "New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+    }
+  ],
+  "interpretation": "Point measurement results agree within 1e-8. This audit does not compare their bootstrap SE/CI. Source selection 323\u2192271 remains outside this dataset scope."
+}

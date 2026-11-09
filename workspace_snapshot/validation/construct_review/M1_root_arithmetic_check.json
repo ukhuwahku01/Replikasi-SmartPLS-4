@@ -1,0 +1,10 @@
+{
+  "OLS_beta_max_abs_error": 7.771561172376096e-16,
+  "draws": [
+    10000,
+    15
+  ],
+  "quantile_or_SE_max_abs_error": 0,
+  "indirect_draw_products_match": true,
+  "status": "Independent arithmetic checks of exploratory PythonM1 only; no nativeM1 execution"
+}

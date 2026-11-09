@@ -1,0 +1,1498 @@
+{
+  "files": [
+    {
+      "file": "KidSense_M1_Eksploratori.xlsx",
+      "path": "/workspace/attachments/7140d531-a2d0-41c7-9894-32ddb8885a16/KidSense_M1_Eksploratori.xlsx",
+      "sha256": "56871556240fffdf0cbbbefb82c92cd2d5476e317f8ab7b4dea9708fa7af4435",
+      "metadata": {
+        "Model": "Report (KidSense_M1_Eksploratori)",
+        "Project": "KidSense_Replikasi",
+        "Data file": "KidSense_SmartPLS4_Input_271",
+        "Calculated": "Nov 6, 2026, 1:16:06\u202fPM",
+        "SmartPLS version": "4.1.2.1"
+      },
+      "is_bootstrap_report": false,
+      "model_identity_from_matrices": "M1 five-construct partial-mediation model",
+      "is_target_M1": true,
+      "constructs": [
+        "AD",
+        "AIR",
+        "EXP",
+        "PP",
+        "TR"
+      ],
+      "construct_count": 5,
+      "edges": [
+        [
+          "AIR",
+          "AD"
+        ],
+        [
+          "AIR",
+          "TR"
+        ],
+        [
+          "EXP",
+          "AD"
+        ],
+        [
+          "EXP",
+          "TR"
+        ],
+        [
+          "PP",
+          "AD"
+        ],
+        [
+          "PP",
+          "TR"
+        ],
+        [
+          "TR",
+          "AD"
+        ]
+      ],
+      "edge_count": 7,
+      "indicator_count": 20,
+      "outer_model_reflective_all": true,
+      "outer_model_mapping": [
+        {
+          "from": "AD1",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C1370"
+        },
+        {
+          "from": "AD2",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C1371"
+        },
+        {
+          "from": "AD3",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C1372"
+        },
+        {
+          "from": "AD4",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C1373"
+        },
+        {
+          "from": "AIR2",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D1374"
+        },
+        {
+          "from": "AIR3",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D1375"
+        },
+        {
+          "from": "AIR4",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D1376"
+        },
+        {
+          "from": "EXP1",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E1377"
+        },
+        {
+          "from": "EXP2",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E1378"
+        },
+        {
+          "from": "EXP3",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E1379"
+        },
+        {
+          "from": "EXP4",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E1380"
+        },
+        {
+          "from": "PP1",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F1381"
+        },
+        {
+          "from": "PP2",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F1382"
+        },
+        {
+          "from": "PP3",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F1383"
+        },
+        {
+          "from": "PP4",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F1384"
+        },
+        {
+          "from": "TR1",
+          "to": "TR",
+          "value": -1.0,
+          "cell": "'Complete data set'!G1385"
+        },
+        {
+          "from": "TR2",
+          "to": "TR",
+          "value": -1.0,
+          "cell": "'Complete data set'!G1386"
+        },
+        {
+          "from": "TR3",
+          "to": "TR",
+          "value": -1.0,
+          "cell": "'Complete data set'!G1387"
+        },
+        {
+          "from": "TR4",
+          "to": "TR",
+          "value": -1.0,
+          "cell": "'Complete data set'!G1388"
+        },
+        {
+          "from": "AIR1",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D1389"
+        }
+      ],
+      "original_data": {
+        "rows": 271,
+        "columns": 20,
+        "column_names": [
+          "AD1",
+          "AD2",
+          "AD3",
+          "AD4",
+          "AIR2",
+          "AIR3",
+          "AIR4",
+          "EXP1",
+          "EXP2",
+          "EXP3",
+          "EXP4",
+          "PP1",
+          "PP2",
+          "PP3",
+          "PP4",
+          "TR1",
+          "TR2",
+          "TR3",
+          "TR4",
+          "AIR1"
+        ],
+        "missing_vs_full20": [],
+        "row_indices_match": true,
+        "all_exported_item_values_match_source_subset": true,
+        "max_abs_value_difference_for_exported_subset": 0.0,
+        "full271x20_dataset_embedded": true
+      },
+      "settings": {
+        "Data file": "KidSense_SmartPLS4_Input_271",
+        "Weighting vector": "-",
+        "Max. number of iterations": "3000",
+        "Stop criterion": "10\u207b\u2077",
+        "Use Lohmoeller settings?": "No",
+        "Initial weights": "1.0",
+        "Weighting scheme": "Path",
+        "Type of results": "Standardized",
+        "Vary copula by binary categories": "yes"
+      },
+      "native_outer_modes": {
+        "AD": "AUTOMATIC",
+        "AIR": "AUTOMATIC",
+        "EXP": "AUTOMATIC",
+        "PP": "AUTOMATIC",
+        "TR": "AUTOMATIC"
+      },
+      "paths": [
+        {
+          "label": "AIR -> AD",
+          "value": 0.04560458323517901,
+          "cell": "'Complete data set'!C21"
+        },
+        {
+          "label": "AIR -> TR",
+          "value": 0.2629958678860406,
+          "cell": "'Complete data set'!C22"
+        },
+        {
+          "label": "EXP -> AD",
+          "value": 0.3371908894905286,
+          "cell": "'Complete data set'!C23"
+        },
+        {
+          "label": "EXP -> TR",
+          "value": 0.2929233611015383,
+          "cell": "'Complete data set'!C24"
+        },
+        {
+          "label": "PP -> AD",
+          "value": 0.1564633783802753,
+          "cell": "'Complete data set'!C25"
+        },
+        {
+          "label": "PP -> TR",
+          "value": 0.31346321425413864,
+          "cell": "'Complete data set'!C26"
+        },
+        {
+          "label": "TR -> AD",
+          "value": 0.30401188783830463,
+          "cell": "'Complete data set'!C27"
+        }
+      ],
+      "r2": [
+        {
+          "label": "AD",
+          "value": 0.57590444650168,
+          "cell": "'Complete data set'!C1101"
+        },
+        {
+          "label": "TR",
+          "value": 0.6156559031050265,
+          "cell": "'Complete data set'!C1102"
+        }
+      ],
+      "loadings": [
+        {
+          "label": "AD1 <- AD",
+          "value": 0.8314149645022687,
+          "cell": "'Complete data set'!C107"
+        },
+        {
+          "label": "AD2 <- AD",
+          "value": 0.838288687921639,
+          "cell": "'Complete data set'!C108"
+        },
+        {
+          "label": "AD3 <- AD",
+          "value": 0.8236602450640387,
+          "cell": "'Complete data set'!C109"
+        },
+        {
+          "label": "AD4 <- AD",
+          "value": 0.8175745858096927,
+          "cell": "'Complete data set'!C110"
+        },
+        {
+          "label": "AIR2 <- AIR",
+          "value": 0.8280859913234587,
+          "cell": "'Complete data set'!C111"
+        },
+        {
+          "label": "AIR3 <- AIR",
+          "value": 0.8526560759582387,
+          "cell": "'Complete data set'!C112"
+        },
+        {
+          "label": "AIR4 <- AIR",
+          "value": 0.8536470405887969,
+          "cell": "'Complete data set'!C113"
+        },
+        {
+          "label": "EXP1 <- EXP",
+          "value": 0.8121493704349558,
+          "cell": "'Complete data set'!C114"
+        },
+        {
+          "label": "EXP2 <- EXP",
+          "value": 0.8366279285822507,
+          "cell": "'Complete data set'!C115"
+        },
+        {
+          "label": "EXP3 <- EXP",
+          "value": 0.8042852231087727,
+          "cell": "'Complete data set'!C116"
+        },
+        {
+          "label": "EXP4 <- EXP",
+          "value": 0.8340170719174274,
+          "cell": "'Complete data set'!C117"
+        },
+        {
+          "label": "PP1 <- PP",
+          "value": 0.8528135103089136,
+          "cell": "'Complete data set'!C118"
+        },
+        {
+          "label": "PP2 <- PP",
+          "value": 0.853864590046187,
+          "cell": "'Complete data set'!C119"
+        },
+        {
+          "label": "PP3 <- PP",
+          "value": 0.8617266925000904,
+          "cell": "'Complete data set'!C120"
+        },
+        {
+          "label": "PP4 <- PP",
+          "value": 0.8577992781852297,
+          "cell": "'Complete data set'!C121"
+        },
+        {
+          "label": "TR1 <- TR",
+          "value": 0.8473893915299832,
+          "cell": "'Complete data set'!C122"
+        },
+        {
+          "label": "TR2 <- TR",
+          "value": 0.8428281340688039,
+          "cell": "'Complete data set'!C123"
+        },
+        {
+          "label": "TR3 <- TR",
+          "value": 0.8308905303211711,
+          "cell": "'Complete data set'!C124"
+        },
+        {
+          "label": "TR4 <- TR",
+          "value": 0.8415474084839925,
+          "cell": "'Complete data set'!C125"
+        },
+        {
+          "label": "AIR1 <- AIR",
+          "value": 0.8182715102309702,
+          "cell": "'Complete data set'!C126"
+        }
+      ],
+      "specific_indirect": [
+        {
+          "label": "AIR -> TR -> AD",
+          "value": 0.07995387028970856,
+          "cell": "'Complete data set'!C52"
+        },
+        {
+          "label": "EXP -> TR -> AD",
+          "value": 0.08905218400042007,
+          "cell": "'Complete data set'!C53"
+        },
+        {
+          "label": "PP -> TR -> AD",
+          "value": 0.09529654353326365,
+          "cell": "'Complete data set'!C54"
+        }
+      ],
+      "comparison_policy": "Only target five-construct M1 is compared to Python M1. Four-construct path coefficients are retained under their own model identity, never substituted into M1."
+    },
+    {
+      "file": "KidSense_M1_Algorithm.xlsx",
+      "path": "/workspace/attachments/26bd700e-350c-4942-a407-07f79b4542ff/KidSense_M1_Algorithm.xlsx",
+      "sha256": "27b956eacc01dc77d3d86fc8a7602056667901d2f417328a5947e4c86e735c95",
+      "metadata": {
+        "Model": "Report (pls-sem)",
+        "Project": "KidSense_Replikasi",
+        "Data file": "KidSense_SmartPLS4_Input_271",
+        "Calculated": "Nov 6, 2026, 3:24:18\u202fPM",
+        "SmartPLS version": "4.1.2.1"
+      },
+      "is_bootstrap_report": false,
+      "model_identity_from_matrices": "Different four-construct direct-association model; not M1",
+      "is_target_M1": false,
+      "constructs": [
+        "AD",
+        "AIR",
+        "EXP",
+        "PP"
+      ],
+      "construct_count": 4,
+      "edges": [
+        [
+          "AIR",
+          "AD"
+        ],
+        [
+          "EXP",
+          "AD"
+        ],
+        [
+          "PP",
+          "AD"
+        ]
+      ],
+      "edge_count": 3,
+      "indicator_count": 16,
+      "outer_model_reflective_all": true,
+      "outer_model_mapping": [
+        {
+          "from": "AD1",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C1271"
+        },
+        {
+          "from": "AD2",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C1272"
+        },
+        {
+          "from": "AD3",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C1273"
+        },
+        {
+          "from": "AD4",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C1274"
+        },
+        {
+          "from": "AIR2",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D1275"
+        },
+        {
+          "from": "AIR3",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D1276"
+        },
+        {
+          "from": "AIR4",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D1277"
+        },
+        {
+          "from": "EXP1",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E1278"
+        },
+        {
+          "from": "EXP2",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E1279"
+        },
+        {
+          "from": "EXP3",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E1280"
+        },
+        {
+          "from": "EXP4",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E1281"
+        },
+        {
+          "from": "PP1",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F1282"
+        },
+        {
+          "from": "PP2",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F1283"
+        },
+        {
+          "from": "PP3",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F1284"
+        },
+        {
+          "from": "PP4",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F1285"
+        },
+        {
+          "from": "AIR1",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D1286"
+        }
+      ],
+      "original_data": {
+        "rows": 271,
+        "columns": 16,
+        "column_names": [
+          "AD1",
+          "AD2",
+          "AD3",
+          "AD4",
+          "AIR2",
+          "AIR3",
+          "AIR4",
+          "EXP1",
+          "EXP2",
+          "EXP3",
+          "EXP4",
+          "PP1",
+          "PP2",
+          "PP3",
+          "PP4",
+          "AIR1"
+        ],
+        "missing_vs_full20": [
+          "TR1",
+          "TR2",
+          "TR3",
+          "TR4"
+        ],
+        "row_indices_match": true,
+        "all_exported_item_values_match_source_subset": true,
+        "max_abs_value_difference_for_exported_subset": 0.0,
+        "full271x20_dataset_embedded": false
+      },
+      "settings": {
+        "Data file": "KidSense_SmartPLS4_Input_271",
+        "Weighting vector": "-",
+        "Max. number of iterations": "3000",
+        "Stop criterion": "10\u207b\u2077",
+        "Use Lohmoeller settings?": "No",
+        "Initial weights": "1.0",
+        "Weighting scheme": "Path",
+        "Type of results": "Standardized",
+        "Vary copula by binary categories": "yes"
+      },
+      "native_outer_modes": {
+        "AD": "AUTOMATIC",
+        "AIR": "AUTOMATIC",
+        "EXP": "AUTOMATIC",
+        "PP": "AUTOMATIC"
+      },
+      "paths": [
+        {
+          "label": "AIR -> AD",
+          "value": 0.12819352187763727,
+          "cell": "'Complete data set'!C20"
+        },
+        {
+          "label": "EXP -> AD",
+          "value": 0.4232998775297938,
+          "cell": "'Complete data set'!C21"
+        },
+        {
+          "label": "PP -> AD",
+          "value": 0.25287410075452943,
+          "cell": "'Complete data set'!C22"
+        }
+      ],
+      "r2": [
+        {
+          "label": "AD",
+          "value": 0.5408602335953043,
+          "cell": "'Complete data set'!C1040"
+        }
+      ],
+      "loadings": [
+        {
+          "label": "AD1 <- AD",
+          "value": 0.8332054760385845,
+          "cell": "'Complete data set'!C71"
+        },
+        {
+          "label": "AD2 <- AD",
+          "value": 0.8377694235915,
+          "cell": "'Complete data set'!C72"
+        },
+        {
+          "label": "AD3 <- AD",
+          "value": 0.823987277479347,
+          "cell": "'Complete data set'!C73"
+        },
+        {
+          "label": "AD4 <- AD",
+          "value": 0.8159232784358776,
+          "cell": "'Complete data set'!C74"
+        },
+        {
+          "label": "AIR2 <- AIR",
+          "value": 0.8304939778081317,
+          "cell": "'Complete data set'!C75"
+        },
+        {
+          "label": "AIR3 <- AIR",
+          "value": 0.8529553054728622,
+          "cell": "'Complete data set'!C76"
+        },
+        {
+          "label": "AIR4 <- AIR",
+          "value": 0.855760916675562,
+          "cell": "'Complete data set'!C77"
+        },
+        {
+          "label": "EXP1 <- EXP",
+          "value": 0.81203495976146,
+          "cell": "'Complete data set'!C78"
+        },
+        {
+          "label": "EXP2 <- EXP",
+          "value": 0.8360133443164474,
+          "cell": "'Complete data set'!C79"
+        },
+        {
+          "label": "EXP3 <- EXP",
+          "value": 0.8073771609553967,
+          "cell": "'Complete data set'!C80"
+        },
+        {
+          "label": "EXP4 <- EXP",
+          "value": 0.8320456263513697,
+          "cell": "'Complete data set'!C81"
+        },
+        {
+          "label": "PP1 <- PP",
+          "value": 0.8542882131912631,
+          "cell": "'Complete data set'!C82"
+        },
+        {
+          "label": "PP2 <- PP",
+          "value": 0.8472113157134811,
+          "cell": "'Complete data set'!C83"
+        },
+        {
+          "label": "PP3 <- PP",
+          "value": 0.8664002116156082,
+          "cell": "'Complete data set'!C84"
+        },
+        {
+          "label": "PP4 <- PP",
+          "value": 0.8581010587528477,
+          "cell": "'Complete data set'!C85"
+        },
+        {
+          "label": "AIR1 <- AIR",
+          "value": 0.8127121513697244,
+          "cell": "'Complete data set'!C86"
+        }
+      ],
+      "specific_indirect": [],
+      "comparison_policy": "Only target five-construct M1 is compared to Python M1. Four-construct path coefficients are retained under their own model identity, never substituted into M1."
+    },
+    {
+      "file": "KidSense_M1_Bootstrap_10000.xlsx",
+      "path": "/workspace/attachments/e18b7f20-4dc0-4d43-b5dc-9cdf66b0ef0d/KidSense_M1_Bootstrap_10000.xlsx",
+      "sha256": "d1c5357ab6bd8d1297d5d0828b9d6f2f3ea864f11e774641c60c195e84ae7426",
+      "metadata": {
+        "Model": "Report (pls-sem)",
+        "Project": "KidSense_Replikasi",
+        "Data file": "KidSense_SmartPLS4_Input_271",
+        "Calculated": "Nov 6, 2026, 3:29:37\u202fPM",
+        "SmartPLS version": "4.1.2.1"
+      },
+      "is_bootstrap_report": true,
+      "model_identity_from_matrices": "Different four-construct direct-association model; not M1",
+      "is_target_M1": false,
+      "constructs": [
+        "AD",
+        "AIR",
+        "EXP",
+        "PP"
+      ],
+      "construct_count": 4,
+      "edges": [
+        [
+          "AIR",
+          "AD"
+        ],
+        [
+          "EXP",
+          "AD"
+        ],
+        [
+          "PP",
+          "AD"
+        ]
+      ],
+      "edge_count": 3,
+      "indicator_count": 16,
+      "outer_model_reflective_all": true,
+      "outer_model_mapping": [
+        {
+          "from": "AD1",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C637"
+        },
+        {
+          "from": "AD2",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C638"
+        },
+        {
+          "from": "AD3",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C639"
+        },
+        {
+          "from": "AD4",
+          "to": "AD",
+          "value": -1.0,
+          "cell": "'Complete data set'!C640"
+        },
+        {
+          "from": "AIR2",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D641"
+        },
+        {
+          "from": "AIR3",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D642"
+        },
+        {
+          "from": "AIR4",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D643"
+        },
+        {
+          "from": "EXP1",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E644"
+        },
+        {
+          "from": "EXP2",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E645"
+        },
+        {
+          "from": "EXP3",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E646"
+        },
+        {
+          "from": "EXP4",
+          "to": "EXP",
+          "value": -1.0,
+          "cell": "'Complete data set'!E647"
+        },
+        {
+          "from": "PP1",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F648"
+        },
+        {
+          "from": "PP2",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F649"
+        },
+        {
+          "from": "PP3",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F650"
+        },
+        {
+          "from": "PP4",
+          "to": "PP",
+          "value": -1.0,
+          "cell": "'Complete data set'!F651"
+        },
+        {
+          "from": "AIR1",
+          "to": "AIR",
+          "value": -1.0,
+          "cell": "'Complete data set'!D652"
+        }
+      ],
+      "original_data": {
+        "rows": 271,
+        "columns": 16,
+        "column_names": [
+          "AD1",
+          "AD2",
+          "AD3",
+          "AD4",
+          "AIR2",
+          "AIR3",
+          "AIR4",
+          "EXP1",
+          "EXP2",
+          "EXP3",
+          "EXP4",
+          "PP1",
+          "PP2",
+          "PP3",
+          "PP4",
+          "AIR1"
+        ],
+        "missing_vs_full20": [
+          "TR1",
+          "TR2",
+          "TR3",
+          "TR4"
+        ],
+        "row_indices_match": true,
+        "all_exported_item_values_match_source_subset": true,
+        "max_abs_value_difference_for_exported_subset": 0.0,
+        "full271x20_dataset_embedded": false
+      },
+      "settings": {
+        "Data file": "KidSense_SmartPLS4_Input_271",
+        "Weighting vector": "-",
+        "Max. number of iterations": "3000",
+        "Stop criterion": "10\u207b\u2077",
+        "Use Lohmoeller settings?": "No",
+        "Initial weights": "1.0",
+        "Weighting scheme": "Path",
+        "Type of results": "Standardized",
+        "Vary copula by binary categories": "yes",
+        "Complexity": "Complete (slower)",
+        "Save results per sample": "No",
+        "Confidence interval method": "Percentile bootstrap",
+        "Parallel processing": "Yes",
+        "Significance level": "0.05",
+        "Test type": "Two-tailed",
+        "Samples": "10000",
+        "Seed": "Fixed seed"
+      },
+      "native_outer_modes": {
+        "AD": "AUTOMATIC",
+        "AIR": "AUTOMATIC",
+        "EXP": "AUTOMATIC",
+        "PP": "AUTOMATIC"
+      },
+      "paths": [
+        {
+          "label": "AIR -> AD",
+          "value": 0.12819352187763727,
+          "cell": "'Complete data set'!C12"
+        },
+        {
+          "label": "EXP -> AD",
+          "value": 0.4232998775297938,
+          "cell": "'Complete data set'!C13"
+        },
+        {
+          "label": "PP -> AD",
+          "value": 0.25287410075452943,
+          "cell": "'Complete data set'!C14"
+        }
+      ],
+      "r2": [
+        {
+          "label": "AD",
+          "value": 0.5408602335953043,
+          "cell": "'Complete data set'!C209"
+        }
+      ],
+      "loadings": [
+        {
+          "label": "AD1 <- AD",
+          "value": 0.8332054760385845,
+          "cell": "'Complete data set'!C73"
+        },
+        {
+          "label": "AD2 <- AD",
+          "value": 0.8377694235915,
+          "cell": "'Complete data set'!C74"
+        },
+        {
+          "label": "AD3 <- AD",
+          "value": 0.823987277479347,
+          "cell": "'Complete data set'!C75"
+        },
+        {
+          "label": "AD4 <- AD",
+          "value": 0.8159232784358776,
+          "cell": "'Complete data set'!C76"
+        },
+        {
+          "label": "AIR2 <- AIR",
+          "value": 0.8304939778081317,
+          "cell": "'Complete data set'!C77"
+        },
+        {
+          "label": "AIR3 <- AIR",
+          "value": 0.8529553054728622,
+          "cell": "'Complete data set'!C78"
+        },
+        {
+          "label": "AIR4 <- AIR",
+          "value": 0.855760916675562,
+          "cell": "'Complete data set'!C79"
+        },
+        {
+          "label": "EXP1 <- EXP",
+          "value": 0.81203495976146,
+          "cell": "'Complete data set'!C80"
+        },
+        {
+          "label": "EXP2 <- EXP",
+          "value": 0.8360133443164474,
+          "cell": "'Complete data set'!C81"
+        },
+        {
+          "label": "EXP3 <- EXP",
+          "value": 0.8073771609553967,
+          "cell": "'Complete data set'!C82"
+        },
+        {
+          "label": "EXP4 <- EXP",
+          "value": 0.8320456263513697,
+          "cell": "'Complete data set'!C83"
+        },
+        {
+          "label": "PP1 <- PP",
+          "value": 0.8542882131912631,
+          "cell": "'Complete data set'!C84"
+        },
+        {
+          "label": "PP2 <- PP",
+          "value": 0.8472113157134811,
+          "cell": "'Complete data set'!C85"
+        },
+        {
+          "label": "PP3 <- PP",
+          "value": 0.8664002116156082,
+          "cell": "'Complete data set'!C86"
+        },
+        {
+          "label": "PP4 <- PP",
+          "value": 0.8581010587528477,
+          "cell": "'Complete data set'!C87"
+        },
+        {
+          "label": "AIR1 <- AIR",
+          "value": 0.8127121513697244,
+          "cell": "'Complete data set'!C88"
+        }
+      ],
+      "specific_indirect": [],
+      "comparison_policy": "Only target five-construct M1 is compared to Python M1. Four-construct path coefficients are retained under their own model identity, never substituted into M1."
+    }
+  ],
+  "correct_M1_native_vs_Python": {
+    "scalar_comparisons": 32,
+    "max_abs_difference": 1.0041101283775333e-10,
+    "comparisons": [
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "path",
+        "label": "AIR -> AD",
+        "native": 0.04560458323517901,
+        "python_M1": 0.0456045832624699,
+        "abs_difference": 2.729088482977815e-11,
+        "native_cell": "'Complete data set'!C21",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "path",
+        "label": "AIR -> TR",
+        "native": 0.2629958678860406,
+        "python_M1": 0.26299586790984975,
+        "abs_difference": 2.38091213411451e-11,
+        "native_cell": "'Complete data set'!C22",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "path",
+        "label": "EXP -> AD",
+        "native": 0.3371908894905286,
+        "python_M1": 0.3371908894723194,
+        "abs_difference": 1.8209211916087042e-11,
+        "native_cell": "'Complete data set'!C23",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "path",
+        "label": "EXP -> TR",
+        "native": 0.2929233611015383,
+        "python_M1": 0.2929233610954252,
+        "abs_difference": 6.113110018191037e-12,
+        "native_cell": "'Complete data set'!C24",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "path",
+        "label": "PP -> AD",
+        "native": 0.1564633783802753,
+        "python_M1": 0.15646337837594637,
+        "abs_difference": 4.328926106467179e-12,
+        "native_cell": "'Complete data set'!C25",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "path",
+        "label": "PP -> TR",
+        "native": 0.31346321425413864,
+        "python_M1": 0.31346321422559736,
+        "abs_difference": 2.8541280450156137e-11,
+        "native_cell": "'Complete data set'!C26",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "path",
+        "label": "TR -> AD",
+        "native": 0.30401188783830463,
+        "python_M1": 0.30401188783210503,
+        "abs_difference": 6.199596391809337e-12,
+        "native_cell": "'Complete data set'!C27",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "r2",
+        "label": "AD",
+        "native": 0.57590444650168,
+        "python_M1": 0.5759044464905884,
+        "abs_difference": 1.1091683127517626e-11,
+        "native_cell": "'Complete data set'!C1101",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "r2",
+        "label": "TR",
+        "native": 0.6156559031050265,
+        "python_M1": 0.6156559030858442,
+        "abs_difference": 1.9182322397170992e-11,
+        "native_cell": "'Complete data set'!C1102",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "AD1 <- AD",
+        "native": 0.8314149645022687,
+        "python_M1": 0.8314149644018577,
+        "abs_difference": 1.0041101283775333e-10,
+        "native_cell": "'Complete data set'!C107",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "AD2 <- AD",
+        "native": 0.838288687921639,
+        "python_M1": 0.8382886878634753,
+        "abs_difference": 5.816369608169225e-11,
+        "native_cell": "'Complete data set'!C108",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "AD3 <- AD",
+        "native": 0.8236602450640387,
+        "python_M1": 0.8236602451464721,
+        "abs_difference": 8.24333934446031e-11,
+        "native_cell": "'Complete data set'!C109",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "AD4 <- AD",
+        "native": 0.8175745858096927,
+        "python_M1": 0.8175745858943066,
+        "abs_difference": 8.461398248726937e-11,
+        "native_cell": "'Complete data set'!C110",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "AIR2 <- AIR",
+        "native": 0.8280859913234587,
+        "python_M1": 0.8280859913156576,
+        "abs_difference": 7.801093104831125e-12,
+        "native_cell": "'Complete data set'!C111",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "AIR3 <- AIR",
+        "native": 0.8526560759582387,
+        "python_M1": 0.8526560759884332,
+        "abs_difference": 3.019451355612546e-11,
+        "native_cell": "'Complete data set'!C112",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "AIR4 <- AIR",
+        "native": 0.8536470405887969,
+        "python_M1": 0.8536470406528767,
+        "abs_difference": 6.407974151301232e-11,
+        "native_cell": "'Complete data set'!C113",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "EXP1 <- EXP",
+        "native": 0.8121493704349558,
+        "python_M1": 0.8121493705247951,
+        "abs_difference": 8.983924715266767e-11,
+        "native_cell": "'Complete data set'!C114",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "EXP2 <- EXP",
+        "native": 0.8366279285822507,
+        "python_M1": 0.8366279285712019,
+        "abs_difference": 1.1048717496464633e-11,
+        "native_cell": "'Complete data set'!C115",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "EXP3 <- EXP",
+        "native": 0.8042852231087727,
+        "python_M1": 0.8042852230649897,
+        "abs_difference": 4.37829772437226e-11,
+        "native_cell": "'Complete data set'!C116",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "EXP4 <- EXP",
+        "native": 0.8340170719174274,
+        "python_M1": 0.8340170718869941,
+        "abs_difference": 3.0433211506419866e-11,
+        "native_cell": "'Complete data set'!C117",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "PP1 <- PP",
+        "native": 0.8528135103089136,
+        "python_M1": 0.8528135103325044,
+        "abs_difference": 2.3590795983352564e-11,
+        "native_cell": "'Complete data set'!C118",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "PP2 <- PP",
+        "native": 0.853864590046187,
+        "python_M1": 0.8538645899666278,
+        "abs_difference": 7.955913705615103e-11,
+        "native_cell": "'Complete data set'!C119",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "PP3 <- PP",
+        "native": 0.8617266925000904,
+        "python_M1": 0.8617266925398209,
+        "abs_difference": 3.9730552181538314e-11,
+        "native_cell": "'Complete data set'!C120",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "PP4 <- PP",
+        "native": 0.8577992781852297,
+        "python_M1": 0.8577992782028725,
+        "abs_difference": 1.7642776128923288e-11,
+        "native_cell": "'Complete data set'!C121",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "TR1 <- TR",
+        "native": 0.8473893915299832,
+        "python_M1": 0.8473893915107165,
+        "abs_difference": 1.9266699347042504e-11,
+        "native_cell": "'Complete data set'!C122",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "TR2 <- TR",
+        "native": 0.8428281340688039,
+        "python_M1": 0.8428281341350791,
+        "abs_difference": 6.627520754420857e-11,
+        "native_cell": "'Complete data set'!C123",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "TR3 <- TR",
+        "native": 0.8308905303211711,
+        "python_M1": 0.8308905303060865,
+        "abs_difference": 1.5084600235582002e-11,
+        "native_cell": "'Complete data set'!C124",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "TR4 <- TR",
+        "native": 0.8415474084839925,
+        "python_M1": 0.8415474084556509,
+        "abs_difference": 2.834155132802607e-11,
+        "native_cell": "'Complete data set'!C125",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "loading",
+        "label": "AIR1 <- AIR",
+        "native": 0.8182715102309702,
+        "python_M1": 0.8182715101369121,
+        "abs_difference": 9.405809464624326e-11,
+        "native_cell": "'Complete data set'!C126",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "specific_indirect",
+        "label": "AIR -> TR -> AD",
+        "native": 0.07995387028970856,
+        "python_M1": 0.07995387029531635,
+        "abs_difference": 5.607792008532897e-12,
+        "native_cell": "'Complete data set'!C52",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "specific_indirect",
+        "label": "EXP -> TR -> AD",
+        "native": 0.08905218400042007,
+        "python_M1": 0.08905218399674561,
+        "abs_difference": 3.674463511238457e-12,
+        "native_cell": "'Complete data set'!C53",
+        "status": "MATCH within1e-8"
+      },
+      {
+        "file": "KidSense_M1_Eksploratori.xlsx",
+        "model": "M1 five-construct",
+        "kind": "specific_indirect",
+        "label": "PP -> TR -> AD",
+        "native": 0.09529654353326365,
+        "python_M1": 0.09529654352264341,
+        "abs_difference": 1.0620240797898362e-11,
+        "native_cell": "'Complete data set'!C54",
+        "status": "MATCH within1e-8"
+      }
+    ]
+  },
+  "four_construct_algorithm_vs_bootstrap_original": [
+    {
+      "kind": "paths",
+      "label": "AIR -> AD",
+      "four_construct_algorithm": 0.12819352187763727,
+      "four_construct_bootstrap_original": 0.12819352187763727,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "paths",
+      "label": "EXP -> AD",
+      "four_construct_algorithm": 0.4232998775297938,
+      "four_construct_bootstrap_original": 0.4232998775297938,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "paths",
+      "label": "PP -> AD",
+      "four_construct_algorithm": 0.25287410075452943,
+      "four_construct_bootstrap_original": 0.25287410075452943,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "r2",
+      "label": "AD",
+      "four_construct_algorithm": 0.5408602335953043,
+      "four_construct_bootstrap_original": 0.5408602335953043,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "AD1 <- AD",
+      "four_construct_algorithm": 0.8332054760385845,
+      "four_construct_bootstrap_original": 0.8332054760385845,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "AD2 <- AD",
+      "four_construct_algorithm": 0.8377694235915,
+      "four_construct_bootstrap_original": 0.8377694235915,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "AD3 <- AD",
+      "four_construct_algorithm": 0.823987277479347,
+      "four_construct_bootstrap_original": 0.823987277479347,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "AD4 <- AD",
+      "four_construct_algorithm": 0.8159232784358776,
+      "four_construct_bootstrap_original": 0.8159232784358776,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "AIR2 <- AIR",
+      "four_construct_algorithm": 0.8304939778081317,
+      "four_construct_bootstrap_original": 0.8304939778081317,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "AIR3 <- AIR",
+      "four_construct_algorithm": 0.8529553054728622,
+      "four_construct_bootstrap_original": 0.8529553054728622,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "AIR4 <- AIR",
+      "four_construct_algorithm": 0.855760916675562,
+      "four_construct_bootstrap_original": 0.855760916675562,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "EXP1 <- EXP",
+      "four_construct_algorithm": 0.81203495976146,
+      "four_construct_bootstrap_original": 0.81203495976146,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "EXP2 <- EXP",
+      "four_construct_algorithm": 0.8360133443164474,
+      "four_construct_bootstrap_original": 0.8360133443164474,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "EXP3 <- EXP",
+      "four_construct_algorithm": 0.8073771609553967,
+      "four_construct_bootstrap_original": 0.8073771609553967,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "EXP4 <- EXP",
+      "four_construct_algorithm": 0.8320456263513697,
+      "four_construct_bootstrap_original": 0.8320456263513697,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "PP1 <- PP",
+      "four_construct_algorithm": 0.8542882131912631,
+      "four_construct_bootstrap_original": 0.8542882131912631,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "PP2 <- PP",
+      "four_construct_algorithm": 0.8472113157134811,
+      "four_construct_bootstrap_original": 0.8472113157134811,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "PP3 <- PP",
+      "four_construct_algorithm": 0.8664002116156082,
+      "four_construct_bootstrap_original": 0.8664002116156082,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "PP4 <- PP",
+      "four_construct_algorithm": 0.8581010587528477,
+      "four_construct_bootstrap_original": 0.8581010587528477,
+      "abs_difference": 0.0
+    },
+    {
+      "kind": "loadings",
+      "label": "AIR1 <- AIR",
+      "four_construct_algorithm": 0.8127121513697244,
+      "four_construct_bootstrap_original": 0.8127121513697244,
+      "abs_difference": 0.0
+    }
+  ],
+  "critical_finding": "Only KidSense_M1_Eksploratori.xlsx corresponds to the intended five-construct M1. The other algorithm and bootstrap files omit TR and its4indicators; they cannot supply M1 bootstrap significance or mediation intervals. Correct M1 native point replication is verified; correct M1 native bootstrap remains unavailable in these3uploads.",
+  "no_original_files_modified": true
+}

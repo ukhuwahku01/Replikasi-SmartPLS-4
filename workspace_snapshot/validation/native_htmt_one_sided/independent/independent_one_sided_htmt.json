@@ -1,0 +1,581 @@
+{
+  "source": "/workspace/attachments/666e1de7-a27b-4946-9db1-3c78729861ed/KidSense_HTMT_BCa_10000_OneTailed.xlsx",
+  "sha256": "0edefe9e682ec5e35537cf57894991d946e88e1175d213f1be14bcef142851fe",
+  "settings": {
+    "Data file": "KidSense_SmartPLS4_Input_271",
+    "Weighting vector": "-",
+    "Max. number of iterations": "3000",
+    "Stop criterion": "10\u207b\u2077",
+    "Use Lohmoeller settings?": "No",
+    "Initial weights": "1.0",
+    "Weighting scheme": "Path",
+    "Type of results": "Standardized",
+    "Vary copula by binary categories": "yes",
+    "Complexity": "Complete (slower)",
+    "Save results per sample": "No",
+    "Confidence interval method": "Bias-corrected and accelerated (BCa) bootstrap",
+    "Parallel processing": "Yes",
+    "Significance level": "0.05",
+    "Test type": "One-tailed",
+    "Samples": "10000",
+    "Seed": "Fixed seed",
+    "AD": "AUTOMATIC",
+    "AIR": "AUTOMATIC",
+    "EXP": "AUTOMATIC",
+    "PP": "AUTOMATIC",
+    "TR": "AUTOMATIC"
+  },
+  "header_rows": {
+    "percentile": [
+      "",
+      "Original sample (O)",
+      "Sample mean (M)",
+      "5.0%",
+      "95.0%"
+    ],
+    "corrected": [
+      "",
+      "Original sample (O)",
+      "Sample mean (M)",
+      "Bias",
+      "5.0%",
+      "95.0%"
+    ]
+  },
+  "execution_log": [
+    {
+      "row": 713,
+      "text": "Execution log"
+    },
+    {
+      "row": 714,
+      "text": "Reading score matrix of complete data set"
+    },
+    {
+      "row": 715,
+      "text": "Calculating full data set."
+    },
+    {
+      "row": 716,
+      "text": "Calculating original sample."
+    },
+    {
+      "row": 717,
+      "text": "Running samples [10000 done] (3 seconds)."
+    },
+    {
+      "row": 718,
+      "text": "Running saturated model fit. [10000 done] (3 seconds)."
+    },
+    {
+      "row": 719,
+      "text": "Running estimated model fit. [10000 done] (3 seconds)."
+    },
+    {
+      "row": 720,
+      "text": "Running saturated model fit. [10000 done] (3 seconds)."
+    },
+    {
+      "row": 721,
+      "text": "Running estimated model fit. [10000 done] (3 seconds)."
+    },
+    {
+      "row": 722,
+      "text": "Calculating inner weights."
+    },
+    {
+      "row": 723,
+      "text": "Calculating indirect effects."
+    },
+    {
+      "row": 724,
+      "text": "Calculating specific indirect effects"
+    },
+    {
+      "row": 725,
+      "text": "Calculating total effect."
+    },
+    {
+      "row": 726,
+      "text": "Calculating conditional direct effects"
+    },
+    {
+      "row": 727,
+      "text": "Calculating conditional indirect effects"
+    },
+    {
+      "row": 728,
+      "text": "Calculating outer weights."
+    },
+    {
+      "row": 729,
+      "text": "Calculating outer loadings."
+    },
+    {
+      "row": 730,
+      "text": "Calculating outer loadings."
+    },
+    {
+      "row": 731,
+      "text": "Calculating AVE."
+    },
+    {
+      "row": 732,
+      "text": "Calculating composite reliability."
+    },
+    {
+      "row": 733,
+      "text": "Calculating rho_a."
+    },
+    {
+      "row": 734,
+      "text": "Calculating Cronbach's alpha."
+    },
+    {
+      "row": 735,
+      "text": "Calculating R-square."
+    },
+    {
+      "row": 736,
+      "text": "Calculating R-square corrected."
+    },
+    {
+      "row": 737,
+      "text": "Calculating f-square."
+    },
+    {
+      "row": 738,
+      "text": "Calculating HTMT criterion."
+    },
+    {
+      "row": 739,
+      "text": "Calculating latent variable correlations."
+    },
+    {
+      "row": 740,
+      "text": "Calculating congruence coefficient."
+    },
+    {
+      "row": 741,
+      "text": "Calculating collinearity statistics (VIF)."
+    },
+    {
+      "row": 742,
+      "text": "Calculating SRMR criterion."
+    },
+    {
+      "row": 743,
+      "text": "Calculating ULS fit criterion."
+    },
+    {
+      "row": 744,
+      "text": "Calculating g1 fit criterion."
+    },
+    {
+      "row": 745,
+      "text": "Calculating ULS fit criterion."
+    },
+    {
+      "row": 746,
+      "text": "Calculating model decoration."
+    },
+    {
+      "row": 747,
+      "text": "All calculations done."
+    }
+  ],
+  "pairs": [
+    {
+      "pair": "AIR-EXP",
+      "percentile_one_sided": {
+        "source_row": 468,
+        "label": "EXP <-> AIR",
+        "point": 0.8329336943741106,
+        "mean": 0.8331018593229339,
+        "lower": 0.7693614237529729,
+        "upper": 0.8909394933119855
+      },
+      "corrected_one_sided_selected_BCa": {
+        "source_row": 482,
+        "label": "EXP <-> AIR",
+        "point": 0.8329336943741106,
+        "mean": 0.8331018593229339,
+        "lower": 0.7641595155002118,
+        "upper": 0.8875174646317786,
+        "bias": 0.0001681649488233239
+      },
+      "point_below_090": true,
+      "point_below_085": true,
+      "percentile_upper95_below_090": true,
+      "percentile_upper95_below_085": false,
+      "percentile_upper95_below_1": true,
+      "corrected_upper95_below_090": true,
+      "corrected_upper95_below_085": false,
+      "corrected_upper95_below_1": true,
+      "comparisons": {
+        "point_native_minus_python": 2.220446049250313e-16,
+        "point_new_minus_oldnative": 0.0,
+        "mean_new_minus_oldnative": 0.0,
+        "percentile_upper95_native_minus_python": 0.0006500095735273437,
+        "corrected_upper95_native_selected_BCa_minus_python_BC": 0.00016406746685426743,
+        "percentile_upper95_not_above_prior_upper975": true,
+        "corrected_upper95_not_above_prior_upper975": true
+      }
+    },
+    {
+      "pair": "AIR-PP",
+      "percentile_one_sided": {
+        "source_row": 470,
+        "label": "PP <-> AIR",
+        "point": 0.8197391048623862,
+        "mean": 0.8195878738668293,
+        "lower": 0.7565222359398311,
+        "upper": 0.8769488726906597
+      },
+      "corrected_one_sided_selected_BCa": {
+        "source_row": 484,
+        "label": "PP <-> AIR",
+        "point": 0.8197391048623862,
+        "mean": 0.8195878738668293,
+        "lower": 0.7524298310375156,
+        "upper": 0.8735377763981391,
+        "bias": -0.00015123099555691688
+      },
+      "point_below_090": true,
+      "point_below_085": true,
+      "percentile_upper95_below_090": true,
+      "percentile_upper95_below_085": false,
+      "percentile_upper95_below_1": true,
+      "corrected_upper95_below_090": true,
+      "corrected_upper95_below_085": false,
+      "corrected_upper95_below_1": true,
+      "comparisons": {
+        "point_native_minus_python": -8.881784197001252e-16,
+        "point_new_minus_oldnative": 0.0,
+        "mean_new_minus_oldnative": 0.0,
+        "percentile_upper95_native_minus_python": 0.00039279853575946433,
+        "corrected_upper95_native_selected_BCa_minus_python_BC": -0.0003387486127379713,
+        "percentile_upper95_not_above_prior_upper975": true,
+        "corrected_upper95_not_above_prior_upper975": true
+      }
+    },
+    {
+      "pair": "AIR-TR",
+      "percentile_one_sided": {
+        "source_row": 473,
+        "label": "TR <-> AIR",
+        "point": 0.8050974336122944,
+        "mean": 0.8052815155949922,
+        "lower": 0.7406636579771594,
+        "upper": 0.8632346211932117
+      },
+      "corrected_one_sided_selected_BCa": {
+        "source_row": 487,
+        "label": "TR <-> AIR",
+        "point": 0.8050974336122944,
+        "mean": 0.8052815155949922,
+        "lower": 0.7364698806826662,
+        "upper": 0.8607765898517984,
+        "bias": 0.00018408198269781462
+      },
+      "point_below_090": true,
+      "point_below_085": true,
+      "percentile_upper95_below_090": true,
+      "percentile_upper95_below_085": false,
+      "percentile_upper95_below_1": true,
+      "corrected_upper95_below_090": true,
+      "corrected_upper95_below_085": false,
+      "corrected_upper95_below_1": true,
+      "comparisons": {
+        "point_native_minus_python": -4.440892098500626e-16,
+        "point_new_minus_oldnative": 0.0,
+        "mean_new_minus_oldnative": 0.0,
+        "percentile_upper95_native_minus_python": -6.091221546100645e-05,
+        "corrected_upper95_native_selected_BCa_minus_python_BC": -0.0006351063511524924,
+        "percentile_upper95_not_above_prior_upper975": true,
+        "corrected_upper95_not_above_prior_upper975": true
+      }
+    },
+    {
+      "pair": "AIR-AD",
+      "percentile_one_sided": {
+        "source_row": 466,
+        "label": "AIR <-> AD",
+        "point": 0.7090414749074382,
+        "mean": 0.7094594776051611,
+        "lower": 0.6123701030220109,
+        "upper": 0.7991415999757653
+      },
+      "corrected_one_sided_selected_BCa": {
+        "source_row": 480,
+        "label": "AIR <-> AD",
+        "point": 0.7090414749074382,
+        "mean": 0.7094594776051611,
+        "lower": 0.6057915939886289,
+        "upper": 0.7936594040358026,
+        "bias": 0.0004180026977229634
+      },
+      "point_below_090": true,
+      "point_below_085": true,
+      "percentile_upper95_below_090": true,
+      "percentile_upper95_below_085": true,
+      "percentile_upper95_below_1": true,
+      "corrected_upper95_below_090": true,
+      "corrected_upper95_below_085": true,
+      "corrected_upper95_below_1": true,
+      "comparisons": {
+        "point_native_minus_python": -4.440892098500626e-16,
+        "point_new_minus_oldnative": 0.0,
+        "mean_new_minus_oldnative": 0.0,
+        "percentile_upper95_native_minus_python": 0.0028952000537778577,
+        "corrected_upper95_native_selected_BCa_minus_python_BC": 0.0015919854783481568,
+        "percentile_upper95_not_above_prior_upper975": true,
+        "corrected_upper95_not_above_prior_upper975": true
+      }
+    },
+    {
+      "pair": "EXP-PP",
+      "percentile_one_sided": {
+        "source_row": 471,
+        "label": "PP <-> EXP",
+        "point": 0.8595095756125546,
+        "mean": 0.8595079511261673,
+        "lower": 0.7977862485776084,
+        "upper": 0.9122783357830034
+      },
+      "corrected_one_sided_selected_BCa": {
+        "source_row": 485,
+        "label": "PP <-> EXP",
+        "point": 0.8595095756125546,
+        "mean": 0.8595079511261673,
+        "lower": 0.7908564817185157,
+        "upper": 0.9081389930616025,
+        "bias": -1.6244863872971749e-06
+      },
+      "point_below_090": true,
+      "point_below_085": false,
+      "percentile_upper95_below_090": false,
+      "percentile_upper95_below_085": false,
+      "percentile_upper95_below_1": true,
+      "corrected_upper95_below_090": false,
+      "corrected_upper95_below_085": false,
+      "corrected_upper95_below_1": true,
+      "comparisons": {
+        "point_native_minus_python": -1.1102230246251565e-15,
+        "point_new_minus_oldnative": 0.0,
+        "mean_new_minus_oldnative": 0.0,
+        "percentile_upper95_native_minus_python": -0.0008612912785606053,
+        "corrected_upper95_native_selected_BCa_minus_python_BC": -0.0017385233602392747,
+        "percentile_upper95_not_above_prior_upper975": true,
+        "corrected_upper95_not_above_prior_upper975": true
+      }
+    },
+    {
+      "pair": "EXP-TR",
+      "percentile_one_sided": {
+        "source_row": 474,
+        "label": "TR <-> EXP",
+        "point": 0.830227721984405,
+        "mean": 0.8302056925212932,
+        "lower": 0.7619604557220404,
+        "upper": 0.8898144834952374
+      },
+      "corrected_one_sided_selected_BCa": {
+        "source_row": 488,
+        "label": "TR <-> EXP",
+        "point": 0.830227721984405,
+        "mean": 0.8302056925212932,
+        "lower": 0.7567379069315825,
+        "upper": 0.8866124132459049,
+        "bias": -2.2029463111805647e-05
+      },
+      "point_below_090": true,
+      "point_below_085": true,
+      "percentile_upper95_below_090": true,
+      "percentile_upper95_below_085": false,
+      "percentile_upper95_below_1": true,
+      "corrected_upper95_below_090": true,
+      "corrected_upper95_below_085": false,
+      "corrected_upper95_below_1": true,
+      "comparisons": {
+        "point_native_minus_python": -1.3322676295501878e-15,
+        "point_new_minus_oldnative": 0.0,
+        "mean_new_minus_oldnative": 0.0,
+        "percentile_upper95_native_minus_python": -1.7983681005362406e-05,
+        "corrected_upper95_native_selected_BCa_minus_python_BC": -0.0016639151769566318,
+        "percentile_upper95_not_above_prior_upper975": true,
+        "corrected_upper95_not_above_prior_upper975": true
+      }
+    },
+    {
+      "pair": "EXP-AD",
+      "percentile_one_sided": {
+        "source_row": 467,
+        "label": "EXP <-> AD",
+        "point": 0.828421715486013,
+        "mean": 0.8288776337215681,
+        "lower": 0.7151689321439773,
+        "upper": 0.9220783316911145
+      },
+      "corrected_one_sided_selected_BCa": {
+        "source_row": 481,
+        "label": "EXP <-> AD",
+        "point": 0.828421715486013,
+        "mean": 0.8288776337215681,
+        "lower": 0.6998535953771623,
+        "upper": 0.9127894037033883,
+        "bias": 0.00045591823555513056
+      },
+      "point_below_090": true,
+      "point_below_085": true,
+      "percentile_upper95_below_090": false,
+      "percentile_upper95_below_085": false,
+      "percentile_upper95_below_1": true,
+      "corrected_upper95_below_090": false,
+      "corrected_upper95_below_085": false,
+      "corrected_upper95_below_1": true,
+      "comparisons": {
+        "point_native_minus_python": 1.1102230246251565e-16,
+        "point_new_minus_oldnative": 0.0,
+        "mean_new_minus_oldnative": 0.0,
+        "percentile_upper95_native_minus_python": 0.0015187093609091429,
+        "corrected_upper95_native_selected_BCa_minus_python_BC": -0.0009094887775559224,
+        "percentile_upper95_not_above_prior_upper975": true,
+        "corrected_upper95_not_above_prior_upper975": true
+      }
+    },
+    {
+      "pair": "PP-TR",
+      "percentile_one_sided": {
+        "source_row": 475,
+        "label": "TR <-> PP",
+        "point": 0.8226686532556894,
+        "mean": 0.822328606270241,
+        "lower": 0.7569612672403202,
+        "upper": 0.8815589983274367
+      },
+      "corrected_one_sided_selected_BCa": {
+        "source_row": 489,
+        "label": "TR <-> PP",
+        "point": 0.8226686532556894,
+        "mean": 0.822328606270241,
+        "lower": 0.7534558442350742,
+        "upper": 0.8790408471699955,
+        "bias": -0.0003400469854484278
+      },
+      "point_below_090": true,
+      "point_below_085": true,
+      "percentile_upper95_below_090": true,
+      "percentile_upper95_below_085": false,
+      "percentile_upper95_below_1": true,
+      "corrected_upper95_below_090": true,
+      "corrected_upper95_below_085": false,
+      "corrected_upper95_below_1": true,
+      "comparisons": {
+        "point_native_minus_python": -8.881784197001252e-16,
+        "point_new_minus_oldnative": 0.0,
+        "mean_new_minus_oldnative": 0.0,
+        "percentile_upper95_native_minus_python": -0.00028638058073271466,
+        "corrected_upper95_native_selected_BCa_minus_python_BC": -0.0014405064135666334,
+        "percentile_upper95_not_above_prior_upper975": true,
+        "corrected_upper95_not_above_prior_upper975": true
+      }
+    },
+    {
+      "pair": "PP-AD",
+      "percentile_one_sided": {
+        "source_row": 469,
+        "label": "PP <-> AD",
+        "point": 0.7592945027241588,
+        "mean": 0.7588128734526334,
+        "lower": 0.6754168591651274,
+        "upper": 0.8339148546177676
+      },
+      "corrected_one_sided_selected_BCa": {
+        "source_row": 483,
+        "label": "PP <-> AD",
+        "point": 0.7592945027241588,
+        "mean": 0.7588128734526334,
+        "lower": 0.6703278468953993,
+        "upper": 0.8301308655725721,
+        "bias": -0.0004816292715253967
+      },
+      "point_below_090": true,
+      "point_below_085": true,
+      "percentile_upper95_below_090": true,
+      "percentile_upper95_below_085": true,
+      "percentile_upper95_below_1": true,
+      "corrected_upper95_below_090": true,
+      "corrected_upper95_below_085": true,
+      "corrected_upper95_below_1": true,
+      "comparisons": {
+        "point_native_minus_python": -2.220446049250313e-16,
+        "point_new_minus_oldnative": 0.0,
+        "mean_new_minus_oldnative": 0.0,
+        "percentile_upper95_native_minus_python": 0.002421608773773176,
+        "corrected_upper95_native_selected_BCa_minus_python_BC": 0.0015820841279524656,
+        "percentile_upper95_not_above_prior_upper975": true,
+        "corrected_upper95_not_above_prior_upper975": true
+      }
+    },
+    {
+      "pair": "TR-AD",
+      "percentile_one_sided": {
+        "source_row": 472,
+        "label": "TR <-> AD",
+        "point": 0.8025823694288355,
+        "mean": 0.8026712245603127,
+        "lower": 0.7271717357420545,
+        "upper": 0.8698818740653202
+      },
+      "corrected_one_sided_selected_BCa": {
+        "source_row": 486,
+        "label": "TR <-> AD",
+        "point": 0.8025823694288355,
+        "mean": 0.8026712245603127,
+        "lower": 0.7217168203548961,
+        "upper": 0.8658192835613223,
+        "bias": 8.885513147716129e-05
+      },
+      "point_below_090": true,
+      "point_below_085": true,
+      "percentile_upper95_below_090": true,
+      "percentile_upper95_below_085": false,
+      "percentile_upper95_below_1": true,
+      "corrected_upper95_below_090": true,
+      "corrected_upper95_below_085": false,
+      "corrected_upper95_below_1": true,
+      "comparisons": {
+        "point_native_minus_python": 0.0,
+        "point_new_minus_oldnative": 0.0,
+        "mean_new_minus_oldnative": 0.0,
+        "percentile_upper95_native_minus_python": 0.0028805031313386964,
+        "corrected_upper95_native_selected_BCa_minus_python_BC": 0.00016901760104726105,
+        "percentile_upper95_not_above_prior_upper975": true,
+        "corrected_upper95_not_above_prior_upper975": true
+      }
+    }
+  ],
+  "counts": {
+    "percentile_upper95_below_090": 8,
+    "percentile_upper95_below_085": 2,
+    "percentile_upper95_below_1": 10,
+    "corrected_upper95_below_090": 8,
+    "corrected_upper95_below_085": 2,
+    "corrected_upper95_below_1": 10
+  },
+  "anomalies": [],
+  "max_abs_point_difference_vs_python": 1.3322676295501878e-15,
+  "max_abs_point_difference_vs_prior_native": 0.0,
+  "max_abs_sample_mean_difference_vs_prior_native": 0.0,
+  "max_abs_percentile_upper95_difference_vs_python": 0.0028952000537778577,
+  "max_abs_corrected_upper95_difference_vs_python_BC": 0.0017385233602392747,
+  "limitations": [
+    "Method setting explicitly says Bias-corrected and accelerated (BCa) bootstrap; table title says Bias-corrected confidence intervals. Preserve both facts. Do not call these numerically equivalent to prior Python BC without acceleration.",
+    "One-tailed alpha .05 setting and 5%/95% endpoint headers directly support using the exported upper95 endpoint for one-sided inference. The pair of displayed endpoints is not a two-sided95% interval.",
+    "The numeric seed and per-draw results are absent; full equivalence of resampled draws and BCa internals is not independently checked.",
+    "Identical original points and sample means across native exports are consistency evidence, not proof of identical bootstrap draws.",
+    "A corrected upper95>=.90 means the specified .90 discriminant-validity criterion is not established; it does not prove HTMT population value>.90.",
+    "All upper95<1 supports the weaker <1 criterion only, not universal success at .90."
+  ]
+}

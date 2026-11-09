@@ -1,0 +1,4 @@
+file,target_M1,constructs,construct_count,paths,indicators,rows,data_match_subset,full20
+KidSense_M1_Eksploratori.xlsx,True,"AD,AIR,EXP,PP,TR",5,7,20,271,True,True
+KidSense_M1_Algorithm.xlsx,False,"AD,AIR,EXP,PP",4,3,16,271,True,False
+KidSense_M1_Bootstrap_10000.xlsx,False,"AD,AIR,EXP,PP",4,3,16,271,True,False

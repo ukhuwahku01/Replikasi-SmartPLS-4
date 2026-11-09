@@ -1,0 +1,6 @@
+construct,native_rho_A,native_cell,prior_reference_available,note
+AD,0.848220967409662,'Complete data set'!C408,False,"New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+AIR,0.8595253952948633,'Complete data set'!C409,False,"New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+EXP,0.8450979029611886,'Complete data set'!C410,False,"New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+PP,0.8802801027535126,'Complete data set'!C411,False,"New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+TR,0.8629584450611073,'Complete data set'!C412,False,"New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."

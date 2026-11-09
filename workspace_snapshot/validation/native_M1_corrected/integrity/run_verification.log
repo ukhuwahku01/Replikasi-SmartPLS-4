@@ -1,0 +1,4 @@
+Checks {'271_rows': True, '20_columns': True, '5420_values_match': True, 'case_order_0_to270': True, '5_constructs': True, '7_expected_edges': True, '20_reflective_items': True, 'indicator_assignment_expected': True, 'samples10000': True, 'complete': True, 'percentile': True, 'two_tailed': True, 'alpha005': True, '32_point_comparisons': True, 'points_exact_native_algorithm': True, 'points_match_Python1e8': True, 'fit_saturated_estimated_numerically_equal': True}
+Maxnativepointdifference 0.0
+MaxPythonpointdifference 1.0041101283775333e-10
+Fitmaxdifference 1.5709655798445965e-14

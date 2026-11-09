@@ -1,0 +1,41 @@
+{
+  "status": "prepared_reference_only_native_execution_not_performed",
+  "input_file": "KidSense_SmartPLS4_Input_271.csv",
+  "input_sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624",
+  "input_bytes": 11203,
+  "input_rows": 271,
+  "input_columns": 20,
+  "original_csv_copied_byte_identical": true,
+  "native_smartpls4_results_present": false,
+  "native_value_fields_empty": true,
+  "reference_workbook": "expected_reference.xlsx",
+  "reference_workbook_sha256": "21c3737da44a6be474301b3b6525bcd7b1bbb1eac58ae2a3b51d8c9b8ac58a15",
+  "source_references": [
+    {
+      "file": "KidSense_CV_Prediction_Exploratory.json",
+      "sha256": "07f51394c22b901c185da59f4e6821e7543caf731162a3db1596a30beae65c01"
+    },
+    {
+      "file": "KidSense_PLS_10000_results.json",
+      "sha256": "2dca916d499170314193f665858790716f836c6a789772c5185ec29c3581c3f1"
+    },
+    {
+      "file": "KidSense_JADS_Validasi_Lanjutan_10000.xlsx",
+      "sha256": "5867907a2721edc11a4aebdc7ac60deaa299b6f6584f636ff4a23ea6148b8cf0"
+    },
+    {
+      "file": "KidSense_HTMT_10000_validation.json",
+      "sha256": "6ee09b3e00a59b1d6fda1e2bf4a3992cb7fd88253651dd952883bced1b8e8fc3"
+    },
+    {
+      "file": "KidSense_SmartPLS4_Input_271.csv",
+      "sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624"
+    }
+  ],
+  "limitations": [
+    "No installed SmartPLS execution or native project file has been generated.",
+    "Bootstrap resampling seeds/RNGs and native prediction design may differ from Python.",
+    "Original raw 323-response file and eligibility/attention flags are absent.",
+    "rho_A reference values are intentionally blank."
+  ]
+}

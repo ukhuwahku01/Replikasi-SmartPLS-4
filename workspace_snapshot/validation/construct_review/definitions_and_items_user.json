@@ -1,0 +1,57 @@
+{
+  "source": "User-supplied operational definitions and original questionnaire item text, current conversation. Definitions investigator-operational, not quotations from external theoretical publications.",
+  "constructs": {
+    "AIR": {
+      "English": "Perceived AI Reliability",
+      "definition": "Persepsi orang tua mengenai kemampuan KidSense menghasilkan deteksi emosi dan notifikasi yang konsisten, sesuai dengan kondisi anak, serta beroperasi secara stabil selama aktivitas bermain digital."
+    },
+    "EXP": {
+      "English": "Explainability",
+      "questionnaire_name": "Keterjelasan Penjelasan Sistem",
+      "definition": "Tingkat pemahaman orang tua terhadap alasan, informasi pendukung, tingkat keyakinan prediksi, dan kemungkinan kesalahan yang dijelaskan oleh KidSense.",
+      "scope": "Keempat indikator mengukur kemampuan responden memahami informasi yang disediakan dalam rancangan KidSense, bukan kualitas objektif algoritma explainable AI yang telah diuji secara teknis."
+    },
+    "PP": {
+      "English": "Perceived Privacy Protection",
+      "questionnaire_name": "Persepsi Perlindungan Privasi",
+      "definition": "Persepsi orang tua mengenai kecukupan mekanisme perlindungan data anak, termasuk persetujuan akses kamera dan mikrofon, penyimpanan data, serta penghapusan data dalam rancangan KidSense.",
+      "scope": "Keempat indikator mengukur penilaian responden atas mekanisme perlindungan privasi yang diusulkan melalui rancangan KidSense, bukan bukti bahwa sistem telah menjalani audit keamanan dan privasi secara aktual."
+    },
+    "TR": {
+      "English": "Trust",
+      "definition": "Tingkat kepercayaan orang tua terhadap KidSense sebagai sistem yang dirancang untuk kepentingan anak dan mampu memberikan informasi awal mengenai kondisi emosi secara bertanggung jawab."
+    },
+    "AD": {
+      "English": "Adoption Intention",
+      "questionnaire_name": "Niat Menggunakan KidSense",
+      "definition": "Niat orang tua untuk mencoba, menggunakan, memanfaatkan fitur peringatan dini, dan berpotensi menggunakan KidSense secara berkelanjutan apabila sistem tersedia dan memenuhi harapan.",
+      "prompt_context": "Pada instrumen asli, responden terlebih dahulu diminta membayangkan bahwa KidSense telah tersedia untuk digunakan, memenuhi persyaratan keamanan, dan memiliki fungsi sesuai rancangan.",
+      "scope": "Keempat indikator mengukur intensi perilaku (behavioral intention), bukan perilaku adopsi aktual (actual adoption behavior)."
+    }
+  },
+  "items": {
+    "EXP1": "Saya memahami alasan KidSense menampilkan kategori emosi tertentu.",
+    "EXP2": "Saya memahami informasi yang menjadi dasar munculnya peringatan KidSense.",
+    "EXP3": "Saya memahami arti tingkat keyakinan dan kemungkinan kesalahan hasil prediksi AI yang ditampilkan.",
+    "EXP4": "Penjelasan yang tersedia memudahkan saya menafsirkan informasi peringatan KidSense.",
+    "PP1": "Menurut saya, mekanisme perlindungan privasi yang ditampilkan KidSense memberikan perlindungan terhadap data anak.",
+    "PP2": "Saya menilai mekanisme persetujuan penggunaan kamera dan mikrofon dalam KidSense memperhatikan privasi anak.",
+    "PP3": "Saya menilai mekanisme pengaturan penyimpanan dan penghapusan data dalam KidSense mendukung perlindungan privasi anak.",
+    "PP4": "Secara keseluruhan, saya merasa perlindungan privasi yang dirancang dalam KidSense memadai untuk penggunaan oleh orang tua.",
+    "AD1": "Saya berniat mencoba aplikasi KidSense.",
+    "AD2": "Saya berencana menggunakan KidSense untuk membantu mendampingi aktivitas bermain digital anak.",
+    "AD3": "Saya berniat memanfaatkan fitur peringatan dini KidSense ketika diperlukan.",
+    "AD4": "Saya berminat menggunakan KidSense secara berkelanjutan apabila pengalaman penggunaannya sesuai harapan."
+  },
+  "not_provided": [
+    "Exact AIR1–AIR4 items",
+    "Exact TR1–TR4 items",
+    "Complete questionnaire ordering and exact stimulus materials/protocol beyond confirmed descriptions/images",
+    "Actual objective AI, security, privacy or adoption validation"
+  ],
+  "exposure_context": {
+    "confirmed_by_user": "Deskripsi/gambar rancangan saja",
+    "meaning": "Respondents evaluated descriptions/images of the KidSense design; no hands-on functional prototype/demo exposure is claimed.",
+    "source": "User clarification in current conversation."
+  }
+}

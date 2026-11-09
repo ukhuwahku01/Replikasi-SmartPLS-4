@@ -1,0 +1,191 @@
+{
+  "resamples": 10000,
+  "seeds": [
+    20261106,
+    20261107,
+    20261108,
+    20261109
+  ],
+  "draws_per_seed": 2500,
+  "rng": "numpy.random.default_rng",
+  "CI": "percentile 2.5% and 97.5%",
+  "checks": [
+    {
+      "section": "paths",
+      "label": "AIR -> TR",
+      "metric": "se",
+      "reported": 0.06275501233780462,
+      "recomputed": 0.06275501233846423,
+      "abs_diff": 6.596112545054211e-13
+    },
+    {
+      "section": "paths",
+      "label": "AIR -> TR",
+      "metric": "ci_low",
+      "reported": 0.13743505889945568,
+      "recomputed": 0.13743505890300017,
+      "abs_diff": 3.5444980284182748e-12
+    },
+    {
+      "section": "paths",
+      "label": "AIR -> TR",
+      "metric": "ci_high",
+      "reported": 0.3831387910134954,
+      "recomputed": 0.38313879101587434,
+      "abs_diff": 2.378930386015554e-12
+    },
+    {
+      "section": "paths",
+      "label": "EXP -> TR",
+      "metric": "se",
+      "reported": 0.06859190305453737,
+      "recomputed": 0.06859190305560227,
+      "abs_diff": 1.0648981696448345e-12
+    },
+    {
+      "section": "paths",
+      "label": "EXP -> TR",
+      "metric": "ci_low",
+      "reported": 0.15687139421434282,
+      "recomputed": 0.15687139418806148,
+      "abs_diff": 2.6281338216804784e-11
+    },
+    {
+      "section": "paths",
+      "label": "EXP -> TR",
+      "metric": "ci_high",
+      "reported": 0.4267657201076163,
+      "recomputed": 0.4267657201473298,
+      "abs_diff": 3.971345474695909e-11
+    },
+    {
+      "section": "paths",
+      "label": "PP -> TR",
+      "metric": "se",
+      "reported": 0.07627778492090201,
+      "recomputed": 0.07627778492145265,
+      "abs_diff": 5.50642864638462e-13
+    },
+    {
+      "section": "paths",
+      "label": "PP -> TR",
+      "metric": "ci_low",
+      "reported": 0.16674229591502743,
+      "recomputed": 0.16674229590538037,
+      "abs_diff": 9.647060927875373e-12
+    },
+    {
+      "section": "paths",
+      "label": "PP -> TR",
+      "metric": "ci_high",
+      "reported": 0.4640295097713984,
+      "recomputed": 0.4640295097677463,
+      "abs_diff": 3.6520786395044524e-12
+    },
+    {
+      "section": "paths",
+      "label": "TR -> AD",
+      "metric": "se",
+      "reported": 0.04032906184579905,
+      "recomputed": 0.04032906184692933,
+      "abs_diff": 1.1302833669013523e-12
+    },
+    {
+      "section": "paths",
+      "label": "TR -> AD",
+      "metric": "ci_low",
+      "reported": 0.6049911797045654,
+      "recomputed": 0.6049911797044258,
+      "abs_diff": 1.3955503419538218e-13
+    },
+    {
+      "section": "paths",
+      "label": "TR -> AD",
+      "metric": "ci_high",
+      "reported": 0.761236940544354,
+      "recomputed": 0.7612369405514539,
+      "abs_diff": 7.099876242477876e-12
+    },
+    {
+      "section": "indirect",
+      "label": "AIR -> TR -> AD",
+      "metric": "ci_low",
+      "reported": 0.0934997465515978,
+      "recomputed": 0.09349974655870297,
+      "abs_diff": 7.105163679632653e-12
+    },
+    {
+      "section": "indirect",
+      "label": "AIR -> TR -> AD",
+      "metric": "ci_high",
+      "reported": 0.2673453036198778,
+      "recomputed": 0.26734530362022435,
+      "abs_diff": 3.465561171367426e-13
+    },
+    {
+      "section": "indirect",
+      "label": "EXP -> TR -> AD",
+      "metric": "ci_low",
+      "reported": 0.1026787531928521,
+      "recomputed": 0.10267875319225983,
+      "abs_diff": 5.922762280619054e-13
+    },
+    {
+      "section": "indirect",
+      "label": "EXP -> TR -> AD",
+      "metric": "ci_high",
+      "reported": 0.3086716114241898,
+      "recomputed": 0.30867161141807725,
+      "abs_diff": 6.112554906678724e-12
+    },
+    {
+      "section": "indirect",
+      "label": "PP -> TR -> AD",
+      "metric": "ci_low",
+      "reported": 0.11511262664133882,
+      "recomputed": 0.11511262659556855,
+      "abs_diff": 4.577027645780163e-11
+    },
+    {
+      "section": "indirect",
+      "label": "PP -> TR -> AD",
+      "metric": "ci_high",
+      "reported": 0.3223070221126001,
+      "recomputed": 0.32230702212546863,
+      "abs_diff": 1.2868539567278958e-11
+    },
+    {
+      "section": "r2",
+      "label": "TR",
+      "metric": "ci_low",
+      "reported": 0.535271058919,
+      "recomputed": 0.5352710589193875,
+      "abs_diff": 3.8757885789664215e-13
+    },
+    {
+      "section": "r2",
+      "label": "TR",
+      "metric": "ci_high",
+      "reported": 0.7000801610721739,
+      "recomputed": 0.7000801610814926,
+      "abs_diff": 9.318767979493714e-12
+    },
+    {
+      "section": "r2",
+      "label": "AD",
+      "metric": "ci_low",
+      "reported": 0.3660143285082527,
+      "recomputed": 0.36601432850808446,
+      "abs_diff": 1.6825429938194247e-13
+    },
+    {
+      "section": "r2",
+      "label": "AD",
+      "metric": "ci_high",
+      "reported": 0.5794816797177226,
+      "recomputed": 0.5794816797285317,
+      "abs_diff": 1.0809131367750524e-11
+    }
+  ],
+  "max_abs_difference": 4.577027645780163e-11
+}

@@ -1,0 +1,33 @@
+file,model,kind,label,native,python_M1,abs_difference,native_cell,status
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,path,AIR -> AD,0.04560458323517901,0.0456045832624699,2.729088482977815e-11,'Complete data set'!C21,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,path,AIR -> TR,0.2629958678860406,0.26299586790984975,2.38091213411451e-11,'Complete data set'!C22,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,path,EXP -> AD,0.3371908894905286,0.3371908894723194,1.8209211916087042e-11,'Complete data set'!C23,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,path,EXP -> TR,0.2929233611015383,0.2929233610954252,6.113110018191037e-12,'Complete data set'!C24,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,path,PP -> AD,0.1564633783802753,0.15646337837594637,4.328926106467179e-12,'Complete data set'!C25,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,path,PP -> TR,0.31346321425413864,0.31346321422559736,2.8541280450156137e-11,'Complete data set'!C26,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,path,TR -> AD,0.30401188783830463,0.30401188783210503,6.199596391809337e-12,'Complete data set'!C27,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,r2,AD,0.57590444650168,0.5759044464905884,1.1091683127517626e-11,'Complete data set'!C1101,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,r2,TR,0.6156559031050265,0.6156559030858442,1.9182322397170992e-11,'Complete data set'!C1102,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,AD1 <- AD,0.8314149645022687,0.8314149644018577,1.0041101283775333e-10,'Complete data set'!C107,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,AD2 <- AD,0.838288687921639,0.8382886878634753,5.816369608169225e-11,'Complete data set'!C108,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,AD3 <- AD,0.8236602450640387,0.8236602451464721,8.24333934446031e-11,'Complete data set'!C109,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,AD4 <- AD,0.8175745858096927,0.8175745858943066,8.461398248726937e-11,'Complete data set'!C110,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,AIR2 <- AIR,0.8280859913234587,0.8280859913156576,7.801093104831125e-12,'Complete data set'!C111,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,AIR3 <- AIR,0.8526560759582387,0.8526560759884332,3.019451355612546e-11,'Complete data set'!C112,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,AIR4 <- AIR,0.8536470405887969,0.8536470406528767,6.407974151301232e-11,'Complete data set'!C113,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,EXP1 <- EXP,0.8121493704349558,0.8121493705247951,8.983924715266767e-11,'Complete data set'!C114,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,EXP2 <- EXP,0.8366279285822507,0.8366279285712019,1.1048717496464633e-11,'Complete data set'!C115,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,EXP3 <- EXP,0.8042852231087727,0.8042852230649897,4.37829772437226e-11,'Complete data set'!C116,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,EXP4 <- EXP,0.8340170719174274,0.8340170718869941,3.0433211506419866e-11,'Complete data set'!C117,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,PP1 <- PP,0.8528135103089136,0.8528135103325044,2.3590795983352564e-11,'Complete data set'!C118,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,PP2 <- PP,0.853864590046187,0.8538645899666278,7.955913705615103e-11,'Complete data set'!C119,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,PP3 <- PP,0.8617266925000904,0.8617266925398209,3.9730552181538314e-11,'Complete data set'!C120,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,PP4 <- PP,0.8577992781852297,0.8577992782028725,1.7642776128923288e-11,'Complete data set'!C121,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,TR1 <- TR,0.8473893915299832,0.8473893915107165,1.9266699347042504e-11,'Complete data set'!C122,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,TR2 <- TR,0.8428281340688039,0.8428281341350791,6.627520754420857e-11,'Complete data set'!C123,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,TR3 <- TR,0.8308905303211711,0.8308905303060865,1.5084600235582002e-11,'Complete data set'!C124,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,TR4 <- TR,0.8415474084839925,0.8415474084556509,2.834155132802607e-11,'Complete data set'!C125,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,loading,AIR1 <- AIR,0.8182715102309702,0.8182715101369121,9.405809464624326e-11,'Complete data set'!C126,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,specific_indirect,AIR -> TR -> AD,0.07995387028970856,0.07995387029531635,5.607792008532897e-12,'Complete data set'!C52,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,specific_indirect,EXP -> TR -> AD,0.08905218400042007,0.08905218399674561,3.674463511238457e-12,'Complete data set'!C53,MATCH within1e-8
+KidSense_M1_Eksploratori.xlsx,M1 five-construct,specific_indirect,PP -> TR -> AD,0.09529654353326365,0.09529654352264341,1.0620240797898362e-11,'Complete data set'!C54,MATCH within1e-8

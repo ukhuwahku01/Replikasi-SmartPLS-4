@@ -1,0 +1,799 @@
+{
+  "workbook": "/workspace/attachments/510e4ab6-8e13-4421-bf7e-f75ae9606f06/KidSense_M1_DenganTR_Bootstrap_10000.xlsx",
+  "workbook_sha256": "a12a4feffa63cd5233a00dcf3df3aeab3f751b5a856dfef8df67c1dbb6c47278",
+  "prior_native_correct_M1_algorithm": "/workspace/attachments/7140d531-a2d0-41c7-9894-32ddb8885a16/KidSense_M1_Eksploratori.xlsx",
+  "prior_native_correct_M1_algorithm_sha256": "56871556240fffdf0cbbbefb82c92cd2d5476e317f8ab7b4dea9708fa7af4435",
+  "source_CSV_sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624",
+  "metadata": {
+    "Model": "Report (KidSense_M1_Eksploratori)",
+    "Project": "KidSense_Replikasi",
+    "Data file": "KidSense_SmartPLS4_Input_271",
+    "Calculated": "Nov 6, 2026, 4:17:50\u202fPM",
+    "SmartPLS version": "4.1.2.1"
+  },
+  "checks": {
+    "271_rows": true,
+    "20_columns": true,
+    "5420_values_match": true,
+    "case_order_0_to270": true,
+    "5_constructs": true,
+    "7_expected_edges": true,
+    "20_reflective_items": true,
+    "indicator_assignment_expected": true,
+    "samples10000": true,
+    "complete": true,
+    "percentile": true,
+    "two_tailed": true,
+    "alpha005": true,
+    "32_point_comparisons": true,
+    "points_exact_native_algorithm": true,
+    "points_match_Python1e8": true,
+    "fit_saturated_estimated_numerically_equal": true
+  },
+  "data": {
+    "n": 271,
+    "indicator_count": 20,
+    "cell_count": 5420,
+    "max_abs_cell_difference": 0.0,
+    "note": "Native AIR1 name includes BOM; only column-name normalization applied. Source files preserved."
+  },
+  "constructs": [
+    "AD",
+    "AIR",
+    "EXP",
+    "PP",
+    "TR"
+  ],
+  "edges": [
+    [
+      "AIR",
+      "AD"
+    ],
+    [
+      "AIR",
+      "TR"
+    ],
+    [
+      "EXP",
+      "AD"
+    ],
+    [
+      "EXP",
+      "TR"
+    ],
+    [
+      "PP",
+      "AD"
+    ],
+    [
+      "PP",
+      "TR"
+    ],
+    [
+      "TR",
+      "AD"
+    ]
+  ],
+  "outer_mapping": [
+    {
+      "indicator": "AD1",
+      "construct": "AD",
+      "code": -1.0,
+      "cell": "'Complete data set'!C797"
+    },
+    {
+      "indicator": "AD2",
+      "construct": "AD",
+      "code": -1.0,
+      "cell": "'Complete data set'!C798"
+    },
+    {
+      "indicator": "AD3",
+      "construct": "AD",
+      "code": -1.0,
+      "cell": "'Complete data set'!C799"
+    },
+    {
+      "indicator": "AD4",
+      "construct": "AD",
+      "code": -1.0,
+      "cell": "'Complete data set'!C800"
+    },
+    {
+      "indicator": "AIR2",
+      "construct": "AIR",
+      "code": -1.0,
+      "cell": "'Complete data set'!D801"
+    },
+    {
+      "indicator": "AIR3",
+      "construct": "AIR",
+      "code": -1.0,
+      "cell": "'Complete data set'!D802"
+    },
+    {
+      "indicator": "AIR4",
+      "construct": "AIR",
+      "code": -1.0,
+      "cell": "'Complete data set'!D803"
+    },
+    {
+      "indicator": "EXP1",
+      "construct": "EXP",
+      "code": -1.0,
+      "cell": "'Complete data set'!E804"
+    },
+    {
+      "indicator": "EXP2",
+      "construct": "EXP",
+      "code": -1.0,
+      "cell": "'Complete data set'!E805"
+    },
+    {
+      "indicator": "EXP3",
+      "construct": "EXP",
+      "code": -1.0,
+      "cell": "'Complete data set'!E806"
+    },
+    {
+      "indicator": "EXP4",
+      "construct": "EXP",
+      "code": -1.0,
+      "cell": "'Complete data set'!E807"
+    },
+    {
+      "indicator": "PP1",
+      "construct": "PP",
+      "code": -1.0,
+      "cell": "'Complete data set'!F808"
+    },
+    {
+      "indicator": "PP2",
+      "construct": "PP",
+      "code": -1.0,
+      "cell": "'Complete data set'!F809"
+    },
+    {
+      "indicator": "PP3",
+      "construct": "PP",
+      "code": -1.0,
+      "cell": "'Complete data set'!F810"
+    },
+    {
+      "indicator": "PP4",
+      "construct": "PP",
+      "code": -1.0,
+      "cell": "'Complete data set'!F811"
+    },
+    {
+      "indicator": "TR1",
+      "construct": "TR",
+      "code": -1.0,
+      "cell": "'Complete data set'!G812"
+    },
+    {
+      "indicator": "TR2",
+      "construct": "TR",
+      "code": -1.0,
+      "cell": "'Complete data set'!G813"
+    },
+    {
+      "indicator": "TR3",
+      "construct": "TR",
+      "code": -1.0,
+      "cell": "'Complete data set'!G814"
+    },
+    {
+      "indicator": "TR4",
+      "construct": "TR",
+      "code": -1.0,
+      "cell": "'Complete data set'!G815"
+    },
+    {
+      "indicator": "AIR1",
+      "construct": "AIR",
+      "code": -1.0,
+      "cell": "'Complete data set'!D816"
+    }
+  ],
+  "settings": {
+    "Max. number of iterations": "3000",
+    "Stop criterion": "10\u207b\u2077",
+    "Use Lohmoeller settings?": "No",
+    "Initial weights": "1.0",
+    "Weighting scheme": "Path",
+    "Type of results": "Standardized",
+    "Vary copula by binary categories": "yes",
+    "Complexity": "Complete (slower)",
+    "Save results per sample": "No",
+    "Confidence interval method": "Percentile bootstrap",
+    "Parallel processing": "Yes",
+    "Significance level": "0.05",
+    "Test type": "Two-tailed",
+    "Samples": "10000",
+    "Seed": "Fixed seed"
+  },
+  "outer_modes": {
+    "AD": "AUTOMATIC",
+    "AIR": "AUTOMATIC",
+    "EXP": "AUTOMATIC",
+    "PP": "AUTOMATIC",
+    "TR": "AUTOMATIC"
+  },
+  "numeric_seed_value_recorded": false,
+  "point_comparisons": [
+    {
+      "kind": "path",
+      "label": "AIR -> AD",
+      "native_corrected_bootstrap_O": 0.04560458323517901,
+      "native_prior_correct_algorithm": 0.04560458323517901,
+      "Python_M1": 0.0456045832624699,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 2.729088482977815e-11,
+      "source_cell": "'Complete data set'!C12"
+    },
+    {
+      "kind": "path",
+      "label": "AIR -> TR",
+      "native_corrected_bootstrap_O": 0.2629958678860406,
+      "native_prior_correct_algorithm": 0.2629958678860406,
+      "Python_M1": 0.26299586790984975,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 2.38091213411451e-11,
+      "source_cell": "'Complete data set'!C13"
+    },
+    {
+      "kind": "path",
+      "label": "EXP -> AD",
+      "native_corrected_bootstrap_O": 0.3371908894905286,
+      "native_prior_correct_algorithm": 0.3371908894905286,
+      "Python_M1": 0.3371908894723194,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 1.8209211916087042e-11,
+      "source_cell": "'Complete data set'!C14"
+    },
+    {
+      "kind": "path",
+      "label": "EXP -> TR",
+      "native_corrected_bootstrap_O": 0.2929233611015383,
+      "native_prior_correct_algorithm": 0.2929233611015383,
+      "Python_M1": 0.2929233610954252,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 6.113110018191037e-12,
+      "source_cell": "'Complete data set'!C15"
+    },
+    {
+      "kind": "path",
+      "label": "PP -> AD",
+      "native_corrected_bootstrap_O": 0.1564633783802753,
+      "native_prior_correct_algorithm": 0.1564633783802753,
+      "Python_M1": 0.15646337837594637,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 4.328926106467179e-12,
+      "source_cell": "'Complete data set'!C16"
+    },
+    {
+      "kind": "path",
+      "label": "PP -> TR",
+      "native_corrected_bootstrap_O": 0.31346321425413864,
+      "native_prior_correct_algorithm": 0.31346321425413864,
+      "Python_M1": 0.31346321422559736,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 2.8541280450156137e-11,
+      "source_cell": "'Complete data set'!C17"
+    },
+    {
+      "kind": "path",
+      "label": "TR -> AD",
+      "native_corrected_bootstrap_O": 0.30401188783830463,
+      "native_prior_correct_algorithm": 0.30401188783830463,
+      "Python_M1": 0.30401188783210503,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 6.199596391809337e-12,
+      "source_cell": "'Complete data set'!C18"
+    },
+    {
+      "kind": "loading",
+      "label": "AD1 <- AD",
+      "native_corrected_bootstrap_O": 0.8314149645022687,
+      "native_prior_correct_algorithm": 0.8314149645022687,
+      "Python_M1": 0.8314149644018577,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 1.0041101283775333e-10,
+      "source_cell": "'Complete data set'!C133"
+    },
+    {
+      "kind": "loading",
+      "label": "AD2 <- AD",
+      "native_corrected_bootstrap_O": 0.838288687921639,
+      "native_prior_correct_algorithm": 0.838288687921639,
+      "Python_M1": 0.8382886878634753,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 5.816369608169225e-11,
+      "source_cell": "'Complete data set'!C134"
+    },
+    {
+      "kind": "loading",
+      "label": "AD3 <- AD",
+      "native_corrected_bootstrap_O": 0.8236602450640387,
+      "native_prior_correct_algorithm": 0.8236602450640387,
+      "Python_M1": 0.8236602451464721,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 8.24333934446031e-11,
+      "source_cell": "'Complete data set'!C135"
+    },
+    {
+      "kind": "loading",
+      "label": "AD4 <- AD",
+      "native_corrected_bootstrap_O": 0.8175745858096927,
+      "native_prior_correct_algorithm": 0.8175745858096927,
+      "Python_M1": 0.8175745858943066,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 8.461398248726937e-11,
+      "source_cell": "'Complete data set'!C136"
+    },
+    {
+      "kind": "loading",
+      "label": "AIR2 <- AIR",
+      "native_corrected_bootstrap_O": 0.8280859913234587,
+      "native_prior_correct_algorithm": 0.8280859913234587,
+      "Python_M1": 0.8280859913156576,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 7.801093104831125e-12,
+      "source_cell": "'Complete data set'!C137"
+    },
+    {
+      "kind": "loading",
+      "label": "AIR3 <- AIR",
+      "native_corrected_bootstrap_O": 0.8526560759582387,
+      "native_prior_correct_algorithm": 0.8526560759582387,
+      "Python_M1": 0.8526560759884332,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 3.019451355612546e-11,
+      "source_cell": "'Complete data set'!C138"
+    },
+    {
+      "kind": "loading",
+      "label": "AIR4 <- AIR",
+      "native_corrected_bootstrap_O": 0.8536470405887969,
+      "native_prior_correct_algorithm": 0.8536470405887969,
+      "Python_M1": 0.8536470406528767,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 6.407974151301232e-11,
+      "source_cell": "'Complete data set'!C139"
+    },
+    {
+      "kind": "loading",
+      "label": "EXP1 <- EXP",
+      "native_corrected_bootstrap_O": 0.8121493704349558,
+      "native_prior_correct_algorithm": 0.8121493704349558,
+      "Python_M1": 0.8121493705247951,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 8.983924715266767e-11,
+      "source_cell": "'Complete data set'!C140"
+    },
+    {
+      "kind": "loading",
+      "label": "EXP2 <- EXP",
+      "native_corrected_bootstrap_O": 0.8366279285822507,
+      "native_prior_correct_algorithm": 0.8366279285822507,
+      "Python_M1": 0.8366279285712019,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 1.1048717496464633e-11,
+      "source_cell": "'Complete data set'!C141"
+    },
+    {
+      "kind": "loading",
+      "label": "EXP3 <- EXP",
+      "native_corrected_bootstrap_O": 0.8042852231087727,
+      "native_prior_correct_algorithm": 0.8042852231087727,
+      "Python_M1": 0.8042852230649897,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 4.37829772437226e-11,
+      "source_cell": "'Complete data set'!C142"
+    },
+    {
+      "kind": "loading",
+      "label": "EXP4 <- EXP",
+      "native_corrected_bootstrap_O": 0.8340170719174274,
+      "native_prior_correct_algorithm": 0.8340170719174274,
+      "Python_M1": 0.8340170718869941,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 3.0433211506419866e-11,
+      "source_cell": "'Complete data set'!C143"
+    },
+    {
+      "kind": "loading",
+      "label": "PP1 <- PP",
+      "native_corrected_bootstrap_O": 0.8528135103089136,
+      "native_prior_correct_algorithm": 0.8528135103089136,
+      "Python_M1": 0.8528135103325044,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 2.3590795983352564e-11,
+      "source_cell": "'Complete data set'!C144"
+    },
+    {
+      "kind": "loading",
+      "label": "PP2 <- PP",
+      "native_corrected_bootstrap_O": 0.853864590046187,
+      "native_prior_correct_algorithm": 0.853864590046187,
+      "Python_M1": 0.8538645899666278,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 7.955913705615103e-11,
+      "source_cell": "'Complete data set'!C145"
+    },
+    {
+      "kind": "loading",
+      "label": "PP3 <- PP",
+      "native_corrected_bootstrap_O": 0.8617266925000904,
+      "native_prior_correct_algorithm": 0.8617266925000904,
+      "Python_M1": 0.8617266925398209,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 3.9730552181538314e-11,
+      "source_cell": "'Complete data set'!C146"
+    },
+    {
+      "kind": "loading",
+      "label": "PP4 <- PP",
+      "native_corrected_bootstrap_O": 0.8577992781852297,
+      "native_prior_correct_algorithm": 0.8577992781852297,
+      "Python_M1": 0.8577992782028725,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 1.7642776128923288e-11,
+      "source_cell": "'Complete data set'!C147"
+    },
+    {
+      "kind": "loading",
+      "label": "TR1 <- TR",
+      "native_corrected_bootstrap_O": 0.8473893915299832,
+      "native_prior_correct_algorithm": 0.8473893915299832,
+      "Python_M1": 0.8473893915107165,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 1.9266699347042504e-11,
+      "source_cell": "'Complete data set'!C148"
+    },
+    {
+      "kind": "loading",
+      "label": "TR2 <- TR",
+      "native_corrected_bootstrap_O": 0.8428281340688039,
+      "native_prior_correct_algorithm": 0.8428281340688039,
+      "Python_M1": 0.8428281341350791,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 6.627520754420857e-11,
+      "source_cell": "'Complete data set'!C149"
+    },
+    {
+      "kind": "loading",
+      "label": "TR3 <- TR",
+      "native_corrected_bootstrap_O": 0.8308905303211711,
+      "native_prior_correct_algorithm": 0.8308905303211711,
+      "Python_M1": 0.8308905303060865,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 1.5084600235582002e-11,
+      "source_cell": "'Complete data set'!C150"
+    },
+    {
+      "kind": "loading",
+      "label": "TR4 <- TR",
+      "native_corrected_bootstrap_O": 0.8415474084839925,
+      "native_prior_correct_algorithm": 0.8415474084839925,
+      "Python_M1": 0.8415474084556509,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 2.834155132802607e-11,
+      "source_cell": "'Complete data set'!C151"
+    },
+    {
+      "kind": "loading",
+      "label": "AIR1 <- AIR",
+      "native_corrected_bootstrap_O": 0.8182715102309702,
+      "native_prior_correct_algorithm": 0.8182715102309702,
+      "Python_M1": 0.8182715101369121,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 9.405809464624326e-11,
+      "source_cell": "'Complete data set'!C152"
+    },
+    {
+      "kind": "r2",
+      "label": "AD",
+      "native_corrected_bootstrap_O": 0.57590444650168,
+      "native_prior_correct_algorithm": 0.57590444650168,
+      "Python_M1": 0.5759044464905884,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 1.1091683127517626e-11,
+      "source_cell": "'Complete data set'!C293"
+    },
+    {
+      "kind": "r2",
+      "label": "TR",
+      "native_corrected_bootstrap_O": 0.6156559031050265,
+      "native_prior_correct_algorithm": 0.6156559031050265,
+      "Python_M1": 0.6156559030858442,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 1.9182322397170992e-11,
+      "source_cell": "'Complete data set'!C294"
+    },
+    {
+      "kind": "specific_indirect",
+      "label": "AIR -> TR -> AD",
+      "native_corrected_bootstrap_O": 0.07995387028970856,
+      "native_prior_correct_algorithm": 0.07995387028970856,
+      "Python_M1": 0.07995387029531635,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 5.607792008532897e-12,
+      "source_cell": "'Complete data set'!C75"
+    },
+    {
+      "kind": "specific_indirect",
+      "label": "EXP -> TR -> AD",
+      "native_corrected_bootstrap_O": 0.08905218400042007,
+      "native_prior_correct_algorithm": 0.08905218400042007,
+      "Python_M1": 0.08905218399674561,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 3.674463511238457e-12,
+      "source_cell": "'Complete data set'!C76"
+    },
+    {
+      "kind": "specific_indirect",
+      "label": "PP -> TR -> AD",
+      "native_corrected_bootstrap_O": 0.09529654353326365,
+      "native_prior_correct_algorithm": 0.09529654353326365,
+      "Python_M1": 0.09529654352264341,
+      "abs_difference_vs_native_algorithm": 0.0,
+      "abs_difference_vs_Python": 1.0620240797898362e-11,
+      "source_cell": "'Complete data set'!C77"
+    }
+  ],
+  "max_point_diff_native_vs_algorithm": 0.0,
+  "max_point_diff_native_vs_Python": 1.0041101283775333e-10,
+  "fit_comparisons": [
+    {
+      "metric": "SRMR",
+      "model_type": "mixed",
+      "quantity": "Original sample (O)",
+      "saturated": 0.049034132624745756,
+      "estimated": 0.04903413262474561,
+      "abs_difference": 1.457167719820518e-16,
+      "saturated_cell": "'Complete data set'!C664",
+      "estimated_cell": "'Complete data set'!C665"
+    },
+    {
+      "metric": "SRMR",
+      "model_type": "mixed",
+      "quantity": "Sample mean (M)",
+      "saturated": 0.03968750320737916,
+      "estimated": 0.039687503207379154,
+      "abs_difference": 6.938893903907228e-18,
+      "saturated_cell": "'Complete data set'!D664",
+      "estimated_cell": "'Complete data set'!D665"
+    },
+    {
+      "metric": "SRMR",
+      "model_type": "mixed",
+      "quantity": "HI95",
+      "saturated": 0.04469634311889124,
+      "estimated": 0.044696343118890924,
+      "abs_difference": 3.122502256758253e-16,
+      "saturated_cell": "'Complete data set'!E664",
+      "estimated_cell": "'Complete data set'!E665"
+    },
+    {
+      "metric": "SRMR",
+      "model_type": "mixed",
+      "quantity": "HI99",
+      "saturated": 0.047184984052293565,
+      "estimated": 0.04718498405229435,
+      "abs_difference": 7.840950111415168e-16,
+      "saturated_cell": "'Complete data set'!F664",
+      "estimated_cell": "'Complete data set'!F665"
+    },
+    {
+      "metric": "SRMR",
+      "model_type": "composite",
+      "quantity": "Original sample (O)",
+      "saturated": 0.031025617192689436,
+      "estimated": 0.031025617192689425,
+      "abs_difference": 1.0408340855860843e-17,
+      "saturated_cell": "'Complete data set'!C666",
+      "estimated_cell": "'Complete data set'!C667"
+    },
+    {
+      "metric": "SRMR",
+      "model_type": "composite",
+      "quantity": "Sample mean (M)",
+      "saturated": 0.02919501947545534,
+      "estimated": 0.02919501947545533,
+      "abs_difference": 1.0408340855860843e-17,
+      "saturated_cell": "'Complete data set'!D666",
+      "estimated_cell": "'Complete data set'!D667"
+    },
+    {
+      "metric": "SRMR",
+      "model_type": "composite",
+      "quantity": "HI95",
+      "saturated": 0.03450845440297345,
+      "estimated": 0.034508454402973385,
+      "abs_difference": 6.245004513516506e-17,
+      "saturated_cell": "'Complete data set'!E666",
+      "estimated_cell": "'Complete data set'!E667"
+    },
+    {
+      "metric": "SRMR",
+      "model_type": "composite",
+      "quantity": "HI99",
+      "saturated": 0.037013038565741715,
+      "estimated": 0.03701303856574172,
+      "abs_difference": 6.938893903907228e-18,
+      "saturated_cell": "'Complete data set'!F666",
+      "estimated_cell": "'Complete data set'!F667"
+    },
+    {
+      "metric": "d_ULS",
+      "model_type": "mixed",
+      "quantity": "Original sample (O)",
+      "saturated": 0.5049126940748432,
+      "estimated": 0.50491269407484,
+      "abs_difference": 3.219646771412954e-15,
+      "saturated_cell": "'Complete data set'!C674",
+      "estimated_cell": "'Complete data set'!C675"
+    },
+    {
+      "metric": "d_ULS",
+      "model_type": "mixed",
+      "quantity": "Sample mean (M)",
+      "saturated": 0.3326203975956561,
+      "estimated": 0.3326203975956556,
+      "abs_difference": 4.996003610813204e-16,
+      "saturated_cell": "'Complete data set'!D674",
+      "estimated_cell": "'Complete data set'!D675"
+    },
+    {
+      "metric": "d_ULS",
+      "model_type": "mixed",
+      "quantity": "HI95",
+      "saturated": 0.4195302485223482,
+      "estimated": 0.4195302485223421,
+      "abs_difference": 6.106226635438361e-15,
+      "saturated_cell": "'Complete data set'!E674",
+      "estimated_cell": "'Complete data set'!E675"
+    },
+    {
+      "metric": "d_ULS",
+      "model_type": "mixed",
+      "quantity": "HI99",
+      "saturated": 0.4675487712031919,
+      "estimated": 0.4675487712032076,
+      "abs_difference": 1.5709655798445965e-14,
+      "saturated_cell": "'Complete data set'!F674",
+      "estimated_cell": "'Complete data set'!F675"
+    },
+    {
+      "metric": "d_ULS",
+      "model_type": "composite",
+      "quantity": "Original sample (O)",
+      "saturated": 0.20214367365933428,
+      "estimated": 0.2021436736593343,
+      "abs_difference": 2.7755575615628914e-17,
+      "saturated_cell": "'Complete data set'!C676",
+      "estimated_cell": "'Complete data set'!C677"
+    },
+    {
+      "metric": "d_ULS",
+      "model_type": "composite",
+      "quantity": "Sample mean (M)",
+      "saturated": 0.18094929318106875,
+      "estimated": 0.18094929318106823,
+      "abs_difference": 5.273559366969494e-16,
+      "saturated_cell": "'Complete data set'!D676",
+      "estimated_cell": "'Complete data set'!D677"
+    },
+    {
+      "metric": "d_ULS",
+      "model_type": "composite",
+      "quantity": "HI95",
+      "saturated": 0.25007501930924037,
+      "estimated": 0.25007501930923953,
+      "abs_difference": 8.326672684688674e-16,
+      "saturated_cell": "'Complete data set'!E676",
+      "estimated_cell": "'Complete data set'!E677"
+    },
+    {
+      "metric": "d_ULS",
+      "model_type": "composite",
+      "quantity": "HI99",
+      "saturated": 0.2876926550125075,
+      "estimated": 0.2876926550125076,
+      "abs_difference": 1.1102230246251565e-16,
+      "saturated_cell": "'Complete data set'!F676",
+      "estimated_cell": "'Complete data set'!F677"
+    },
+    {
+      "metric": "d_G",
+      "model_type": "mixed",
+      "quantity": "Original sample (O)",
+      "saturated": 0.27555050660640396,
+      "estimated": 0.275550506606403,
+      "abs_difference": 9.43689570931383e-16,
+      "saturated_cell": "'Complete data set'!C684",
+      "estimated_cell": "'Complete data set'!C685"
+    },
+    {
+      "metric": "d_G",
+      "model_type": "mixed",
+      "quantity": "Sample mean (M)",
+      "saturated": 0.24199588491558197,
+      "estimated": 0.2419958849155818,
+      "abs_difference": 1.6653345369377348e-16,
+      "saturated_cell": "'Complete data set'!D684",
+      "estimated_cell": "'Complete data set'!D685"
+    },
+    {
+      "metric": "d_G",
+      "model_type": "mixed",
+      "quantity": "HI95",
+      "saturated": 0.27468191063569414,
+      "estimated": 0.2746819106356942,
+      "abs_difference": 5.551115123125783e-17,
+      "saturated_cell": "'Complete data set'!E684",
+      "estimated_cell": "'Complete data set'!E685"
+    },
+    {
+      "metric": "d_G",
+      "model_type": "mixed",
+      "quantity": "HI99",
+      "saturated": 0.2895440785764425,
+      "estimated": 0.28954407857644127,
+      "abs_difference": 1.2212453270876722e-15,
+      "saturated_cell": "'Complete data set'!F684",
+      "estimated_cell": "'Complete data set'!F685"
+    },
+    {
+      "metric": "d_G",
+      "model_type": "composite",
+      "quantity": "Original sample (O)",
+      "saturated": 0.14543998324589463,
+      "estimated": 0.14543998324589455,
+      "abs_difference": 8.326672684688674e-17,
+      "saturated_cell": "'Complete data set'!C686",
+      "estimated_cell": "'Complete data set'!C687"
+    },
+    {
+      "metric": "d_G",
+      "model_type": "composite",
+      "quantity": "Sample mean (M)",
+      "saturated": 0.12716048584453407,
+      "estimated": 0.12716048584453413,
+      "abs_difference": 5.551115123125783e-17,
+      "saturated_cell": "'Complete data set'!D686",
+      "estimated_cell": "'Complete data set'!D687"
+    },
+    {
+      "metric": "d_G",
+      "model_type": "composite",
+      "quantity": "HI95",
+      "saturated": 0.16405150357051812,
+      "estimated": 0.16405150357051945,
+      "abs_difference": 1.3322676295501878e-15,
+      "saturated_cell": "'Complete data set'!E686",
+      "estimated_cell": "'Complete data set'!E687"
+    },
+    {
+      "metric": "d_G",
+      "model_type": "composite",
+      "quantity": "HI99",
+      "saturated": 0.18144281596220577,
+      "estimated": 0.18144281596220657,
+      "abs_difference": 8.049116928532385e-16,
+      "saturated_cell": "'Complete data set'!F686",
+      "estimated_cell": "'Complete data set'!F687"
+    }
+  ],
+  "fit_max_abs_saturated_vs_estimated_difference": 1.5709655798445965e-14,
+  "interpretive_boundary": [
+    "Correct native five-construct M1 bootstrap identity is now verified; previous four-construct bootstrap must remain separate.",
+    "M1 has all7recursive paths with3freely correlated exogenous composites; its structural score covariance is saturated.",
+    "Saturated and estimated SRMR/d_ULS/d_G equal numerically in both mixed and composite models, as expected from that structural saturation. This is not independent confirmation of added direct paths or causal/mediation theory.",
+    "The full item measurement model need not be saturated. Mixed and composite fit statistics differ; simple SRMR cutoffs are not interchangeable with bootstrap exact-fit tests.",
+    "Same-sample exploratory M1 remains supplemental; M0 prespecified primary model and unresolved construct-discrimination caveats remain."
+  ],
+  "original_files_modified": false
+}

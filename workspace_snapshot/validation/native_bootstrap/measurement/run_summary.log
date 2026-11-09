@@ -1,0 +1,96 @@
+{
+  "source_workbook": "/workspace/attachments/881a3fc0-4752-40da-b923-58fd2e3add93/KidSense_Bootstrap_10000.xlsx",
+  "source_workbook_sha256": "34fbb57b2a0cce95c1792fdcea91a275d6da5417b64b55e1b6e1b5451b3ae5bd",
+  "input_CSV_sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624",
+  "input_data_verification": {
+    "native_original_rows": 271,
+    "native_original_columns": 20,
+    "normalized_header_names_match": true,
+    "row_order_same": true,
+    "all_5420_item_values_exact_match": true,
+    "max_abs_cell_difference": 0.0,
+    "BOM_header_note": "Native export retains U+FEFF before AIR1; normalized ONLY for name mapping. It does not change any item value or construct assignment."
+  },
+  "settings": {
+    "Max. number of iterations": "3000",
+    "Stop criterion": "10\u207b\u2077",
+    "Use Lohmoeller settings?": "No",
+    "Initial weights": "1.0",
+    "Weighting scheme": "Path",
+    "Type of results": "Standardized",
+    "Complexity": "Complete (slower)",
+    "Save results per sample": "No",
+    "Confidence interval method": "Percentile bootstrap",
+    "Parallel processing": "Yes",
+    "Significance level": "0.05",
+    "Test type": "Two-tailed",
+    "Samples": "10000",
+    "Seed": "Fixed seed"
+  },
+  "native_construct_outer_weighting_modes": {
+    "AD": "AUTOMATIC",
+    "AIR": "AUTOMATIC",
+    "EXP": "AUTOMATIC",
+    "PP": "AUTOMATIC",
+    "TR": "AUTOMATIC"
+  },
+  "outer_mode_note": "Export records AUTOMATIC for all five constructs, not an explicit Mode A label. Native outer model has -1 codes for all 20 reflective links. Independent reflective Mode A fit reproduces their loadings to numerical precision.",
+  "inner_edges": [
+    [
+      "AIR",
+      "TR"
+    ],
+    [
+      "EXP",
+      "TR"
+    ],
+    [
+      "PP",
+      "TR"
+    ],
+    [
+      "TR",
+      "AD"
+    ]
+  ],
+  "comparison_count": 35,
+  "max_abs_numeric_difference": 4.796664176964782e-10,
+  "rho_A_native_new": [
+    {
+      "construct": "AD",
+      "native_rho_A": 0.848220967409662,
+      "native_cell": "'Complete data set'!C408",
+      "prior_reference_available": false,
+      "note": "New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+    },
+    {
+      "construct": "AIR",
+      "native_rho_A": 0.8595253952948633,
+      "native_cell": "'Complete data set'!C409",
+      "prior_reference_available": false,
+      "note": "New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+    },
+    {
+      "construct": "EXP",
+      "native_rho_A": 0.8450979029611886,
+      "native_cell": "'Complete data set'!C410",
+      "prior_reference_available": false,
+      "note": "New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+    },
+    {
+      "construct": "PP",
+      "native_rho_A": 0.8802801027535126,
+      "native_cell": "'Complete data set'!C411",
+      "prior_reference_available": false,
+      "note": "New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+    },
+    {
+      "construct": "TR",
+      "native_rho_A": 0.8629584450611073,
+      "native_cell": "'Complete data set'!C412",
+      "prior_reference_available": false,
+      "note": "New native SmartPLS result; no rho_A existed in original Python output, not independently recomputed here."
+    }
+  ],
+  "interpretation": "Point measurement results agree within 1e-8. This audit does not compare their bootstrap SE/CI. Source selection 323\u2192271 remains outside this dataset scope."
+}

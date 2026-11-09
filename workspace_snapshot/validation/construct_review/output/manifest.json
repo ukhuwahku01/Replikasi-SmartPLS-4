@@ -1,0 +1,18 @@
+{
+  "definitions_source": "Exact user message; saved verbatim definitions/items in definitions_and_items_user.json",
+  "native_M0_primary_preserved": true,
+  "M1_status": "Posthoc exploratory M1;corrected native7path bootstrap andpoint estimates verified;not primary replacement",
+  "M1_native_source": "KidSense_M1_DenganTR_Bootstrap_10000.xlsx",
+  "M1_native_source_sha256": "a12a4feffa63cd5233a00dcf3df3aeab3f751b5a856dfef8df67c1dbb6c47278",
+  "M1_bootstraps": 10000,
+  "M1_CSV_sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624",
+  "M1_structural_saturation": {
+    "structural_parameters": 15,
+    "observed_score_covariance_unique_entries": 15,
+    "implied_vs_score_covariance_max_abs_diff": 1.1102230246251565e-16,
+    "boundary": "Three correlated exogenous composites freely covary; TR has all3 X parents; AD has all4 preceding composites as parents. This complete recursive structural covariance parameterization is saturated (zero structural covariance degrees of freedom).",
+    "implication": "Any improved in-sample score covariance fit or AD R2 is not evidence confirming the added paths, causality or mediation theory. Measurement restrictions can remain; the full item-level model need not be saturated."
+  },
+  "exposure_context": "Confirmed by user: descriptions/images design only; conceptual survey, not functional prototype use",
+  "original_items_and_cases_modified": false
+}

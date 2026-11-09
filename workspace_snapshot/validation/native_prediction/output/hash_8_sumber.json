@@ -1,0 +1,42 @@
+[
+  {
+    "file": "KidSense_HTMT_10000_validation.json",
+    "sha256": "6ee09b3e00a59b1d6fda1e2bf4a3992cb7fd88253651dd952883bced1b8e8fc3",
+    "size": 5079
+  },
+  {
+    "file": "KidSense_SmartPLS4_Input_271.csv",
+    "sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624",
+    "size": 11203
+  },
+  {
+    "file": "KidSense_CV_Prediction_Exploratory.json",
+    "sha256": "07f51394c22b901c185da59f4e6821e7543caf731162a3db1596a30beae65c01",
+    "size": 3658
+  },
+  {
+    "file": "KidSense_JADS_Validasi_Lanjutan_10000.xlsx",
+    "sha256": "5867907a2721edc11a4aebdc7ac60deaa299b6f6584f636ff4a23ea6148b8cf0",
+    "size": 14455
+  },
+  {
+    "file": "KidSense_PLS_10000_results.json",
+    "sha256": "2dca916d499170314193f665858790716f836c6a789772c5185ec29c3581c3f1",
+    "size": 2298
+  },
+  {
+    "file": "KidSense_Bootstrap_10000.xlsx",
+    "sha256": "34fbb57b2a0cce95c1792fdcea91a275d6da5417b64b55e1b6e1b5451b3ae5bd",
+    "size": 116514
+  },
+  {
+    "file": "KidSense_HTMT_BCa_10000_OneTailed.xlsx",
+    "sha256": "0edefe9e682ec5e35537cf57894991d946e88e1175d213f1be14bcef142851fe",
+    "size": 116447
+  },
+  {
+    "file": "KidSense_PLSpredict_10x10.xlsx",
+    "sha256": "9e7986e732964003978f57f19362d29c5b9731690e44f51537c8d75bc1f68dd9",
+    "size": 868794
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "format": "Descriptive specification only; NOT an importable SmartPLS project",
+  "native_execution_status": "not_run",
+  "data_file": "KidSense_SmartPLS4_Input_271.csv",
+  "n": 271,
+  "measurement": {
+    "AIR": {
+      "mode": "reflective A",
+      "indicators": [
+        "AIR1",
+        "AIR2",
+        "AIR3",
+        "AIR4"
+      ]
+    },
+    "EXP": {
+      "mode": "reflective A",
+      "indicators": [
+        "EXP1",
+        "EXP2",
+        "EXP3",
+        "EXP4"
+      ]
+    },
+    "PP": {
+      "mode": "reflective A",
+      "indicators": [
+        "PP1",
+        "PP2",
+        "PP3",
+        "PP4"
+      ]
+    },
+    "TR": {
+      "mode": "reflective A",
+      "indicators": [
+        "TR1",
+        "TR2",
+        "TR3",
+        "TR4"
+      ]
+    },
+    "AD": {
+      "mode": "reflective A",
+      "indicators": [
+        "AD1",
+        "AD2",
+        "AD3",
+        "AD4"
+      ]
+    }
+  },
+  "paths": [
+    [
+      "AIR",
+      "TR"
+    ],
+    [
+      "EXP",
+      "TR"
+    ],
+    [
+      "PP",
+      "TR"
+    ],
+    [
+      "TR",
+      "AD"
+    ]
+  ],
+  "estimator": "PLS-SEM path weighting",
+  "bootstrap_paths": {
+    "subsamples": 10000,
+    "tails": "two",
+    "CI": "percentile",
+    "confidence": 0.95
+  },
+  "bootstrap_HTMT": {
+    "subsamples": 10000,
+    "tails": "one",
+    "upper_CI": "bias-corrected BC if available; record exact method",
+    "confidence": 0.95,
+    "criterion_upper_below": 0.9
+  },
+  "prediction": {
+    "folds": 10,
+    "repetitions": 10,
+    "record_prediction_design": true
+  },
+  "native_license_status": "not_available_per_user_reply"
+}

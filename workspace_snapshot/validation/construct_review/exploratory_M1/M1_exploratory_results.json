@@ -1,0 +1,350 @@
+{
+  "status": "Exploratory supplemental Python M1; native SmartPLS M1 unrun; M0 primary model preserved",
+  "source_csv": "/workspace/smartpls4_native/KidSense_SmartPLS4_Input_271.csv",
+  "source_sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624",
+  "n": 271,
+  "indicator_count": 20,
+  "constructs": [
+    "AIR",
+    "EXP",
+    "PP",
+    "TR",
+    "AD"
+  ],
+  "investigator_supplied_construct_meanings": {
+    "AIR": "Perceived AI reliability, not objective AI reliability",
+    "EXP": "Perceived explainability: understanding reasons/basis/confidence/errors/interpreting alerts",
+    "PP": "Perceived privacy protection of child data/consent camera-mic/storage-deletion/overall adequacy, not technical security audit",
+    "TR": "Trust",
+    "AD": "Hypothetical conditional adoption intention: trial/use/early warnings/continuance, not observed adoption"
+  },
+  "construct_definition_provenance": "Investigator operational definitions; no theoretical source supplied",
+  "measurement": "All20 original indicators retained in reflective Mode A; no data filtering or item deletion",
+  "estimator": "Custom covariance-based PLS-PM Mode A path weighting; convergence max normalized weight change1e-12; maximum1000 iterations; positive block orientation",
+  "M0_control": {
+    "beta_max_abs_difference": 2.220446049250313e-16,
+    "loadings_max_abs_difference": 3.3306690738754696e-16,
+    "r2_max_abs_difference": 2.220446049250313e-16,
+    "control_tolerance": 1e-08
+  },
+  "M0_paths": [
+    "AIR -> TR",
+    "EXP -> TR",
+    "PP -> TR",
+    "TR -> AD"
+  ],
+  "M1_paths": [
+    "AIR -> TR",
+    "EXP -> TR",
+    "PP -> TR",
+    "TR -> AD",
+    "AIR -> AD",
+    "EXP -> AD",
+    "PP -> AD"
+  ],
+  "M1_supplement_rationale": "Add all AIR/EXP/PP direct paths to AD together to investigate TR-only AD restrictions, not select paths by p value.",
+  "bootstrap": {
+    "resamples": 10000,
+    "independent_default_rng_seeds": [
+      20261106,
+      20261107,
+      20261108,
+      20261109
+    ],
+    "resamples_per_seed": 2500,
+    "seed_streams_combined_in_order": true,
+    "interval": "Percentile2.5% and97.5%; two-sided95%",
+    "standard_error": "SampleSD,ddof1",
+    "numeric_seed_matches_native": false,
+    "native_bootstrap_not_expected_identical": "Different RNG/resampling implementations and construct-score fitting can produce different bootstrap SE and intervals.",
+    "max_iterations_observed": 12
+  },
+  "results": [
+    {
+      "kind": "path",
+      "effect": "AIR -> TR",
+      "estimate": 0.26299586790984975,
+      "bootstrap_mean": 0.2646263180967797,
+      "bootstrap_SE": 0.06290208391414094,
+      "CI95_percentile_low": 0.13908352030515855,
+      "CI95_percentile_high": 0.3862060000253864,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "path",
+      "effect": "EXP -> TR",
+      "estimate": 0.2929233610954252,
+      "bootstrap_mean": 0.29271405751409535,
+      "bootstrap_SE": 0.06889293755483485,
+      "CI95_percentile_low": 0.15414310426091837,
+      "CI95_percentile_high": 0.42550969384413556,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "path",
+      "effect": "PP -> TR",
+      "estimate": 0.31346321422559736,
+      "bootstrap_mean": 0.3124822411120482,
+      "bootstrap_SE": 0.07661765977937006,
+      "CI95_percentile_low": 0.1635785079377662,
+      "CI95_percentile_high": 0.4630707633279774,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "path",
+      "effect": "TR -> AD",
+      "estimate": 0.30401188783210503,
+      "bootstrap_mean": 0.3023539037119343,
+      "bootstrap_SE": 0.07652300262652069,
+      "CI95_percentile_low": 0.15763768882149232,
+      "CI95_percentile_high": 0.45772178357290544,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "path",
+      "effect": "AIR -> AD",
+      "estimate": 0.0456045832624699,
+      "bootstrap_mean": 0.046881351087334204,
+      "bootstrap_SE": 0.06929259712630112,
+      "CI95_percentile_low": -0.08938222075947676,
+      "CI95_percentile_high": 0.1814794246353297,
+      "CI_excludes_zero": false,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "path",
+      "effect": "EXP -> AD",
+      "estimate": 0.3371908894723194,
+      "bootstrap_mean": 0.3371802087967234,
+      "bootstrap_SE": 0.09912129019216039,
+      "CI95_percentile_low": 0.13034672114551724,
+      "CI95_percentile_high": 0.5188466074011315,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "path",
+      "effect": "PP -> AD",
+      "estimate": 0.15646337837594637,
+      "bootstrap_mean": 0.15752567131541897,
+      "bootstrap_SE": 0.07088521618602388,
+      "CI95_percentile_low": 0.01865429658604214,
+      "CI95_percentile_high": 0.29776263339133635,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "specific_indirect",
+      "effect": "AIR -> TR -> AD",
+      "estimate": 0.07995387029531635,
+      "bootstrap_mean": 0.08009533932208941,
+      "bootstrap_SE": 0.028581359749501007,
+      "CI95_percentile_low": 0.03219627488036321,
+      "CI95_percentile_high": 0.14319591570079063,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "specific_indirect",
+      "effect": "EXP -> TR -> AD",
+      "estimate": 0.08905218399674561,
+      "bootstrap_mean": 0.0887716070662166,
+      "bootstrap_SE": 0.03180129101576014,
+      "CI95_percentile_low": 0.03565344970445808,
+      "CI95_percentile_high": 0.15806290384516558,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "specific_indirect",
+      "effect": "PP -> TR -> AD",
+      "estimate": 0.09529654352264341,
+      "bootstrap_mean": 0.09444161250164469,
+      "bootstrap_SE": 0.033514001050403135,
+      "CI95_percentile_low": 0.037616218854633794,
+      "CI95_percentile_high": 0.16719222395505662,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "total_association",
+      "effect": "AIR total -> AD",
+      "estimate": 0.12555845355778625,
+      "bootstrap_mean": 0.1269766904094236,
+      "bootstrap_SE": 0.06371263825809623,
+      "CI95_percentile_low": 0.002577115585345431,
+      "CI95_percentile_high": 0.25141712081058104,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "total_association",
+      "effect": "EXP total -> AD",
+      "estimate": 0.426243073469065,
+      "bootstrap_mean": 0.42595181586294,
+      "bootstrap_SE": 0.09029623671785664,
+      "CI95_percentile_low": 0.23665742992352803,
+      "CI95_percentile_high": 0.5897520149044165,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "total_association",
+      "effect": "PP total -> AD",
+      "estimate": 0.25175992189858976,
+      "bootstrap_mean": 0.2519672838170637,
+      "bootstrap_SE": 0.07422742105745075,
+      "CI95_percentile_low": 0.10896812962401915,
+      "CI95_percentile_high": 0.39950396896278684,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "r2",
+      "effect": "R2 TR",
+      "estimate": 0.6156559030858442,
+      "bootstrap_mean": 0.620388128695392,
+      "bootstrap_SE": 0.04308165169474109,
+      "CI95_percentile_low": 0.5334999925358466,
+      "CI95_percentile_high": 0.6992158782227164,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    },
+    {
+      "kind": "r2",
+      "effect": "R2 AD",
+      "estimate": 0.5759044464905884,
+      "bootstrap_mean": 0.5852962247962711,
+      "bootstrap_SE": 0.059399728585174436,
+      "CI95_percentile_low": 0.4633889218292282,
+      "CI95_percentile_high": 0.6937315522820643,
+      "CI_excludes_zero": true,
+      "bootstrap_valid_count": 10000,
+      "status": "EXPLORATORY PYTHON ONLY; native M1 not run"
+    }
+  ],
+  "M0_r2": {
+    "TR": 0.6163994035272821,
+    "AD": 0.47329481821193004
+  },
+  "M1_r2": {
+    "TR": 0.6156559030858442,
+    "AD": 0.5759044464905884
+  },
+  "M1_score_correlations": [
+    [
+      1.0,
+      0.7096671910079192,
+      0.7120288523131484,
+      0.6940688194264812,
+      0.6073095064410605
+    ],
+    [
+      0.7096671910079192,
+      0.9999999999999999,
+      0.7388583777555469,
+      0.7111678218704623,
+      0.7013627159905726
+    ],
+    [
+      0.7120288523131483,
+      0.7388583777555467,
+      1.0,
+      0.7171527396022161,
+      0.6560944292764458
+    ],
+    [
+      0.6940688194264812,
+      0.7111678218704623,
+      0.7171527396022163,
+      1.0,
+      0.6876720579678455
+    ],
+    [
+      0.6073095064410605,
+      0.7013627159905726,
+      0.6560944292764458,
+      0.6876720579678455,
+      0.9999999999999999
+    ]
+  ],
+  "M1_loadings": {
+    "AIR": {
+      "AIR1": 0.8182715101369121,
+      "AIR2": 0.8280859913156576,
+      "AIR3": 0.8526560759884332,
+      "AIR4": 0.8536470406528767
+    },
+    "EXP": {
+      "EXP1": 0.8121493705247951,
+      "EXP2": 0.8366279285712019,
+      "EXP3": 0.8042852230649897,
+      "EXP4": 0.8340170718869941
+    },
+    "PP": {
+      "PP1": 0.8528135103325044,
+      "PP2": 0.8538645899666278,
+      "PP3": 0.8617266925398209,
+      "PP4": 0.8577992782028725
+    },
+    "TR": {
+      "TR1": 0.8473893915107165,
+      "TR2": 0.8428281341350791,
+      "TR3": 0.8308905303060865,
+      "TR4": 0.8415474084556509
+    },
+    "AD": {
+      "AD1": 0.8314149644018577,
+      "AD2": 0.8382886878634753,
+      "AD3": 0.8236602451464721,
+      "AD4": 0.8175745858943066
+    }
+  },
+  "M1_inner_VIF": {
+    "TR": [
+      2.3877873812041197,
+      2.592479910419868,
+      2.610135397835476
+    ],
+    "AD": [
+      2.5677480651146722,
+      2.8157280262732134,
+      2.865789608376374,
+      2.601835199314516
+    ]
+  },
+  "structural_saturation": {
+    "structural_parameters": 15,
+    "observed_score_covariance_unique_entries": 15,
+    "implied_vs_score_covariance_max_abs_diff": 1.1102230246251565e-16,
+    "boundary": "Three correlated exogenous composites freely covary; TR has all3 X parents; AD has all4 preceding composites as parents. This complete recursive structural covariance parameterization is saturated (zero structural covariance degrees of freedom).",
+    "implication": "Any improved in-sample score covariance fit or AD R2 is not evidence confirming the added paths, causality or mediation theory. Measurement restrictions can remain; the full item-level model need not be saturated."
+  },
+  "limitations": [
+    "Same-sample exploratory supplementary analysis; no preregistration claim.",
+    "Construct weights change when paths are added, so between-model R2 differences are not necessarily pure nested-regression increments on fixed identical scores.",
+    "Direct/indirect estimates are model-conditional associations, not causal effects.",
+    "Discriminant-validity/item-overlap concerns are not solved by adding direct paths.",
+    "Do not replace M0 or claim native SmartPLS validation until a separate native M1 run is exported.",
+    "No external predictive validation or M1 PLSpredict/CVPAT run is supplied."
+  ],
+  "elapsed_seconds": 2.2892351150512695
+}

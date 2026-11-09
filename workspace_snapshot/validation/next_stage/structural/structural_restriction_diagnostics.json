@@ -1,0 +1,175 @@
+{
+  "label": "Diagnostic only; original structural model unchanged",
+  "n": 271,
+  "variables": "Standardized estimated Mode A composite scores, not observed true latent factors",
+  "source_CSV": "/workspace/smartpls4_native/KidSense_SmartPLS4_Input_271.csv",
+  "source_CSV_sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624",
+  "native_bootstrap_workbook": "/workspace/attachments/881a3fc0-4752-40da-b923-58fd2e3add93/KidSense_Bootstrap_10000.xlsx",
+  "score_order": [
+    "AIR",
+    "EXP",
+    "PP",
+    "TR",
+    "AD"
+  ],
+  "score_correlations": [
+    [
+      1.0,
+      0.7096700146396568,
+      0.7129252166043596,
+      0.6938598282258914,
+      0.6064462928224164
+    ],
+    [
+      0.7096700146396568,
+      1.0,
+      0.7386050868445293,
+      0.7116988298166581,
+      0.7014937458088781
+    ],
+    [
+      0.7129252166043597,
+      0.7386050868445293,
+      1.0,
+      0.7181743080597486,
+      0.6555310777020568
+    ],
+    [
+      0.6938598282258913,
+      0.7116988298166582,
+      0.7181743080597486,
+      1.0,
+      0.687964256492974
+    ],
+    [
+      0.6064462928224162,
+      0.701493745808878,
+      0.6555310777020567,
+      0.687964256492974,
+      1.0
+    ]
+  ],
+  "native_corr_max_abs_difference": 8.196021639150786e-11,
+  "native_correlation_comparisons": [
+    {
+      "pair": "AIR <-> AD",
+      "native_corr": 0.6064462927962011,
+      "recomputed_corr": 0.6064462928224164,
+      "abs_difference": 2.621525219126397e-11,
+      "source_cell": "'Complete data set'!C526"
+    },
+    {
+      "pair": "EXP <-> AD",
+      "native_corr": 0.7014937458353891,
+      "recomputed_corr": 0.7014937458088781,
+      "abs_difference": 2.6511015605024113e-11,
+      "source_cell": "'Complete data set'!C527"
+    },
+    {
+      "pair": "EXP <-> AIR",
+      "native_corr": 0.7096700146315676,
+      "recomputed_corr": 0.7096700146396568,
+      "abs_difference": 8.089195979721353e-12,
+      "source_cell": "'Complete data set'!C528"
+    },
+    {
+      "pair": "PP <-> AD",
+      "native_corr": 0.6555310777133422,
+      "recomputed_corr": 0.6555310777020568,
+      "abs_difference": 1.1285417045314716e-11,
+      "source_cell": "'Complete data set'!C529"
+    },
+    {
+      "pair": "PP <-> AIR",
+      "native_corr": 0.7129252166762263,
+      "recomputed_corr": 0.7129252166043597,
+      "abs_difference": 7.186662376312825e-11,
+      "source_cell": "'Complete data set'!C530"
+    },
+    {
+      "pair": "PP <-> EXP",
+      "native_corr": 0.7386050868099544,
+      "recomputed_corr": 0.7386050868445293,
+      "abs_difference": 3.457489849978401e-11,
+      "source_cell": "'Complete data set'!C531"
+    },
+    {
+      "pair": "TR <-> AD",
+      "native_corr": 0.6879642565170907,
+      "recomputed_corr": 0.687964256492974,
+      "abs_difference": 2.41167086301175e-11,
+      "source_cell": "'Complete data set'!C532"
+    },
+    {
+      "pair": "TR <-> AIR",
+      "native_corr": 0.6938598282287216,
+      "recomputed_corr": 0.6938598282258913,
+      "abs_difference": 2.8302915566769116e-12,
+      "source_cell": "'Complete data set'!C533"
+    },
+    {
+      "pair": "TR <-> EXP",
+      "native_corr": 0.7116988298469362,
+      "recomputed_corr": 0.7116988298166582,
+      "abs_difference": 3.027800232757727e-11,
+      "source_cell": "'Complete data set'!C534"
+    },
+    {
+      "pair": "TR <-> PP",
+      "native_corr": 0.7181743081417088,
+      "recomputed_corr": 0.7181743080597486,
+      "abs_difference": 8.196021639150786e-11,
+      "source_cell": "'Complete data set'!C535"
+    }
+  ],
+  "restricted_model": [
+    "AIR->TR",
+    "EXP->TR",
+    "PP->TR",
+    "TR->AD"
+  ],
+  "restriction_equation": "corr(X,AD) = corr(X,TR) * beta(TR->AD) for X=AIR,EXP,PP, under the restricted linear structural model with AD disturbance uncorrelated with upstream X. Since AD has only TR as predictor and scores are standardized, beta(TR->AD)=corr(TR,AD).",
+  "diagnostics": [
+    {
+      "construct": "AIR",
+      "observed_corr_X_TR": 0.6938598282258914,
+      "observed_corr_X_AD": 0.6064462928224164,
+      "beta_TR_AD": 0.6879642564929737,
+      "implied_corr_X_AD_under_restricted_model": 0.47735076083576783,
+      "observed_minus_implied": 0.12909553198664853,
+      "partial_corr_X_AD_controlling_only_TR": 0.24701795448418382,
+      "partial_corr_residual_check": 0.247017954484185,
+      "status": "EXPLORATORY DIAGNOSTIC ONLY"
+    },
+    {
+      "construct": "EXP",
+      "observed_corr_X_TR": 0.7116988298166581,
+      "observed_corr_X_AD": 0.7014937458088781,
+      "beta_TR_AD": 0.6879642564929737,
+      "implied_corr_X_AD_under_restricted_model": 0.4896233563017366,
+      "observed_minus_implied": 0.21187038950714154,
+      "partial_corr_X_AD_controlling_only_TR": 0.41557516888106427,
+      "partial_corr_residual_check": 0.4155751688810647,
+      "status": "EXPLORATORY DIAGNOSTIC ONLY"
+    },
+    {
+      "construct": "PP",
+      "observed_corr_X_TR": 0.7181743080597486,
+      "observed_corr_X_AD": 0.6555310777020568,
+      "beta_TR_AD": 0.6879642564929737,
+      "implied_corr_X_AD_under_restricted_model": 0.49407825387668075,
+      "observed_minus_implied": 0.161452823825376,
+      "partial_corr_X_AD_controlling_only_TR": 0.3196965491217442,
+      "partial_corr_residual_check": 0.3196965491217443,
+      "status": "EXPLORATORY DIAGNOSTIC ONLY"
+    }
+  ],
+  "interpretation": [
+    "All three upstream construct-score associations with AD exceed the values implied by the TR-only AD equation under upstream-orthogonal-disturbance assumptions.",
+    "Positive partial correlations are remaining linear score associations after controlling TR only, not simultaneous direct-path estimates adjusting the other exogenous constructs.",
+    "These discrepancies flag restrictions needing theoretical review; they do not identify a unique cause or justify automatic path additions. Alternatives include unmodeled association, correlated disturbances, imperfect measurement or insufficiently distinct constructs.",
+    "The analysis uses the same sample and data-derived composite weights; it is exploratory, not confirmatory causal or mediation evidence. No hypothesis-test p-values/intervals are supplied for these diagnostic correlations.",
+    "Preserve the prespecified model for primary reporting. A modified model would require substantive item/theory justification, explicit exploratory labeling and preferably validation on independent data."
+  ],
+  "no_new_paths_or_deletions": true
+}

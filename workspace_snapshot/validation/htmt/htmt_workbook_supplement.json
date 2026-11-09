@@ -1,0 +1,200 @@
+{
+  "workbook": "/workspace/attachments/6cb0d79d-f565-4c78-977d-a9f20909c62b/KidSense_JADS_Validasi_Lanjutan_10000.xlsx",
+  "csv": "/workspace/attachments/db7f5ebd-93ee-4498-9458-e1ec5c77d40b/KidSense_SmartPLS4_Input_271.csv",
+  "uniform_definition": "All 20 supplied indicator values are identical within a row.",
+  "uniform_rows_removed": 10,
+  "zero_based_uniform_row_positions": [
+    9,
+    10,
+    14,
+    16,
+    26,
+    39,
+    45,
+    54,
+    57,
+    59
+  ],
+  "workbook_HTMT_10k_vs_json": [
+    {
+      "pair": "AIR-EXP",
+      "max_abs_numeric_difference": 0.0,
+      "At_090_workbook": "Pass",
+      "At_090_expected": "Pass",
+      "At_085_point_workbook": "<.85",
+      "At_085_expected": "<.85"
+    },
+    {
+      "pair": "AIR-PP",
+      "max_abs_numeric_difference": 0.0,
+      "At_090_workbook": "Pass",
+      "At_090_expected": "Pass",
+      "At_085_point_workbook": "<.85",
+      "At_085_expected": "<.85"
+    },
+    {
+      "pair": "AIR-TR",
+      "max_abs_numeric_difference": 0.0,
+      "At_090_workbook": "Pass",
+      "At_090_expected": "Pass",
+      "At_085_point_workbook": "<.85",
+      "At_085_expected": "<.85"
+    },
+    {
+      "pair": "AIR-AD",
+      "max_abs_numeric_difference": 0.0,
+      "At_090_workbook": "Pass",
+      "At_090_expected": "Pass",
+      "At_085_point_workbook": "<.85",
+      "At_085_expected": "<.85"
+    },
+    {
+      "pair": "EXP-PP",
+      "max_abs_numeric_difference": 0.0,
+      "At_090_workbook": "NOT established",
+      "At_090_expected": "NOT established",
+      "At_085_point_workbook": ">=.85",
+      "At_085_expected": ">=.85"
+    },
+    {
+      "pair": "EXP-TR",
+      "max_abs_numeric_difference": 0.0,
+      "At_090_workbook": "Pass",
+      "At_090_expected": "Pass",
+      "At_085_point_workbook": "<.85",
+      "At_085_expected": "<.85"
+    },
+    {
+      "pair": "EXP-AD",
+      "max_abs_numeric_difference": 0.0,
+      "At_090_workbook": "NOT established",
+      "At_090_expected": "NOT established",
+      "At_085_point_workbook": "<.85",
+      "At_085_expected": "<.85"
+    },
+    {
+      "pair": "PP-TR",
+      "max_abs_numeric_difference": 0.0,
+      "At_090_workbook": "Pass",
+      "At_090_expected": "Pass",
+      "At_085_point_workbook": "<.85",
+      "At_085_expected": "<.85"
+    },
+    {
+      "pair": "PP-AD",
+      "max_abs_numeric_difference": 0.0,
+      "At_090_workbook": "Pass",
+      "At_090_expected": "Pass",
+      "At_085_point_workbook": "<.85",
+      "At_085_expected": "<.85"
+    },
+    {
+      "pair": "TR-AD",
+      "max_abs_numeric_difference": 0.0,
+      "At_090_workbook": "Pass",
+      "At_090_expected": "Pass",
+      "At_085_point_workbook": "<.85",
+      "At_085_expected": "<.85"
+    }
+  ],
+  "workbook_HTMT_numeric_max_abs_difference": 0.0,
+  "all_workbook_classifications_match": true,
+  "sensitivity": [
+    {
+      "scenario": "primary",
+      "reported_n": 271,
+      "recomputed_n": 271,
+      "status": "VERIFIED",
+      "values": [
+        {
+          "pair": "EXP-PP",
+          "recomputed": 0.8595095756125558,
+          "reported": 0.8595,
+          "recomputed_rounded4": 0.8595,
+          "matches_reported_rounded4": true,
+          "absolute_rounding_difference": 9.575612555767776e-06
+        },
+        {
+          "pair": "EXP-AD",
+          "recomputed": 0.8284217154860131,
+          "reported": 0.8284,
+          "recomputed_rounded4": 0.8284,
+          "matches_reported_rounded4": true,
+          "absolute_rounding_difference": 2.1715486013040852e-05
+        },
+        {
+          "pair": "AIR-EXP",
+          "recomputed": 0.8329336943741101,
+          "reported": 0.8329,
+          "recomputed_rounded4": 0.8329,
+          "matches_reported_rounded4": true,
+          "absolute_rounding_difference": 3.36943741101603e-05
+        },
+        {
+          "pair": "EXP-TR",
+          "recomputed": 0.8302277219844061,
+          "reported": 0.8302,
+          "recomputed_rounded4": 0.8302,
+          "matches_reported_rounded4": true,
+          "absolute_rounding_difference": 2.7721984406037237e-05
+        }
+      ]
+    },
+    {
+      "scenario": "D1D2_pass",
+      "reported_n": 228,
+      "status": "UNVERIFIED",
+      "reason": "D1/D2 pass flags and respondent mapping are absent from supplied CSV; subset membership cannot be reconstructed."
+    },
+    {
+      "scenario": "uniform_excluded",
+      "reported_n": 261,
+      "recomputed_n": 261,
+      "status": "VERIFIED",
+      "values": [
+        {
+          "pair": "EXP-PP",
+          "recomputed": 0.8447955465677836,
+          "reported": 0.8448,
+          "recomputed_rounded4": 0.8448,
+          "matches_reported_rounded4": true,
+          "absolute_rounding_difference": 4.453432216444675e-06
+        },
+        {
+          "pair": "EXP-AD",
+          "recomputed": 0.8059544047011565,
+          "reported": 0.806,
+          "recomputed_rounded4": 0.806,
+          "matches_reported_rounded4": true,
+          "absolute_rounding_difference": 4.5595298843514875e-05
+        },
+        {
+          "pair": "AIR-EXP",
+          "recomputed": 0.8131772038941029,
+          "reported": 0.8132,
+          "recomputed_rounded4": 0.8132,
+          "matches_reported_rounded4": true,
+          "absolute_rounding_difference": 2.2796105897171515e-05
+        },
+        {
+          "pair": "EXP-TR",
+          "recomputed": 0.8089994823572796,
+          "reported": 0.809,
+          "recomputed_rounded4": 0.809,
+          "matches_reported_rounded4": true,
+          "absolute_rounding_difference": 5.176427204656164e-07
+        }
+      ]
+    },
+    {
+      "scenario": "both",
+      "reported_n": 220,
+      "status": "UNVERIFIED",
+      "reason": "D1/D2 pass flags and respondent mapping are absent from supplied CSV; subset membership cannot be reconstructed."
+    }
+  ],
+  "limitations": [
+    "D1D2_pass and both are unverified because original eligibility flags are absent.",
+    "Matching repeated answer patterns or uniform responses does not on its own prove invalid responding."
+  ]
+}

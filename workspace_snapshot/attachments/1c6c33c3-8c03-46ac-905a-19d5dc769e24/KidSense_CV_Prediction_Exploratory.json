@@ -1,0 +1,108 @@
+{
+  "description": "Exploratory replicated 10-fold CV using third-party PLS-PM Mode A; not SmartPLS PLSpredict or CVPAT. Output standardization and predictions are fitted on training folds only. For AD, test observed TR indicators are used as direct antecedents (conditional prediction).",
+  "seed": 20261105,
+  "repetitions": 10,
+  "folds": 10,
+  "n_valid": 271,
+  "indicators": [
+    {
+      "indicator": "TR1",
+      "RMSE_PLS_exploratory": 0.7417578173565784,
+      "RMSE_IA_mean": 0.9818267226716271,
+      "RMSE_LM": 0.7507552614560127,
+      "MAE_PLS_exploratory": 0.5882981628107423,
+      "MAE_IA_mean": 0.8263599340607857,
+      "MAE_LM": 0.5923012104512687,
+      "Q2_predict_analogue": 0.4292386354782476,
+      "beats_mean": true,
+      "beats_LM": true
+    },
+    {
+      "indicator": "TR2",
+      "RMSE_PLS_exploratory": 0.7958015231856357,
+      "RMSE_IA_mean": 1.0213929108017794,
+      "RMSE_LM": 0.8081311056062395,
+      "MAE_PLS_exploratory": 0.6318594115260043,
+      "MAE_IA_mean": 0.8543720701323589,
+      "MAE_LM": 0.6461118767416127,
+      "Q2_predict_analogue": 0.3929508523021561,
+      "beats_mean": true,
+      "beats_LM": true
+    },
+    {
+      "indicator": "TR3",
+      "RMSE_PLS_exploratory": 0.7716706042364911,
+      "RMSE_IA_mean": 0.9916777608798433,
+      "RMSE_LM": 0.7640128039771589,
+      "MAE_PLS_exploratory": 0.6009612524470359,
+      "MAE_IA_mean": 0.8336321484040583,
+      "MAE_LM": 0.6057894652968361,
+      "Q2_predict_analogue": 0.3944879845506146,
+      "beats_mean": true,
+      "beats_LM": false
+    },
+    {
+      "indicator": "TR4",
+      "RMSE_PLS_exploratory": 0.7259538723294505,
+      "RMSE_IA_mean": 1.0000583052258583,
+      "RMSE_LM": 0.751506434697722,
+      "MAE_PLS_exploratory": 0.5721820576760696,
+      "MAE_IA_mean": 0.8296561043934665,
+      "MAE_LM": 0.5799932227587278,
+      "Q2_predict_analogue": 0.47305242463602803,
+      "beats_mean": true,
+      "beats_LM": true
+    },
+    {
+      "indicator": "AD1",
+      "RMSE_PLS_exploratory": 0.8185567600655969,
+      "RMSE_IA_mean": 0.9832819678354185,
+      "RMSE_LM": 0.8258616791333637,
+      "MAE_PLS_exploratory": 0.642808050669407,
+      "MAE_IA_mean": 0.8187823699730622,
+      "MAE_LM": 0.6495923905807922,
+      "Q2_predict_analogue": 0.3069868917164833,
+      "beats_mean": true,
+      "beats_LM": true
+    },
+    {
+      "indicator": "AD2",
+      "RMSE_PLS_exploratory": 0.7941112473813433,
+      "RMSE_IA_mean": 0.9953703069187045,
+      "RMSE_LM": 0.8017494317836935,
+      "MAE_PLS_exploratory": 0.63260225843232,
+      "MAE_IA_mean": 0.8321297584560545,
+      "MAE_LM": 0.6360981242847796,
+      "Q2_predict_analogue": 0.36350743898891535,
+      "beats_mean": true,
+      "beats_LM": true
+    },
+    {
+      "indicator": "AD3",
+      "RMSE_PLS_exploratory": 0.8185287130247483,
+      "RMSE_IA_mean": 0.974378629426232,
+      "RMSE_LM": 0.8161433402445673,
+      "MAE_PLS_exploratory": 0.6428119338136264,
+      "MAE_IA_mean": 0.8165928746415576,
+      "MAE_LM": 0.6415256462789323,
+      "Q2_predict_analogue": 0.2943126431275521,
+      "beats_mean": true,
+      "beats_LM": false
+    },
+    {
+      "indicator": "AD4",
+      "RMSE_PLS_exploratory": 0.8089457502453875,
+      "RMSE_IA_mean": 0.9741470748858858,
+      "RMSE_LM": 0.8065032356692527,
+      "MAE_PLS_exploratory": 0.6416574727706461,
+      "MAE_IA_mean": 0.7972807791223024,
+      "MAE_LM": 0.6344939042470877,
+      "Q2_predict_analogue": 0.3104119386922719,
+      "beats_mean": true,
+      "beats_LM": false
+    }
+  ],
+  "q2_positive_count": 8,
+  "beats_LM_count": 5,
+  "source_sha256": "5c517d0bcc99f0ce5e909af11da5a4fca1f0c23bb8c4e9060f7cf620def83fcc"
+}

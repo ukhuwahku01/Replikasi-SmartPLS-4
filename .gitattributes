@@ -1,0 +1,2 @@
+# Preserve uploaded and generated evidence byte-for-byte, including CSV line endings.
+workspace_snapshot/** -text

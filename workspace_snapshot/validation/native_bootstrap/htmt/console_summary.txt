@@ -1,0 +1,63 @@
+{
+  "source_file": "/workspace/attachments/881a3fc0-4752-40da-b923-58fd2e3add93/KidSense_Bootstrap_10000.xlsx",
+  "source_file_sha256": "34fbb57b2a0cce95c1792fdcea91a275d6da5417b64b55e1b6e1b5451b3ae5bd",
+  "sheet": "Complete data set",
+  "run_summary": {
+    "samples": 10000,
+    "test_type": "Two-tailed",
+    "significance_level": 0.05,
+    "selected_CI_method": "Percentile bootstrap",
+    "also_exported_CI_table": "Bias-corrected confidence intervals",
+    "seed_description": "Fixed seed; numeric value not shown in these settings",
+    "save_results_per_sample": "No",
+    "CI_endpoints_exported": [
+      0.025,
+      0.975
+    ],
+    "native_one_sided_upper95_available": false
+  },
+  "max_abs_point_difference": 1.3322676295501878e-15,
+  "max_abs_percentile_lower_difference": 0.005369015210605843,
+  "max_abs_percentile_upper_difference": 0.002027080618101751,
+  "max_abs_BC_upper_difference": 0.002756056371996052,
+  "native_count_point_below_090": 10,
+  "native_count_point_below_085": 9,
+  "native_count_PCT_upper975_below_090": 8,
+  "native_count_BC_upper975_below_090": 8,
+  "native_count_PCT_upper975_below_1": 10,
+  "native_count_BC_upper975_below_1": 10,
+  "percentile_threshold_090_changes": [
+    {
+      "pair": "AIR-EXP",
+      "prior_PCT_upper975": 0.9004560235230918,
+      "native_PCT_upper975": 0.8998806686997304,
+      "interpretation": "Native upper endpoint is below .90; prior Python endpoint was just above .90. Draw equivalence is not established; this near-boundary classification differs between the two bootstrap outputs. The cause cannot be isolated from summaries alone."
+    },
+    {
+      "pair": "EXP-TR",
+      "prior_PCT_upper975": 0.9000711117827807,
+      "native_PCT_upper975": 0.8991717991562496,
+      "interpretation": "Native upper endpoint is below .90; prior Python endpoint was just above .90. Draw equivalence is not established; this near-boundary classification differs between the two bootstrap outputs. The cause cannot be isolated from summaries alone."
+    }
+  ],
+  "interpretation": [
+    "All original-sample HTMT estimates match previous Python values to floating-point precision. Bootstrap intervals are close but do not match exactly; numeric seed and draw equivalence cannot be established from exported settings.",
+    "Two-sided 95% percentile and BC upper97.5 endpoints exceed .90 for EXP-PP and EXP-AD. Do not claim all pairs meet this .90 criterion.",
+    "All two-sided percentile and BC intervals lie below 1. This weaker criterion is satisfied for all pairs but is not equivalent to the .90 criterion.",
+    "Desired native one-sided upper95 endpoints are not provided. Cannot convert or interpolate upper97.5 into upper95 from the available endpoint summaries. A one-sided native run or full per-sample native estimates is required.",
+    "For eight pairs, observed upper97.5<.90 also bounds the smaller upper95 below .90 for the same distribution; for EXP-PP and EXP-AD, upper97.5>=.90 alone does not determine the unexported upper95 classification.",
+    "Previous Python one-sided BC upper95 values .909878 (EXP-PP) and .913699 (EXP-AD) remain Python findings; they are not native one-sided estimates."
+  ]
+}
+
+PAIR | native point | PCT97.5 | BC97.5 | dPCT97.5 | dBC97.5
+AIR-EXP 0.8329336943741106 0.8998806686997304 0.8967581708337165 -0.0005753548233614625 -0.0011339649339746627
+AIR-PP 0.8197391048623862 0.886844331853228 0.8839878288040017 0.0013239410688974385 0.0009200287052391065
+AIR-TR 0.8050974336122944 0.8734076363282277 0.8697755755644249 0.000686533921332444 -0.0014307935550567086
+AIR-AD 0.7090414749074382 0.8129235085465347 0.8073627689438696 0.0017954004032304516 -0.00024913675940274604
+EXP-PP 0.8595095756125546 0.9205291281439243 0.916798115069703 -0.0013371551332413967 -0.0024515644952558535
+EXP-TR 0.830227721984405 0.8991717991562496 0.8958446245104669 -0.0008993126265310902 -0.002756056371996052
+EXP-AD 0.828421715486013 0.9346698228813762 0.9262136688936758 0.002027080618101751 2.5380663501217704e-05
+PP-TR 0.8226686532556894 0.8912337808997295 0.8887511420924937 4.071048228493357e-05 -0.000566573694538719
+PP-AD 0.7592945027241588 0.8461204858720145 0.843380221733668 0.0018540621826217407 0.0024673146891343034
+TR-AD 0.8025823694288355 0.8802262606843444 0.8768425833175053 0.0017224694274285968 -0.0004332726601491421

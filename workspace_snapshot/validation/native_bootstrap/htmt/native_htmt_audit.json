@@ -1,0 +1,525 @@
+{
+  "source_file": "/workspace/attachments/881a3fc0-4752-40da-b923-58fd2e3add93/KidSense_Bootstrap_10000.xlsx",
+  "source_file_sha256": "34fbb57b2a0cce95c1792fdcea91a275d6da5417b64b55e1b6e1b5451b3ae5bd",
+  "sheet": "Complete data set",
+  "settings": [
+    {
+      "row": 672,
+      "name": "Data file",
+      "value": "KidSense_SmartPLS4_Input_271"
+    },
+    {
+      "row": 673,
+      "name": "Weighting vector",
+      "value": "-"
+    },
+    {
+      "row": 678,
+      "name": "Max. number of iterations",
+      "value": "3000"
+    },
+    {
+      "row": 679,
+      "name": "Stop criterion",
+      "value": "10\u207b\u2077"
+    },
+    {
+      "row": 680,
+      "name": "Use Lohmoeller settings?",
+      "value": "No"
+    },
+    {
+      "row": 681,
+      "name": "Initial weights",
+      "value": "1.0"
+    },
+    {
+      "row": 682,
+      "name": "Weighting scheme",
+      "value": "Path"
+    },
+    {
+      "row": 683,
+      "name": "Type of results",
+      "value": "Standardized"
+    },
+    {
+      "row": 684,
+      "name": "Vary copula by binary categories",
+      "value": "yes"
+    },
+    {
+      "row": 689,
+      "name": "Complexity",
+      "value": "Complete (slower)"
+    },
+    {
+      "row": 690,
+      "name": "Save results per sample",
+      "value": "No"
+    },
+    {
+      "row": 691,
+      "name": "Confidence interval method",
+      "value": "Percentile bootstrap"
+    },
+    {
+      "row": 692,
+      "name": "Parallel processing",
+      "value": "Yes"
+    },
+    {
+      "row": 693,
+      "name": "Significance level",
+      "value": "0.05"
+    },
+    {
+      "row": 694,
+      "name": "Test type",
+      "value": "Two-tailed"
+    },
+    {
+      "row": 695,
+      "name": "Samples",
+      "value": "10000"
+    },
+    {
+      "row": 696,
+      "name": "Seed",
+      "value": "Fixed seed"
+    },
+    {
+      "row": 701,
+      "name": "AD",
+      "value": "AUTOMATIC"
+    },
+    {
+      "row": 702,
+      "name": "AIR",
+      "value": "AUTOMATIC"
+    },
+    {
+      "row": 703,
+      "name": "EXP",
+      "value": "AUTOMATIC"
+    },
+    {
+      "row": 704,
+      "name": "PP",
+      "value": "AUTOMATIC"
+    },
+    {
+      "row": 705,
+      "name": "TR",
+      "value": "AUTOMATIC"
+    }
+  ],
+  "run_summary": {
+    "samples": 10000,
+    "test_type": "Two-tailed",
+    "significance_level": 0.05,
+    "selected_CI_method": "Percentile bootstrap",
+    "also_exported_CI_table": "Bias-corrected confidence intervals",
+    "seed_description": "Fixed seed; numeric value not shown in these settings",
+    "save_results_per_sample": "No",
+    "CI_endpoints_exported": [
+      0.025,
+      0.975
+    ],
+    "native_one_sided_upper95_available": false
+  },
+  "pairs": [
+    {
+      "pair": "AIR-EXP",
+      "native_percentile": {
+        "row": 468,
+        "point": 0.8329336943741106,
+        "mean": 0.8331018593229339,
+        "lower_025": 0.7550024223794591,
+        "upper_975": 0.8998806686997304
+      },
+      "native_BC": {
+        "row": 482,
+        "point": 0.8329336943741106,
+        "mean": 0.8331018593229339,
+        "bias": 0.0001681649488233239,
+        "lower_025": 0.7495975794551651,
+        "upper_975": 0.8967581708337165
+      },
+      "prior_python_point": 0.8329336943741104,
+      "point_difference_native_minus_python": 2.220446049250313e-16,
+      "prior_python_percentile_two_sided": [
+        0.7539052430073301,
+        0.9004560235230918
+      ],
+      "prior_python_BC_two_sided_upper_975": 0.8978921357676911,
+      "percentile_lower_difference_native_minus_python": 0.0010971793721290535,
+      "percentile_upper_difference_native_minus_python": -0.0005753548233614625,
+      "BC_upper_difference_native_minus_python": -0.0011339649339746627,
+      "native_point_below_090": true,
+      "native_point_below_085": true,
+      "native_percentile_upper_975_below_090": true,
+      "native_BC_upper_975_below_090": true,
+      "native_percentile_upper_975_below_1": true,
+      "native_BC_upper_975_below_1": true,
+      "native_one_sided_upper_95": null,
+      "native_one_sided_endpoint_status": "NOT_EXPORTED_CANNOT_RECONSTRUCT_FROM_2.5_97.5_BOUNDS"
+    },
+    {
+      "pair": "AIR-PP",
+      "native_percentile": {
+        "row": 470,
+        "point": 0.8197391048623862,
+        "mean": 0.8195878738668293,
+        "lower_025": 0.7412151830366657,
+        "upper_975": 0.886844331853228
+      },
+      "native_BC": {
+        "row": 484,
+        "point": 0.8197391048623862,
+        "mean": 0.8195878738668293,
+        "bias": -0.00015123099555691688,
+        "lower_025": 0.7363812314670056,
+        "upper_975": 0.8839878288040017
+      },
+      "prior_python_point": 0.8197391048623871,
+      "point_difference_native_minus_python": -8.881784197001252e-16,
+      "prior_python_percentile_two_sided": [
+        0.7435611384817769,
+        0.8855203907843305
+      ],
+      "prior_python_BC_two_sided_upper_975": 0.8830678000987626,
+      "percentile_lower_difference_native_minus_python": -0.002345955445111181,
+      "percentile_upper_difference_native_minus_python": 0.0013239410688974385,
+      "BC_upper_difference_native_minus_python": 0.0009200287052391065,
+      "native_point_below_090": true,
+      "native_point_below_085": true,
+      "native_percentile_upper_975_below_090": true,
+      "native_BC_upper_975_below_090": true,
+      "native_percentile_upper_975_below_1": true,
+      "native_BC_upper_975_below_1": true,
+      "native_one_sided_upper_95": null,
+      "native_one_sided_endpoint_status": "NOT_EXPORTED_CANNOT_RECONSTRUCT_FROM_2.5_97.5_BOUNDS"
+    },
+    {
+      "pair": "AIR-TR",
+      "native_percentile": {
+        "row": 473,
+        "point": 0.8050974336122944,
+        "mean": 0.8052815155949922,
+        "lower_025": 0.7270248424372321,
+        "upper_975": 0.8734076363282277
+      },
+      "native_BC": {
+        "row": 487,
+        "point": 0.8050974336122944,
+        "mean": 0.8052815155949922,
+        "bias": 0.00018408198269781462,
+        "lower_025": 0.7234745235152122,
+        "upper_975": 0.8697755755644249
+      },
+      "prior_python_point": 0.8050974336122948,
+      "point_difference_native_minus_python": -4.440892098500626e-16,
+      "prior_python_percentile_two_sided": [
+        0.7262434169574865,
+        0.8727211024068953
+      ],
+      "prior_python_BC_two_sided_upper_975": 0.8712063691194816,
+      "percentile_lower_difference_native_minus_python": 0.0007814254797455789,
+      "percentile_upper_difference_native_minus_python": 0.000686533921332444,
+      "BC_upper_difference_native_minus_python": -0.0014307935550567086,
+      "native_point_below_090": true,
+      "native_point_below_085": true,
+      "native_percentile_upper_975_below_090": true,
+      "native_BC_upper_975_below_090": true,
+      "native_percentile_upper_975_below_1": true,
+      "native_BC_upper_975_below_1": true,
+      "native_one_sided_upper_95": null,
+      "native_one_sided_endpoint_status": "NOT_EXPORTED_CANNOT_RECONSTRUCT_FROM_2.5_97.5_BOUNDS"
+    },
+    {
+      "pair": "AIR-AD",
+      "native_percentile": {
+        "row": 466,
+        "point": 0.7090414749074382,
+        "mean": 0.7094594776051611,
+        "lower_025": 0.592734935994453,
+        "upper_975": 0.8129235085465347
+      },
+      "native_BC": {
+        "row": 480,
+        "point": 0.7090414749074382,
+        "mean": 0.7094594776051611,
+        "bias": 0.0004180026977229634,
+        "lower_025": 0.5861101207785048,
+        "upper_975": 0.8073627689438696
+      },
+      "prior_python_point": 0.7090414749074386,
+      "point_difference_native_minus_python": -4.440892098500626e-16,
+      "prior_python_percentile_two_sided": [
+        0.5906655702089683,
+        0.8111281081433043
+      ],
+      "prior_python_BC_two_sided_upper_975": 0.8076119057032723,
+      "percentile_lower_difference_native_minus_python": 0.002069365785484778,
+      "percentile_upper_difference_native_minus_python": 0.0017954004032304516,
+      "BC_upper_difference_native_minus_python": -0.00024913675940274604,
+      "native_point_below_090": true,
+      "native_point_below_085": true,
+      "native_percentile_upper_975_below_090": true,
+      "native_BC_upper_975_below_090": true,
+      "native_percentile_upper_975_below_1": true,
+      "native_BC_upper_975_below_1": true,
+      "native_one_sided_upper_95": null,
+      "native_one_sided_endpoint_status": "NOT_EXPORTED_CANNOT_RECONSTRUCT_FROM_2.5_97.5_BOUNDS"
+    },
+    {
+      "pair": "EXP-PP",
+      "native_percentile": {
+        "row": 471,
+        "point": 0.8595095756125546,
+        "mean": 0.8595079511261673,
+        "lower_025": 0.7845915605130797,
+        "upper_975": 0.9205291281439243
+      },
+      "native_BC": {
+        "row": 485,
+        "point": 0.8595095756125546,
+        "mean": 0.8595079511261673,
+        "bias": -1.6244863872971749e-06,
+        "lower_025": 0.7778429665665645,
+        "upper_975": 0.916798115069703
+      },
+      "prior_python_point": 0.8595095756125557,
+      "point_difference_native_minus_python": -1.1102230246251565e-15,
+      "prior_python_percentile_two_sided": [
+        0.7852724135725727,
+        0.9218662832771657
+      ],
+      "prior_python_BC_two_sided_upper_975": 0.9192496795649588,
+      "percentile_lower_difference_native_minus_python": -0.0006808530594930584,
+      "percentile_upper_difference_native_minus_python": -0.0013371551332413967,
+      "BC_upper_difference_native_minus_python": -0.0024515644952558535,
+      "native_point_below_090": true,
+      "native_point_below_085": false,
+      "native_percentile_upper_975_below_090": false,
+      "native_BC_upper_975_below_090": false,
+      "native_percentile_upper_975_below_1": true,
+      "native_BC_upper_975_below_1": true,
+      "native_one_sided_upper_95": null,
+      "native_one_sided_endpoint_status": "NOT_EXPORTED_CANNOT_RECONSTRUCT_FROM_2.5_97.5_BOUNDS"
+    },
+    {
+      "pair": "EXP-TR",
+      "native_percentile": {
+        "row": 474,
+        "point": 0.830227721984405,
+        "mean": 0.8302056925212932,
+        "lower_025": 0.7465728990618853,
+        "upper_975": 0.8991717991562496
+      },
+      "native_BC": {
+        "row": 488,
+        "point": 0.830227721984405,
+        "mean": 0.8302056925212932,
+        "bias": -2.2029463111805647e-05,
+        "lower_025": 0.741243202074271,
+        "upper_975": 0.8958446245104669
+      },
+      "prior_python_point": 0.8302277219844063,
+      "point_difference_native_minus_python": -1.3322676295501878e-15,
+      "prior_python_percentile_two_sided": [
+        0.7474422879321229,
+        0.9000711117827807
+      ],
+      "prior_python_BC_two_sided_upper_975": 0.8986006808824629,
+      "percentile_lower_difference_native_minus_python": -0.0008693888702375752,
+      "percentile_upper_difference_native_minus_python": -0.0008993126265310902,
+      "BC_upper_difference_native_minus_python": -0.002756056371996052,
+      "native_point_below_090": true,
+      "native_point_below_085": true,
+      "native_percentile_upper_975_below_090": true,
+      "native_BC_upper_975_below_090": true,
+      "native_percentile_upper_975_below_1": true,
+      "native_BC_upper_975_below_1": true,
+      "native_one_sided_upper_95": null,
+      "native_one_sided_endpoint_status": "NOT_EXPORTED_CANNOT_RECONSTRUCT_FROM_2.5_97.5_BOUNDS"
+    },
+    {
+      "pair": "EXP-AD",
+      "native_percentile": {
+        "row": 467,
+        "point": 0.828421715486013,
+        "mean": 0.8288776337215681,
+        "lower_025": 0.6915044678605534,
+        "upper_975": 0.9346698228813762
+      },
+      "native_BC": {
+        "row": 481,
+        "point": 0.828421715486013,
+        "mean": 0.8288776337215681,
+        "bias": 0.00045591823555513056,
+        "lower_025": 0.6748096764668672,
+        "upper_975": 0.9262136688936758
+      },
+      "prior_python_point": 0.8284217154860128,
+      "point_difference_native_minus_python": 1.1102230246251565e-16,
+      "prior_python_percentile_two_sided": [
+        0.6914692042826601,
+        0.9326427422632745
+      ],
+      "prior_python_BC_two_sided_upper_975": 0.9261882882301746,
+      "percentile_lower_difference_native_minus_python": 3.526357789329637e-05,
+      "percentile_upper_difference_native_minus_python": 0.002027080618101751,
+      "BC_upper_difference_native_minus_python": 2.5380663501217704e-05,
+      "native_point_below_090": true,
+      "native_point_below_085": true,
+      "native_percentile_upper_975_below_090": false,
+      "native_BC_upper_975_below_090": false,
+      "native_percentile_upper_975_below_1": true,
+      "native_BC_upper_975_below_1": true,
+      "native_one_sided_upper_95": null,
+      "native_one_sided_endpoint_status": "NOT_EXPORTED_CANNOT_RECONSTRUCT_FROM_2.5_97.5_BOUNDS"
+    },
+    {
+      "pair": "PP-TR",
+      "native_percentile": {
+        "row": 475,
+        "point": 0.8226686532556894,
+        "mean": 0.822328606270241,
+        "lower_025": 0.7435561081374512,
+        "upper_975": 0.8912337808997295
+      },
+      "native_BC": {
+        "row": 489,
+        "point": 0.8226686532556894,
+        "mean": 0.822328606270241,
+        "bias": -0.0003400469854484278,
+        "lower_025": 0.7401056628212354,
+        "upper_975": 0.8887511420924937
+      },
+      "prior_python_point": 0.8226686532556903,
+      "point_difference_native_minus_python": -8.881784197001252e-16,
+      "prior_python_percentile_two_sided": [
+        0.7425374257983266,
+        0.8911930704174446
+      ],
+      "prior_python_BC_two_sided_upper_975": 0.8893177157870324,
+      "percentile_lower_difference_native_minus_python": 0.0010186823391246103,
+      "percentile_upper_difference_native_minus_python": 4.071048228493357e-05,
+      "BC_upper_difference_native_minus_python": -0.000566573694538719,
+      "native_point_below_090": true,
+      "native_point_below_085": true,
+      "native_percentile_upper_975_below_090": true,
+      "native_BC_upper_975_below_090": true,
+      "native_percentile_upper_975_below_1": true,
+      "native_BC_upper_975_below_1": true,
+      "native_one_sided_upper_95": null,
+      "native_one_sided_endpoint_status": "NOT_EXPORTED_CANNOT_RECONSTRUCT_FROM_2.5_97.5_BOUNDS"
+    },
+    {
+      "pair": "PP-AD",
+      "native_percentile": {
+        "row": 469,
+        "point": 0.7592945027241588,
+        "mean": 0.7588128734526334,
+        "lower_025": 0.6563701566164675,
+        "upper_975": 0.8461204858720145
+      },
+      "native_BC": {
+        "row": 483,
+        "point": 0.7592945027241588,
+        "mean": 0.7588128734526334,
+        "bias": -0.0004816292715253967,
+        "lower_025": 0.6517027200948871,
+        "upper_975": 0.843380221733668
+      },
+      "prior_python_point": 0.759294502724159,
+      "point_difference_native_minus_python": -2.220446049250313e-16,
+      "prior_python_percentile_two_sided": [
+        0.6617391718270733,
+        0.8442664236893928
+      ],
+      "prior_python_BC_two_sided_upper_975": 0.8409129070445337,
+      "percentile_lower_difference_native_minus_python": -0.005369015210605843,
+      "percentile_upper_difference_native_minus_python": 0.0018540621826217407,
+      "BC_upper_difference_native_minus_python": 0.0024673146891343034,
+      "native_point_below_090": true,
+      "native_point_below_085": true,
+      "native_percentile_upper_975_below_090": true,
+      "native_BC_upper_975_below_090": true,
+      "native_percentile_upper_975_below_1": true,
+      "native_BC_upper_975_below_1": true,
+      "native_one_sided_upper_95": null,
+      "native_one_sided_endpoint_status": "NOT_EXPORTED_CANNOT_RECONSTRUCT_FROM_2.5_97.5_BOUNDS"
+    },
+    {
+      "pair": "TR-AD",
+      "native_percentile": {
+        "row": 472,
+        "point": 0.8025823694288355,
+        "mean": 0.8026712245603127,
+        "lower_025": 0.7105608959309908,
+        "upper_975": 0.8802262606843444
+      },
+      "native_BC": {
+        "row": 486,
+        "point": 0.8025823694288355,
+        "mean": 0.8026712245603127,
+        "bias": 8.885513147716129e-05,
+        "lower_025": 0.7050602681702527,
+        "upper_975": 0.8768425833175053
+      },
+      "prior_python_point": 0.8025823694288355,
+      "point_difference_native_minus_python": 0.0,
+      "prior_python_percentile_two_sided": [
+        0.7137536151723116,
+        0.8785037912569158
+      ],
+      "prior_python_BC_two_sided_upper_975": 0.8772758559776545,
+      "percentile_lower_difference_native_minus_python": -0.003192719241320807,
+      "percentile_upper_difference_native_minus_python": 0.0017224694274285968,
+      "BC_upper_difference_native_minus_python": -0.0004332726601491421,
+      "native_point_below_090": true,
+      "native_point_below_085": true,
+      "native_percentile_upper_975_below_090": true,
+      "native_BC_upper_975_below_090": true,
+      "native_percentile_upper_975_below_1": true,
+      "native_BC_upper_975_below_1": true,
+      "native_one_sided_upper_95": null,
+      "native_one_sided_endpoint_status": "NOT_EXPORTED_CANNOT_RECONSTRUCT_FROM_2.5_97.5_BOUNDS"
+    }
+  ],
+  "max_abs_point_difference": 1.3322676295501878e-15,
+  "max_abs_percentile_lower_difference": 0.005369015210605843,
+  "max_abs_percentile_upper_difference": 0.002027080618101751,
+  "max_abs_BC_upper_difference": 0.002756056371996052,
+  "native_count_point_below_090": 10,
+  "native_count_point_below_085": 9,
+  "native_count_PCT_upper975_below_090": 8,
+  "native_count_BC_upper975_below_090": 8,
+  "native_count_PCT_upper975_below_1": 10,
+  "native_count_BC_upper975_below_1": 10,
+  "percentile_threshold_090_changes": [
+    {
+      "pair": "AIR-EXP",
+      "prior_PCT_upper975": 0.9004560235230918,
+      "native_PCT_upper975": 0.8998806686997304,
+      "interpretation": "Native upper endpoint is below .90; prior Python endpoint was just above .90. Draw equivalence is not established; this near-boundary classification differs between the two bootstrap outputs. The cause cannot be isolated from summaries alone."
+    },
+    {
+      "pair": "EXP-TR",
+      "prior_PCT_upper975": 0.9000711117827807,
+      "native_PCT_upper975": 0.8991717991562496,
+      "interpretation": "Native upper endpoint is below .90; prior Python endpoint was just above .90. Draw equivalence is not established; this near-boundary classification differs between the two bootstrap outputs. The cause cannot be isolated from summaries alone."
+    }
+  ],
+  "interpretation": [
+    "All original-sample HTMT estimates match previous Python values to floating-point precision. Bootstrap intervals are close but do not match exactly; numeric seed and draw equivalence cannot be established from exported settings.",
+    "Two-sided 95% percentile and BC upper97.5 endpoints exceed .90 for EXP-PP and EXP-AD. Do not claim all pairs meet this .90 criterion.",
+    "All two-sided percentile and BC intervals lie below 1. This weaker criterion is satisfied for all pairs but is not equivalent to the .90 criterion.",
+    "Desired native one-sided upper95 endpoints are not provided. Cannot convert or interpolate upper97.5 into upper95 from the available endpoint summaries. A one-sided native run or full per-sample native estimates is required.",
+    "For eight pairs, observed upper97.5<.90 also bounds the smaller upper95 below .90 for the same distribution; for EXP-PP and EXP-AD, upper97.5>=.90 alone does not determine the unexported upper95 classification.",
+    "Previous Python one-sided BC upper95 values .909878 (EXP-PP) and .913699 (EXP-AD) remain Python findings; they are not native one-sided estimates."
+  ]
+}

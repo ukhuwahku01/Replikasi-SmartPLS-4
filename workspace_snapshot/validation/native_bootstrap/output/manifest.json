@@ -1,0 +1,28 @@
+{
+  "native_file": "KidSense_Bootstrap_10000.xlsx",
+  "native_sha256": "34fbb57b2a0cce95c1792fdcea91a275d6da5417b64b55e1b6e1b5451b3ae5bd",
+  "CSV_sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624",
+  "point_comparisons": 62,
+  "max_point_abs_difference": 4.796664176964782e-10,
+  "settings": {
+    "Max. number of iterations": "3000",
+    "Stop criterion": "10\u207b\u2077",
+    "Use Lohmoeller settings?": "No",
+    "Initial weights": "1.0",
+    "Weighting scheme": "Path",
+    "Type of results": "Standardized",
+    "Complexity": "Complete (slower)",
+    "Save results per sample": "No",
+    "Confidence interval method": "Percentile bootstrap",
+    "Parallel processing": "Yes",
+    "Significance level": "0.05",
+    "Test type": "Two-tailed",
+    "Samples": "10000",
+    "Seed": "Fixed seed"
+  },
+  "next_required": [
+    "Native one-sided95 BC HTMT",
+    "Native PLSpredict"
+  ],
+  "original_modified": false
+}

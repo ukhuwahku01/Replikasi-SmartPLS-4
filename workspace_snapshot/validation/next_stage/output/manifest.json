@@ -1,0 +1,30 @@
+{
+  "stage": "Model adequacy diagnostics and manuscript results draft",
+  "native_sources": [
+    {
+      "file": "KidSense_Bootstrap_10000.xlsx",
+      "sha256": "34fbb57b2a0cce95c1792fdcea91a275d6da5417b64b55e1b6e1b5451b3ae5bd"
+    },
+    {
+      "file": "KidSense_HTMT_BCa_10000_OneTailed.xlsx",
+      "sha256": "0edefe9e682ec5e35537cf57894991d946e88e1175d213f1be14bcef142851fe"
+    },
+    {
+      "file": "KidSense_PLSpredict_10x10.xlsx",
+      "sha256": "9e7986e732964003978f57f19362d29c5b9731690e44f51537c8d75bc1f68dd9"
+    }
+  ],
+  "new_diagnostics": [
+    "Crossloadings and Fornell-Larcker descriptive check",
+    "Cross-construct item correlations for EXP-PP and EXP-AD",
+    "Composite-score restriction gaps and partial correlations controlling only TR"
+  ],
+  "original_model_modified": false,
+  "theory_input_missing": [
+    "Full construct names",
+    "Definitions and item wording for EXP/PP/AD"
+  ],
+  "journal_template_applied": false,
+  "own_loadings_highest": 20,
+  "FL_pairs_pass_descriptive": 10
+}
