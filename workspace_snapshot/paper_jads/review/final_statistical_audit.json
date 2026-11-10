@@ -1,0 +1,63 @@
+{
+  "scope": "Final manuscript scientific audit; no paper modifications. Numeric checks follow original native sources, not only the display table cache.",
+  "all_ten_docx_tables_equal_saved_display_sources": true,
+  "table_checks": [
+    {
+      "table": "constructs",
+      "rows_including_header": 6,
+      "display_cells_match_saved_source": true
+    },
+    {
+      "table": "measurement",
+      "rows_including_header": 6,
+      "display_cells_match_saved_source": true
+    },
+    {
+      "table": "htmt",
+      "rows_including_header": 11,
+      "display_cells_match_saved_source": true
+    },
+    {
+      "table": "m0",
+      "rows_including_header": 8,
+      "display_cells_match_saved_source": true
+    },
+    {
+      "table": "fit",
+      "rows_including_header": 5,
+      "display_cells_match_saved_source": true
+    },
+    {
+      "table": "m1",
+      "rows_including_header": 11,
+      "display_cells_match_saved_source": true
+    },
+    {
+      "table": "predict",
+      "rows_including_header": 9,
+      "display_cells_match_saved_source": true
+    },
+    {
+      "table": "cvpat",
+      "rows_including_header": 7,
+      "display_cells_match_saved_source": true
+    },
+    {
+      "table": "items",
+      "rows_including_header": 13,
+      "display_cells_match_saved_source": true
+    },
+    {
+      "table": "sensitivity",
+      "rows_including_header": 7,
+      "display_cells_match_saved_source": true
+    }
+  ],
+  "reference_count": 17,
+  "reference_scope": "Known journal citation metadata and in-document numbering inspected; no live DOI resolution, external full-text or claim-to-sentence validation performed in this final pass.",
+  "material_scientific_errors_observed": [],
+  "remaining_author_completion": "Recruitment and eligibility, originalAIR/TRwording/anchors, ethicsconsent, author roles, funding/conflicts and accesspermissions are explicitly marked incomplete in draft.",
+  "reviewed_docx_sha256": "dcafa13be7df1790284fae5d2dad962dde36e42f6a6ac5f26f86c7fb21741f79",
+  "author_metadata_provenance": "Root agent confirms author names, affiliations and contact email were explicitly supplied by user async reply this turn.",
+  "version_note": "Root may regenerate layout after this review; checksum identifies reviewed version, not a claim that later layout copies have identical binary content."
+}

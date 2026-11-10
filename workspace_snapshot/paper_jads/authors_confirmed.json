@@ -1,0 +1,24 @@
+{
+  "source": "User-provided author metadata in this conversation, 2026-11-10",
+  "authors": [
+    {
+      "order": 1,
+      "name": "Ratih Titi Komala Sari",
+      "corresponding_author": true,
+      "affiliation": "Doctoral Program of Information Systems, Postgraduate School, Diponegoro University, Semarang, Indonesia",
+      "email": "ratihtiti@students.undip.ac.id"
+    },
+    {
+      "order": 2,
+      "name": "Widowati",
+      "affiliation": "Mathematics Department, Faculty of Mathematics and Sciences, Diponegoro University, Semarang, Indonesia"
+    },
+    {
+      "order": 3,
+      "name": "Adi Wibowo",
+      "affiliation": "Informatics Department, Faculty of Mathematics and Sciences, Diponegoro University, Semarang, Indonesia"
+    }
+  ],
+  "normalization": "Punctuation/spacing only; no academic title, ORCID, or unprovided coauthor email invented.",
+  "not_provided": ["recruitment location and dates", "sampling details", "ethics decision", "consent procedure", "funding", "competing interests", "author contributions"]
+}

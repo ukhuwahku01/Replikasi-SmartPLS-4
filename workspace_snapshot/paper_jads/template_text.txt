@@ -1,0 +1,121 @@
+0 [Normal]   Type the paper title, Capitalize first letter (17pt) <before 0; after 0>
+1 [Author] First Author,*,, Second Author2,, Third Author3, (11pt) <before 24; after 12>
+2 [Normal]  1First affiliation, Address, City and Postcode, Country (9pt – italic) <before 12; after 6>
+3 [Normal] 2,3Second affiliation, Address, City and Postcode, Country (9pt – italic) <before 6; after 12>
+4 [Normal] (Received: July 4, 2024; Revised: August 31, 2024; Accepted: September 11, 2024; Available online: September 23, 2024)
+5 [Normal] Abstract
+6 [Els-Abstract-text] 
+7 [Els-keywords] Keywords: 
+8 [Heading 1] Introduction (bold, 11 pt) <before 10; after 11>
+9 [Body Text] This template refers to IEEE conference template and tetrahedron_Letters_template by elsevier, modified in MS Word 2007 and saved as a “Word 97-2003 Document” for the PC, provides authors with most of the formatting specifications needed for preparing electronic versions of their papers. All standard paper components have been specified for three reasons: (1) ease of use when formatting individual papers, (2) automatic compliance to electronic requirements that facilitate the concurrent or later production of electronic products, and (3) conformity of style throughout a IJIIS template. Margins, column widths, line spacing, and type styles are built-in; examples of the type styles are provided throughout this document and are identified in italic type, within parentheses, following the example. Some components, such as multi-leveled equations, graphics, and tables are not prescribed, although the various table text styles are provided. The formatter will need to create these components, incorporating the applicable criteria that follow.
+10 [Heading 1] Literature Review (bold, 11 pt) <before 10; after 11>
+11 [Heading 2] Selecting a Template (13 pt) <before 6; after 3>
+12 [Body Text] First, confirm that you have the correct template for your paper size. This template has been tailored for output on the A4 paper size. If you are using US letter-sized paper, please close this file and download the file “MSW_USltr_format”.
+13 [Heading 2] Maintaining the Integrity of the Specifications
+14 [Body Text] The template is used to format your paper and style the text. All margins, column widths, line spaces, and text fonts are prescribed; please do not alter them. You may note peculiarities. For example, the head margin in this template measures proportionately more than is customary. This measurement and others are deliberate, using specifications that anticipate your paper as one part of the entire proceedings, and not as an independent document. Please do not revise any of the current designations.
+15 [Heading 1] Methodology (bold, 11 pt) <before 10; after 11>
+16 [Body Text] Before you begin to format your paper, first write and save the content as a separate text file. Keep your text and graphic files separate until after the text has been formatted and styled. Do not use hard tabs, and limit use of hard returns to only one return at the end of a paragraph. Do not add any kind of pagination anywhere in the paper. Do not number text heads-the template will do that for you.
+17 [Body Text] Finally, complete content and organizational editing before formatting. Please take note of the following items when proofreading spelling and grammar:
+18 [Heading 2]  Abbreviations and Acronyms (13 pt) <before 6; after 3>
+19 [Body Text] Define abbreviations and acronyms the first time they are used in the text, even after they have been defined in the abstract. Abbreviations such as IEEE, SI, MKS, CGS, sc, dc, and rms do not have to be defined. Do not use abbreviations in the title or heads unless they are unavoidable.
+20 [Heading 2]  Units
+21 [Body Text] Use either SI (MKS) or CGS as primary units. (SI units are encouraged.) English units may be used as secondary units (in parentheses). An exception would be the use of English units as identifiers in trade, such as “3.5-inch disk drive.”
+22 [Heading 2]  Units
+23 [Body Text] Use either SI (MKS) or CGS as primary units. (SI units are encouraged.) English units may be used as secondary units (in parentheses). An exception would be the use of English units as identifiers in trade, such as “3.5-inch disk drive.”
+24 [Body Text] Avoid combining SI and CGS units, such as current in amperes and magnetic field in oersteds. This often leads to confusion because equations do not balance dimensionally. If you must use mixed units, clearly state the units for each quantity that you use in an equation.
+25 [Body Text] Do not mix complete spellings and abbreviations of units: “Wb/m2” or “webers per square meter,” not “webers/m2.” Spell units when they appear in text: “...a few henries,” not “...a few H.”
+26 [Body Text] Use a zero before decimal points: “0.25,” not “.25.” Use “cm3,” not “cc.” (bullet list)
+27 [Heading 2]  Equations
+28 [Body Text] The equations are an exception to the prescribed specifications of this template. You will need to determine whether or not your equation should be typed using either the Times New Roman or the Symbol font (please no other font). To create multileveled equations, it may be necessary to treat the equation as a graphic and insert it into the text after your paper is styled.
+29 [Body Text] Number equations consecutively. Equation numbers, within parentheses, are to position flush right, as in (1), using a right tab stop. To make your equations more compact, you may use the solidus ( / ), the exp function, or appropriate exponents. Italicize Roman symbols for quantities and variables, but not Greek symbols. Use a long dash rather than a hyphen for a minus sign. Punctuate equations with commas or periods when they are part of a sentence, as in
+30 [Body Text] Note that the equation is centered using a center tab stop. Be sure that the symbols in your equation have been defined before or immediately following the equation. Use “(1),” not “Eq. (1)” or “equation (1),” except at the beginning of a sentence: “Equation (1) is ...”
+31 [Heading 2]  Some Common Mistakes
+32 [Body Text] The word “data” is plural, not singular.
+33 [Body Text] The subscript for the permeability of vacuum m0, and other common scientific constants, is zero with subscript formatting, not a lowercase letter “o.”
+34 [Body Text] In American English, commas, semi-/colons, periods, question and exclamation marks are located within quotation marks only when a complete thought or name is cited, such as a title or full quotation. When quotation marks are used, instead of a bold or italic typeface, to highlight a word or phrase, punctuation should appear outside of the quotation marks. A parenthetical phrase or statement at the end of a sentence is punctuated outside of the closing parenthesis (like this). (A parenthetical sentence is punctuated within the parentheses.)
+35 [Body Text] A graph within a graph is an “inset,” not an “insert.” The word alternatively is preferred to the word “alternately” (unless you really mean something that alternates).
+36 [Body Text] Do not use the word “essentially” to mean “approximately” or “effectively.”
+37 [Body Text] In your paper title, if the words “that uses” can accurately replace the word using, capitalize the “u”; if not, keep using lower-cased.
+38 [Body Text] Be aware of the different meanings of the homophone’s “affect” and “effect,” “complement” and “compliment,” “discreet” and “discrete,” “principal” and “principle.”
+39 [Body Text] Do not confuse “imply” and “infer.”
+40 [Body Text] The prefix “non” is not a word; it should be joined to the word it modifies, usually without a hyphen.
+41 [Body Text] There is no period after the “et” in the Latin abbreviation “et al.”
+42 [Body Text] The abbreviation “i.e.” means “that is,” and the abbreviation “e.g.” means “for example.”
+43 [Body Text] An excellent style manual for science writers is [7].
+44 [Heading 1] Results and Discussion
+45 [Body Text] After the text edit has been completed, the paper is ready for the template. Duplicate the template file by using the Save As command, and use the naming convention prescribed by your conference for the name of your paper. In this newly created file, highlight all of the contents and import your prepared text file. You are now ready to style your paper; use the scroll down window on the left of the MS Word Formatting toolbar.
+46 [Heading 2] Authors and Affiliations
+47 [Body Text] The template is designed so that author affiliations are not repeated each time for multiple authors of the same affiliation. Please keep your affiliations as succinct as possible (for example, do not differentiate among departments of the same organization). This template was designed for two affiliations.
+48 [Heading 2] Identify the Headings
+49 [Body Text] Headings, or heads, are organizational devices that guide the reader through your paper. There are two types: component heads and text heads.
+50 [Body Text] Component heads identify the different components of your paper and are not topically subordinate to each other. Examples include ACKNOWLEDGMENTS and REFERENCES, and for these, the correct style to use is “Heading 5.” Use “figure caption” for your Figure captions, and “table head” for your table title. Run-in heads, such as “Abstract,” will require you to apply a style (in this case, italic) in addition to the style provided by the drop-down menu to differentiate the head from the text.
+51 [Body Text] Text heads organize the topics on a relational, hierarchical basis. For example, the paper title is the primary text head because all subsequent material relates and elaborates on this one topic. If there are two or more sub-topics, the next level head (uppercase Roman numerals) should be used and, conversely, if there are not at least two sub-topics, then no subheads should be introduced. Styles named “Heading 1,” “Heading 2,” “Heading 3,” and “Heading 4” are prescribed.
+52 [Heading 2] Figures and Tables
+53 [Body Text] Positioning figures and tables: Place figures and tables at the top and bottom of columns. Avoid placing them in the middle of columns. Large figures and tables may span across both columns. Figure captions should be below the figures; table heads should appear above the tables. Insert figures and tables after they are cited in the text. Use the abbreviation “figure 1,” even at the beginning of a sentence.
+54 [table head] 
+55 [table head] 
+56 [table head] Table 1. Table Styles
+57 [table footnote] *Sample of a Table footnote. (Table footnote)
+58 [Colorful List - Accent 11]  
+59 [figure] 
+60 [figure caption] Figure 1. Example of a figure caption. (figure caption)
+61 [Body Text] Figure Labels: Use 10-point Times New Roman for Figure labels. Use words rather than symbols or abbreviations when writing Figure axis labels to avoid confusing the reader. As an example, write the quantity “Magnetization,” or “Magnetization, M,” not just “M.” If including units in the label, present them within parentheses. Do not label axes only with units. In the example, write “Magnetization (A/m)” or “Magnetization (A ( m(1),” not just “A/m.” Do not label axes with a ratio of quantities and units. For example, write “Temperature (K),” not “Temperature/K.”
+62 [Heading 1] Conclusion
+63 [Body Text] Provide a statement that what is expected, as stated in the "Introduction" chapter can ultimately result in "Results and Discussion" chapter, so there is compatibility. Moreover, it can also be added the prospect of the development of research results and application prospects of further studies into the next (based on result and discussion).
+64 [Heading 1] Declarations
+65 [Heading 2] Author Contributions
+66 [Normal] Conceptualization: F.A., S.A., and T.A.; Methodology: S.A.; Software: F.A.; Validation: F.A., S.A., and T.A.; Formal Analysis: F.A., S.A., and T.A.; Investigation: F.A.; Resources: S.A.; Data Curation: S.A.; Writing Original Draft Preparation: F.A., S.A., and T.A.; Writing Review and Editing: S.A., F.A., and T.A.; Visualization: F.A.; All authors have read and agreed to the published version of the manuscript.
+67 [Normal] *FA is abbreviation of “Firs Author”, SA is abbreviation of “Second Author”, and TA is abbreviation of “Third Author”.
+68 [Heading 2] Data Availability Statement
+69 [Normal] The data presented in this study are available on request from the corresponding author.
+70 [Heading 2] Funding
+71 [Normal] The authors received no financial support for the research, authorship, and/or publication of this article.
+72 [Heading 2] Institutional Review Board Statement
+73 [Normal] Not applicable.
+74 [Heading 2] Informed Consent Statement
+75 [Normal] Not applicable.
+76 [Heading 2] Declaration of Competing Interest
+77 [Normal] The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+78 [Heading 5] References
+79 [Body Text] Only articles from international journals and international books (if absolutely necessary) are allowed. Website links may only be used for primary data sources, not as references.
+80 [Body Text] Citations should be numbered consecutively in square brackets [1], with the sentence punctuation placed after the bracket [2]. Refer to the citation by its number, as in [3]—avoid using "Ref. [3]" or "reference [3]" unless it starts a sentence: “Reference [3] was the first to…”. Footnotes should be numbered separately in superscript and placed at the bottom of the column where they are cited. Do not include footnotes in the reference list. Use letters for table footnotes.
+81 [Body Text] If a paper has fewer than six authors, list all the authors’ names; do not use “et al.”. Only use references that have already been published and are accessible to readers. Papers that are in the process of being published, even if accepted, should not be used as references. In paper titles, only the first word should be capitalized, except for proper nouns and element symbols.
+82 [Body Text] For papers published in translation journals, provide the English citation first, followed by the original citation in the foreign language [6].
+83 [Body Text] Reference Submission Requirements:
+84 [Body Text] Each author is required to use only references that have already been published and can be accessed by readers. This includes journal articles, books, and websites. Links to the official source must be provided, such as a journal publisher’s website, DOI (Digital Object Identifier), an online book reference, or a valid URL for web-based data. Articles that are still in press or accepted for publication but not yet published should not be cited. This ensures that readers can easily verify and access all cited materials.
+85 [Body Text] Example Citations:
+86 [Body Text] Journal Article
+87 [Body Text] Author(s): G. Eason, B. Noble, and I.N. Sneddon
+88 [Body Text] Title: "On certain integrals of Lipschitz-Hankel type involving products of Bessel functions"
+89 [Body Text] Journal: Philosophical Transactions of the Royal Society of London
+90 [Body Text] Volume: A247
+91 [Body Text] Issue: 1254
+92 [Body Text] Pages: 529-551
+93 [Body Text] Month/Year of Publication: April 1955
+94 [Body Text] Link: [Online]. Available: https://doi.org/example
+95 [Body Text] Citation:
+96 [Body Text] G. Eason, B. Noble, and I.N. Sneddon, "On certain integrals of Lipschitz-Hankel type involving products of Bessel functions," Philosophical Transactions of the Royal Society of London, vol. A247, no. 1254, pp. 529-551, Apr. 1955. [Online]. Available: https://doi.org/example
+97 [Body Text] Book
+98 [Body Text] Author: J. Clerk Maxwell
+99 [Body Text] Title: A Treatise on Electricity and Magnetism
+100 [Body Text] Edition: 3rd ed.
+101 [Body Text] Volume: 2
+102 [Body Text] Publisher: Clarendon
+103 [Body Text] City of Publication: Oxford
+104 [Body Text] Year of Publication: 1892
+105 [Body Text] Pages: 68-73
+106 [Body Text] Link: [Online]. Available: https://books.google.com/example
+107 [Body Text] Citation:
+108 [Body Text] J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp. 68-73. [Online]. Available: https://books.google.com/example
+109 [Body Text] Website
+110 [Body Text] Author/Organization: U.S. Environmental Protection Agency
+111 [Body Text] Title: "Air Quality Trends"
+112 [Body Text] Website: EPA.gov
+113 [Body Text] Date Published/Updated: 2023
+114 [Body Text] URL: https://www.epa.gov/air-trends
+115 [Body Text] Date Accessed: October 1, 2024
+116 [Body Text] Citation:
+117 [Body Text] U.S. Environmental Protection Agency, "Air Quality Trends," EPA.gov, 2023. [Online]. Available: https://www.epa.gov/air-trends. [Accessed: Oct. 1, 2024]. 
+118 [List Paragraph] G. Eason, B. Noble, and I.N. Sneddon, "On certain integrals of Lipschitz-Hankel type involving products of Bessel functions," Philosophical Transactions of the Royal Society of London, vol. A247, no. 1254, pp. 529-551, Apr. 1955. [Online]. Available: https://doi.org/example
+119 [List Paragraph] J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp. 68-73. [Online]. Available: https://books.google.com/example
+120 [List Paragraph] U.S. Environmental Protection Agency, "Air Quality Trends," EPA.gov, 2023. [Online]. Available: https://www.epa.gov/air-trends. [Accessed: Oct. 1, 2024].

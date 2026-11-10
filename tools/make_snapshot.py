@@ -5,7 +5,7 @@ No credentials or Git metadata are read. Existing different backup files are not
 from pathlib import Path
 from datetime import datetime,timezone
 import argparse,hashlib,json,shutil
-ROOTS=('attachments','validation','smartpls4_native')
+ROOTS=('attachments','validation','smartpls4_native','paper_jads')
 def digest(p):
  h=hashlib.sha256()
  with p.open('rb') as f:

@@ -1,5 +1,16 @@
 # Indeks hasil dan riwayat
 
+## Draf paper lengkap pada template JADS — 10 November 2026
+
+- [Paper Word yang dapat diedit](workspace_snapshot/paper_jads/output/KidSense_JADS_Draft_Paper.docx)
+- [Paper PDF](workspace_snapshot/paper_jads/output/KidSense_JADS_Draft_Paper.pdf)
+- [Catatan isian penulis dan batas interpretasi](workspace_snapshot/paper_jads/output/CATATAN_PENULIS.md)
+- [Sumber tabel dan referensi](workspace_snapshot/paper_jads/output/paper_tables_full_precision_sources.json)
+- [Hasil pemeriksaan dokumen dan tabel PDF](workspace_snapshot/paper_jads/output/paper_validation.json)
+- [Template JADS asli yang diunggah](workspace_snapshot/attachments/2f82fc2f-7333-4b16-932a-c23db07d7717/JADS-template.docx)
+
+Naskah memuat Abstract hingga Conclusion, Literature Review, Declarations, 17 referensi jurnal, 10 tabel, dua gambar, dan dua lampiran. Identitas penulis sesuai informasi peneliti. Informasi studi yang belum diberikan tetap ditandai; referensi belum diperiksa ulang secara daring. Ini draf untuk tinjauan penulis, bukan naskah yang telah diterima jurnal. Draf ringkas pada bagian berikut tetap dipertahankan sebagai riwayat analisis.
+
 ## Hasil M1 native terkini
 
 - [Workbook verifikasi M1](workspace_snapshot/validation/native_M1_corrected/output/KidSense_M1_Native_Terverifikasi.xlsx)

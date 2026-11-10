@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "pages": 13,
+  "tables": 10,
+  "figures": 2,
+  "references": 17,
+  "table_cells_checked_in_DOCX_and_PDF": 422,
+  "template_unchanged": true,
+  "template_format": "A4, one column; original styles/headers/ISSN retained; sample publication metadata replaced",
+  "yellow_marker_paragraphs": [
+    "[TO BE COMPLETED: recruitment location and dates; sampling and recruitment method; parental eligibility criteria; recruitment channels; and any incentives.] The available analysis dataset supports n = 271, but it does not independently establish the original recruitment denominator or the reasons for exclusions. Demographic variables and the raw screening and consent records were not supplied. Accordingly, this draft does not assert a representative population, a response rate, or an independently verified participant-exclusion flow.",
+    "Each of the five constructs was modeled reflectively using four indicators, as shown in Table 1. The supplied values are integers from 1 to 5. [TO BE COMPLETED: the original response-anchor wording, questionnaire administration procedure, instrument development or adaptation sources, translation procedure, and pretest/pilot details, where applicable.] Operational definitions were supplied by the researcher based on the coverage of the questionnaire items; they are not quotations from external theoretical publications.",
+    "The exact Indonesian wording supplied for EXP1–EXP4, PP1–PP4, and AD1–AD4 is reproduced in Appendix A. [TO BE COMPLETED: the original wording of AIR1–AIR4 and TR1–TR4.] Before answering the AD items, respondents were asked to imagine that KidSense was available, met security requirements, and had the functions described in its design. AD4 additionally conditions prospective continued use on an experience that meets expectations. These conditions define the interpretation of the outcome throughout this paper.",
+    "[TO BE COMPLETED: confirm the CRediT roles of Ratih Titi Komala Sari, Widowati, and Adi Wibowo, and each author's approval of the final manuscript.] Computational and drafting assistance supported the current replication and manuscript preparation; all scientific claims, references, and journal disclosure requirements remain subject to author review.",
+    "The supplied analysis data, native SmartPLS exports, and computational verification materials have been archived in the researcher's GitHub repository: https://github.com/ukhuwahku01/Replikasi-SmartPLS-4 (backup commit 3bfed3738b5bd6198e8f11abd6756dc1d54dbadf). The archive includes checksums and distinguishes source files from derived checks. This statement concerns the files supplied for analysis; original recruitment and screening records, demographic data, and a numerical native random seed are not part of the available evidence. [TO BE COMPLETED: author-confirmed data-access terms and any required restrictions or consent conditions for sharing.] The current manuscript is a draft and has no assigned journal DOI.",
+    "[TO BE COMPLETED: confirm the funding source and grant number, or confirm that no specific funding was received.] No funding claim has been inferred from the template's example text.",
+    "[TO BE COMPLETED: identify the reviewing institution, approval or exemption decision, reference number, and date as applicable to the original respondent study.] Ethics approval or exemption cannot be established from the supplied analysis files and is not assumed to be inapplicable.",
+    "[TO BE COMPLETED: describe how informed consent was obtained, including study information and any consent relevant to sharing research data.] A consent procedure cannot be verified from the indicator-only analysis dataset.",
+    "[TO BE COMPLETED: each author must confirm relevant competing interests or confirm that none exist.] The template's example declaration has not been treated as an author-confirmed statement.",
+    "Generative AI assistance was used to support computational revalidation, organization of evidence, and preparation of this draft. [TO BE COMPLETED: authors should review and finalize this disclosure in accordance with the journal's current policy, verify the manuscript and references, and take responsibility for the submitted work.] The named human authors and their roles have not been inferred from software assistance.",
+    "[TO BE COMPLETED: insert the original AIR1–AIR4 and TR1–TR4 items and confirm response anchors before submission.] No item wording has been reconstructed from its code or statistical loading."
+  ],
+  "reference_metadata_online_verified": false,
+  "checks": [
+    "all table cells occur in rendered PDF",
+    "DOCX table cells equal source-backed display tables",
+    "all main sections and supplied author metadata present",
+    "template sample facts removed",
+    "reference numbering consecutive",
+    "no PDF word extends past page edges"
+  ],
+  "files": {
+    "KidSense_JADS_Draft_Paper.docx": {
+      "bytes": 368023,
+      "sha256": "8050cf0acb9b753db30a7483524faf98dba92f6e58cccd5715e8e40fa7135ac8"
+    },
+    "KidSense_JADS_Draft_Paper.pdf": {
+      "bytes": 635829,
+      "sha256": "56deedb9f0046186b178b6d7b1f433c8157bffaa471e0b7dae25ff0a2cccbfe5"
+    }
+  }
+}

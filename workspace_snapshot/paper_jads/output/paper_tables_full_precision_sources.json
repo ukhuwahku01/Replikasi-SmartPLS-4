@@ -1,0 +1,753 @@
+{
+  "tables_display": {
+    "constructs": {
+      "title": "Table 1. Operational scope of the five constructs",
+      "headers": [
+        "Code / indicators",
+        "Construct",
+        "Operational scope in concept evaluation"
+      ],
+      "rows": [
+        [
+          "AIR / AIR1–AIR4",
+          "Perceived AI Reliability",
+          "Expected consistency and appropriateness of detections and notifications, and stable functioning during digital play."
+        ],
+        [
+          "EXP / EXP1–EXP4",
+          "Explainability",
+          "Reported understanding of described reasons, warning information, prediction confidence and possible errors, and interpretation of alerts."
+        ],
+        [
+          "PP / PP1–PP4",
+          "Perceived Privacy Protection",
+          "Perceived adequacy of proposed controls for camera/microphone permission, storage, deletion, and child-data protection."
+        ],
+        [
+          "TR / TR1–TR4",
+          "Trust",
+          "Confidence that the proposed system would serve the child’s interests and responsibly provide initial emotion-related information."
+        ],
+        [
+          "AD / AD1–AD4",
+          "Adoption Intention",
+          "Conditional intentions to try and use KidSense and its warning features, including prospective continuation if experience meets expectations."
+        ]
+      ],
+      "note": "Four reflective indicators per construct. Definitions describe the researcher-specified instrument; they do not establish objective AI capability, audited safeguards, or actual behavior.",
+      "widths_cm": [
+        3.0,
+        4.0,
+        11.3
+      ]
+    },
+    "measurement": {
+      "title": "Table 2. Descriptive and native M0 measurement summaries (n = 271)",
+      "headers": [
+        "Construct",
+        "Mean (SD)",
+        "Loading range",
+        "Alpha",
+        "rho_A",
+        "rho_C",
+        "AVE"
+      ],
+      "rows": [
+        [
+          "AIR",
+          "3.453 (0.836)",
+          "0.822–0.852",
+          "0.859",
+          "0.860",
+          "0.904",
+          "0.703"
+        ],
+        [
+          "EXP",
+          "3.497 (0.794)",
+          "0.801–0.837",
+          "0.840",
+          "0.845",
+          "0.893",
+          "0.675"
+        ],
+        [
+          "PP",
+          "3.444 (0.875)",
+          "0.851–0.859",
+          "0.879",
+          "0.880",
+          "0.917",
+          "0.734"
+        ],
+        [
+          "TR",
+          "3.590 (0.838)",
+          "0.831–0.847",
+          "0.862",
+          "0.863",
+          "0.906",
+          "0.707"
+        ],
+        [
+          "AD",
+          "3.562 (0.812)",
+          "0.820–0.840",
+          "0.847",
+          "0.848",
+          "0.897",
+          "0.685"
+        ]
+      ],
+      "note": "Mean and sample SD refer to unweighted four-item averages in the original 1–5 units. Alpha is standardized; loadings, rho_A, rho_C, and AVE are native M0 outputs. rho_A was not independently recomputed.",
+      "widths_cm": [
+        2.0,
+        3.0,
+        3.3,
+        2.2,
+        2.2,
+        2.2,
+        3.4
+      ]
+    },
+    "htmt": {
+      "title": "Table 3. Native HTMT and one-sided BCa 95% upper bounds",
+      "headers": [
+        "Construct pair",
+        "HTMT",
+        "Upper 95% bound",
+        "Upper bound < 0.90?"
+      ],
+      "rows": [
+        [
+          "AIR–EXP",
+          "0.833",
+          "0.888",
+          "Yes"
+        ],
+        [
+          "AIR–PP",
+          "0.820",
+          "0.874",
+          "Yes"
+        ],
+        [
+          "AIR–TR",
+          "0.805",
+          "0.861",
+          "Yes"
+        ],
+        [
+          "AIR–AD",
+          "0.709",
+          "0.794",
+          "Yes"
+        ],
+        [
+          "EXP–PP",
+          "0.860",
+          "0.908",
+          "No"
+        ],
+        [
+          "EXP–TR",
+          "0.830",
+          "0.887",
+          "Yes"
+        ],
+        [
+          "EXP–AD",
+          "0.828",
+          "0.913",
+          "No"
+        ],
+        [
+          "PP–TR",
+          "0.823",
+          "0.879",
+          "Yes"
+        ],
+        [
+          "PP–AD",
+          "0.759",
+          "0.830",
+          "Yes"
+        ],
+        [
+          "TR–AD",
+          "0.803",
+          "0.866",
+          "Yes"
+        ]
+      ],
+      "note": "Dedicated native BCa bootstrap: 10,000 resamples, one-tailed α = 0.05. Decisions use unrounded bounds. The 0.90 criterion was not established for EXP–PP or EXP–AD; all point estimates alone were below 0.90.",
+      "widths_cm": [
+        5.2,
+        3.5,
+        4.8,
+        4.8
+      ]
+    },
+    "m0": {
+      "title": "Table 4. Original M0 structural paths and specific indirect effects",
+      "headers": [
+        "Association",
+        "Type",
+        "β",
+        "SE",
+        "t",
+        "95% percentile CI",
+        "p"
+      ],
+      "rows": [
+        [
+          "AIR → TR",
+          "Path",
+          "0.260",
+          "0.062",
+          "4.229",
+          "[0.139, 0.380]",
+          "<0.001"
+        ],
+        [
+          "EXP → TR",
+          "Path",
+          "0.294",
+          "0.069",
+          "4.278",
+          "[0.158, 0.425]",
+          "<0.001"
+        ],
+        [
+          "PP → TR",
+          "Path",
+          "0.315",
+          "0.076",
+          "4.127",
+          "[0.164, 0.465]",
+          "<0.001"
+        ],
+        [
+          "TR → AD",
+          "Path",
+          "0.688",
+          "0.041",
+          "16.881",
+          "[0.603, 0.764]",
+          "<0.001"
+        ],
+        [
+          "AIR → TR → AD",
+          "Indirect",
+          "0.179",
+          "0.044",
+          "4.091",
+          "[0.095, 0.267]",
+          "<0.001"
+        ],
+        [
+          "EXP → TR → AD",
+          "Indirect",
+          "0.202",
+          "0.052",
+          "3.857",
+          "[0.103, 0.308]",
+          "<0.001"
+        ],
+        [
+          "PP → TR → AD",
+          "Indirect",
+          "0.217",
+          "0.053",
+          "4.081",
+          "[0.113, 0.323]",
+          "<0.001"
+        ]
+      ],
+      "note": "Native SmartPLS, 10,000 resamples, two-tailed α = 0.05; standardized coefficients. M0 does not estimate direct AIR/EXP/PP → AD paths. Significant products are not evidence of full or causal mediation.",
+      "widths_cm": [
+        4.6,
+        1.8,
+        1.5,
+        1.5,
+        1.5,
+        4.5,
+        2.9
+      ]
+    },
+    "fit": {
+      "title": "Table 5. Estimated-model discrepancies compared with native HI95 bounds",
+      "headers": [
+        "Model",
+        "Type",
+        "SRMR / HI95",
+        "d_ULS / HI95",
+        "d_G / HI95",
+        "All < HI95?"
+      ],
+      "rows": [
+        [
+          "M0",
+          "Composite",
+          "0.0641 / 0.0419",
+          "0.8626 / 0.3688",
+          "0.1902 / 0.1685",
+          "No"
+        ],
+        [
+          "M0",
+          "Mixed",
+          "0.0745 / 0.0587",
+          "1.1655 / 0.7238",
+          "0.3162 / 0.2814",
+          "No"
+        ],
+        [
+          "M1",
+          "Composite",
+          "0.0310 / 0.0345",
+          "0.2021 / 0.2501",
+          "0.1454 / 0.1641",
+          "Yes"
+        ],
+        [
+          "M1",
+          "Mixed",
+          "0.0490 / 0.0447",
+          "0.5049 / 0.4195",
+          "0.2756 / 0.2747",
+          "No"
+        ]
+      ],
+      "note": "Each cell shows the original discrepancy / its native 95th-percentile bootstrap reference bound. Composite and mixed-model outputs are distinguished. M1 is saturated only in its structural covariance specification; favorable composite comparisons do not independently confirm its paths.",
+      "widths_cm": [
+        1.2,
+        2.5,
+        4.0,
+        4.0,
+        4.0,
+        2.6
+      ]
+    },
+    "m1": {
+      "title": "Table 6. Corrected native M1 exploratory paths and indirect effects",
+      "headers": [
+        "Association",
+        "Type",
+        "β",
+        "SE",
+        "95% percentile CI",
+        "p"
+      ],
+      "rows": [
+        [
+          "AIR → AD",
+          "Path",
+          "0.046",
+          "0.068",
+          "[−0.088, 0.180]",
+          "0.505143"
+        ],
+        [
+          "AIR → TR",
+          "Path",
+          "0.263",
+          "0.062",
+          "[0.142, 0.383]",
+          "<0.001"
+        ],
+        [
+          "EXP → AD",
+          "Path",
+          "0.337",
+          "0.100",
+          "[0.127, 0.518]",
+          "<0.001"
+        ],
+        [
+          "EXP → TR",
+          "Path",
+          "0.293",
+          "0.069",
+          "[0.156, 0.425]",
+          "<0.001"
+        ],
+        [
+          "PP → AD",
+          "Path",
+          "0.156",
+          "0.071",
+          "[0.017, 0.297]",
+          "0.027921"
+        ],
+        [
+          "PP → TR",
+          "Path",
+          "0.313",
+          "0.077",
+          "[0.162, 0.464]",
+          "<0.001"
+        ],
+        [
+          "TR → AD",
+          "Path",
+          "0.304",
+          "0.076",
+          "[0.157, 0.459]",
+          "<0.001"
+        ],
+        [
+          "AIR → TR → AD",
+          "Indirect",
+          "0.080",
+          "0.029",
+          "[0.033, 0.143]",
+          "0.005153"
+        ],
+        [
+          "EXP → TR → AD",
+          "Indirect",
+          "0.089",
+          "0.032",
+          "[0.035, 0.159]",
+          "0.005141"
+        ],
+        [
+          "PP → TR → AD",
+          "Indirect",
+          "0.095",
+          "0.034",
+          "[0.037, 0.169]",
+          "0.004813"
+        ]
+      ],
+      "note": "Corrected five-construct, seven-path model containing TR; same 271 records and 20 items as M0. Native 10,000-resample percentile bootstrap, two-tailed α = 0.05. Nominal inference is exploratory, with no multiplicity correction for model development.",
+      "widths_cm": [
+        4.7,
+        1.8,
+        1.7,
+        1.7,
+        5.0,
+        3.4
+      ]
+    },
+    "predict": {
+      "title": "Table 7. Native M0 held-out indicator prediction summaries",
+      "headers": [
+        "Indicator",
+        "Q²predict",
+        "RMSE PLS",
+        "RMSE LM",
+        "RMSE IA",
+        "MAE PLS",
+        "MAE LM"
+      ],
+      "rows": [
+        [
+          "TR1",
+          "0.430",
+          "0.741",
+          "0.747",
+          "0.982",
+          "0.588",
+          "0.589"
+        ],
+        [
+          "TR2",
+          "0.394",
+          "0.794",
+          "0.810",
+          "1.020",
+          "0.631",
+          "0.646"
+        ],
+        [
+          "TR3",
+          "0.396",
+          "0.771",
+          "0.764",
+          "0.992",
+          "0.600",
+          "0.606"
+        ],
+        [
+          "TR4",
+          "0.474",
+          "0.725",
+          "0.749",
+          "1.000",
+          "0.572",
+          "0.579"
+        ],
+        [
+          "AD1",
+          "0.308",
+          "0.819",
+          "0.829",
+          "0.984",
+          "0.642",
+          "0.651"
+        ],
+        [
+          "AD2",
+          "0.364",
+          "0.794",
+          "0.801",
+          "0.996",
+          "0.633",
+          "0.635"
+        ],
+        [
+          "AD3",
+          "0.295",
+          "0.819",
+          "0.818",
+          "0.975",
+          "0.643",
+          "0.644"
+        ],
+        [
+          "AD4",
+          "0.310",
+          "0.810",
+          "0.806",
+          "0.975",
+          "0.642",
+          "0.634"
+        ]
+      ],
+      "note": "10 folds × 10 repetitions, n = 271, 2,710 predictions per indicator. Direct antecedents: AD predictions are conditional on observed TR. Lower error is better. PLS RMSE beats LM for 5/8 indicators; PLS MAE beats LM for 7/8. Comparisons use unrounded values.",
+      "widths_cm": [
+        1.8,
+        2.4,
+        2.8,
+        2.8,
+        2.8,
+        2.8,
+        2.9
+      ]
+    },
+    "cvpat": {
+      "title": "Table 8. Native M0 CVPAT loss comparisons",
+      "headers": [
+        "Benchmark",
+        "Target",
+        "PLS loss",
+        "Benchmark loss",
+        "Difference",
+        "t",
+        "p"
+      ],
+      "rows": [
+        [
+          "IA",
+          "TR",
+          "0.575036",
+          "0.996876",
+          "−0.421841",
+          "6.765",
+          "<0.001"
+        ],
+        [
+          "IA",
+          "AD",
+          "0.656847",
+          "0.965364",
+          "−0.308517",
+          "5.450",
+          "<0.001"
+        ],
+        [
+          "IA",
+          "Overall",
+          "0.615942",
+          "0.981120",
+          "−0.365179",
+          "6.497",
+          "<0.001"
+        ],
+        [
+          "LM",
+          "TR",
+          "0.575036",
+          "0.589755",
+          "−0.014719",
+          "1.412",
+          "0.159017"
+        ],
+        [
+          "LM",
+          "AD",
+          "0.656847",
+          "0.662029",
+          "−0.005181",
+          "0.746",
+          "0.456418"
+        ],
+        [
+          "LM",
+          "Overall",
+          "0.615942",
+          "0.625892",
+          "−0.009950",
+          "1.550",
+          "0.122338"
+        ]
+      ],
+      "note": "Squared indicator prediction errors averaged within each target. Difference = PLS minus benchmark; negative favors PLS. Native p-values retained. Overall LM p = 0.122338 does not establish PLS superiority or equivalence.",
+      "widths_cm": [
+        2.3,
+        1.8,
+        2.7,
+        3.3,
+        3.1,
+        2.2,
+        2.9
+      ]
+    },
+    "items": {
+      "title": "Table A1. Researcher-supplied original EXP, PP, and AD items",
+      "headers": [
+        "Item",
+        "Original Indonesian statement"
+      ],
+      "rows": [
+        [
+          "EXP1",
+          "Saya memahami alasan KidSense menampilkan kategori emosi tertentu."
+        ],
+        [
+          "EXP2",
+          "Saya memahami informasi yang menjadi dasar munculnya peringatan KidSense."
+        ],
+        [
+          "EXP3",
+          "Saya memahami arti tingkat keyakinan dan kemungkinan kesalahan hasil prediksi AI yang ditampilkan."
+        ],
+        [
+          "EXP4",
+          "Penjelasan yang tersedia memudahkan saya menafsirkan informasi peringatan KidSense."
+        ],
+        [
+          "PP1",
+          "Menurut saya, mekanisme perlindungan privasi yang ditampilkan KidSense memberikan perlindungan terhadap data anak."
+        ],
+        [
+          "PP2",
+          "Saya menilai mekanisme persetujuan penggunaan kamera dan mikrofon dalam KidSense memperhatikan privasi anak."
+        ],
+        [
+          "PP3",
+          "Saya menilai mekanisme pengaturan penyimpanan dan penghapusan data dalam KidSense mendukung perlindungan privasi anak."
+        ],
+        [
+          "PP4",
+          "Secara keseluruhan, saya merasa perlindungan privasi yang dirancang dalam KidSense memadai untuk penggunaan oleh orang tua."
+        ],
+        [
+          "AD1",
+          "Saya berniat mencoba aplikasi KidSense."
+        ],
+        [
+          "AD2",
+          "Saya berencana menggunakan KidSense untuk membantu mendampingi aktivitas bermain digital anak."
+        ],
+        [
+          "AD3",
+          "Saya berniat memanfaatkan fitur peringatan dini KidSense ketika diperlukan."
+        ],
+        [
+          "AD4",
+          "Saya berminat menggunakan KidSense secara berkelanjutan apabila pengalaman penggunaannya sesuai harapan."
+        ]
+      ],
+      "note": "Verbatim text as supplied. AIR and TR item wording and the response anchors remain to be supplied; they were not invented for this draft.",
+      "widths_cm": [
+        1.9,
+        16.4
+      ]
+    },
+    "sensitivity": {
+      "title": "Table B1. Sensitivity excluding ten all-item-uniform response records",
+      "headers": [
+        "M0 quantity",
+        "Primary n = 271 (native)",
+        "Sensitivity n = 261 (Python)",
+        "Difference"
+      ],
+      "rows": [
+        [
+          "AIR → TR",
+          "0.260",
+          "0.254",
+          "−0.006"
+        ],
+        [
+          "EXP → TR",
+          "0.294",
+          "0.284",
+          "−0.010"
+        ],
+        [
+          "PP → TR",
+          "0.315",
+          "0.316",
+          "0.000"
+        ],
+        [
+          "TR → AD",
+          "0.688",
+          "0.655",
+          "−0.033"
+        ],
+        [
+          "R² TR",
+          "0.616",
+          "0.581",
+          "−0.035"
+        ],
+        [
+          "R² AD",
+          "0.473",
+          "0.429",
+          "−0.044"
+        ]
+      ],
+      "note": "Point estimates only. No n = 261 bootstrap confidence intervals or significance decisions are claimed. A uniform response pattern alone does not establish invalid participation. Differences combine the labeled sample change with numerically matched point-estimation implementations.",
+      "widths_cm": [
+        4.0,
+        4.4,
+        5.5,
+        4.4
+      ]
+    }
+  },
+  "source_paths": {
+    "M0": "/workspace/validation/native_bootstrap/native_structural_verification.json",
+    "M1": "/workspace/validation/native_M1_corrected/native_M1_verified.json",
+    "HTMT": "/workspace/validation/native_htmt_one_sided/verification.json",
+    "prediction": "/workspace/validation/native_prediction/prediction/native_prediction_validation.json",
+    "CVPAT": "/workspace/validation/native_prediction/native_cvpat_verification.json",
+    "measurement": "/workspace/paper_jads/review/measurement_descriptives_M0.csv",
+    "structural_diagnostics": "/workspace/paper_jads/review/structural_diagnostics.json"
+  },
+  "references_in_order": [
+    "lee2004",
+    "glikson2020",
+    "shin2021",
+    "malhotra2004",
+    "venkatesh2003",
+    "hair2019",
+    "henseler2015",
+    "shmueli2016",
+    "hoff2015",
+    "mcknight2011",
+    "dinev2006",
+    "gefen2003",
+    "fornell1981",
+    "shmueli2019",
+    "liengaard2021",
+    "sharma2023",
+    "pods2003"
+  ]
+}

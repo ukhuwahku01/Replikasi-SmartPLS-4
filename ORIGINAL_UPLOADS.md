@@ -1,9 +1,10 @@
 # Unggahan asli
 
-Seluruh 12 unggahan disimpan tanpa perubahan. Hash lengkap dan ukuran seluruh berkas tersedia dalam [manifest](BACKUP_MANIFEST.json).
+Seluruh 13 unggahan disimpan tanpa perubahan. Hash lengkap dan ukuran seluruh berkas tersedia dalam [manifest](BACKUP_MANIFEST.json).
 
 | File | Ukuran byte | Awalan SHA-256 |
 |---|---:|---|
+| [JADS-template.docx](workspace_snapshot/attachments/2f82fc2f-7333-4b16-932a-c23db07d7717/JADS-template.docx) | 161179 | `dc78efa689c4` |
 | [KidSense_Bootstrap_10000.xlsx](workspace_snapshot/attachments/881a3fc0-4752-40da-b923-58fd2e3add93/KidSense_Bootstrap_10000.xlsx) | 116514 | `34fbb57b2a0c` |
 | [KidSense_CV_Prediction_Exploratory.json](workspace_snapshot/attachments/1c6c33c3-8c03-46ac-905a-19d5dc769e24/KidSense_CV_Prediction_Exploratory.json) | 3658 | `07f51394c22b` |
 | [KidSense_HTMT_10000_validation.json](workspace_snapshot/attachments/d0bcb909-7b59-4061-ba39-2de66241055c/KidSense_HTMT_10000_validation.json) | 5079 | `6ee09b3e00a5` |

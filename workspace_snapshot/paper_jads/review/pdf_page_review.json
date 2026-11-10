@@ -1,0 +1,80 @@
+[
+  {
+    "page": 1,
+    "words": 635,
+    "start": "ental trust and conditional adoption intention toward KidSense: A PLS-\nSEM concept evaluation with c",
+    "end": "y does not by itself establish \ndiscriminant validity [7], and explanatory performance does not establish predictive superiority [8]. A study of concept-based \n"
+  },
+  {
+    "page": 2,
+    "words": 684,
+    "start": "ceptions should therefore report contrary as well as favorable diagnostics and make its computationa",
+    "end": "ffects in M0 cannot by itself establish full mediation: the absence of a direct path is a \nmodel restriction, not an empirical finding that its effect is zero.\n"
+  },
+  {
+    "page": 3,
+    "words": 413,
+    "start": "retains the five constructs, all 20 indicators, and all four M0 paths, and adds AIR \u2192 AD, EXP \u2192 AD, ",
+    "end": "EXP4\nExplainability\nReported understanding of described reasons, warning information, prediction \nconfidence and possible errors, and interpretation of alerts.\n"
+  },
+  {
+    "page": 4,
+    "words": 698,
+    "start": "e / indicators\nConstruct\nOperational scope in concept evaluation\nPP / PP1\u2013PP4\nPerceived Privacy Prot",
+    "end": "d accelerated (BCa) method, 10,000 \nresamples, and a one-tailed 0.05 setting. The one-sided 95% upper bound was compared with the adopted 0.90 threshold. This \n"
+  },
+  {
+    "page": 5,
+    "words": 637,
+    "start": "nd is distinct from the two-sided path confidence intervals and from the earlier Python bias-correct",
+    "end": "ty, Privacy Protection, and Adoption Intention.\nTable 3. Native HTMT and one-sided BCa 95% upper bounds\nConstruct pair\nHTMT\nUpper 95% bound\nUpper bound < 0.90?\n"
+  },
+  {
+    "page": 6,
+    "words": 656,
+    "start": "e. Dedicated native BCa bootstrap: 10,000 resamples, one-tailed \u03b1 = 0.05. Decisions use unrounded bo",
+    "end": "d_ULS / HI95\nd_G / HI95\nAll < HI95?\nM0\nComposite\n0.0641 / 0.0419\n0.8626 / 0.3688\n0.1902 / 0.1685\nNo\nM0\nMixed\n0.0745 / 0.0587\n1.1655 / 0.7238\n0.3162 / 0.2814\nNo\n"
+  },
+  {
+    "page": 7,
+    "words": 483,
+    "start": "el\nType\nSRMR / HI95\nd_ULS / HI95\nd_G / HI95\nAll < HI95?\nM1\nComposite\n0.0310 / 0.0345\n0.2021 / 0.2501",
+    "end": "wever, Explainability's associations with PP and AD \nhave unresolved HTMT uncertainty; the added paths should not be treated as definitive distinct mechanisms.\n"
+  },
+  {
+    "page": 8,
+    "words": 554,
+    "start": "has a saturated structural covariance specification: three covarying exogenous constructs predict TR",
+    "end": "s should not be presented as \ncomprehensive predictive validation [14] [16]. Furthermore, AD predictions relied on observed TR indicators. The results support \n"
+  },
+  {
+    "page": 9,
+    "words": 706,
+    "start": "ditional response prediction under M0's recorded settings; they do not establish deployment performa",
+    "end": "score variance and 47.3% of intention-score variance. Independent \ncomputations reproduced the checked native results, supporting their numerical traceability.\n"
+  },
+  {
+    "page": 10,
+    "words": 559,
+    "start": "e substantive interpretation remains qualified. The BCa upper-bound HTMT criterion was not satisfied",
+    "end": "ficial intelligence: Review of empirical research,\u201d Academy of Management \nAnnals, vol. 14, no. 2, pp. 627\u2013660, 2020, https://doi.org/10.5465/annals.2018.0057.\n"
+  },
+  {
+    "page": 11,
+    "words": 650,
+    "start": "] D. Shin, \u201cThe effects of explainability and causability on perception, trust, and acceptance: Impl",
+    "end": ". Researcher-supplied original EXP, PP, and AD items\nItem\nOriginal Indonesian statement\nEXP1\nSaya memahami alasan KidSense menampilkan kategori emosi tertentu.\n"
+  },
+  {
+    "page": 12,
+    "words": 501,
+    "start": "em\nOriginal Indonesian statement\nEXP2\nSaya memahami informasi yang menjadi dasar munculnya peringata",
+    "end": "efore not claimed, while point \nsolutions and the recovered native prediction partitions were independently checked. Earlier Python bias-corrected HTMT limits \n"
+  },
+  {
+    "page": 13,
+    "words": 58,
+    "start": "thout acceleration remain distinguished from native BCa limits. M1's direct and indirect paths are e",
+    "end": "e validation is implied by the retained M0 prediction files. Table values are rounded for readability; statistical decisions \nuse full-precision source values.\n"
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "scope": "M0 primary-model structural diagnostics and a separate exploratory n261 sensitivity, with sources preserved",
+  "native_M0_source": {
+    "path": "/workspace/attachments/881a3fc0-4752-40da-b923-58fd2e3add93/KidSense_Bootstrap_10000.xlsx",
+    "sha256": "34fbb57b2a0cce95c1792fdcea91a275d6da5417b64b55e1b6e1b5451b3ae5bd",
+    "sheet": "Complete data set",
+    "estimate_column": "C: Original sample (O)"
+  },
+  "native_M0_structural_diagnostics": [
+    {
+      "path": "AIR -> TR",
+      "native_M0_beta": 0.26037932301829125,
+      "native_M0_beta_cell": "'Complete data set'!C12",
+      "native_M0_f_squared": 0.07387146682548004,
+      "native_M0_f_squared_cell": "'Complete data set'!C324",
+      "native_M0_inner_VIF": 2.392527788268989,
+      "native_M0_inner_VIF_cell": "'Complete data set'!C620"
+    },
+    {
+      "path": "EXP -> TR",
+      "native_M0_beta": 0.2939213182473352,
+      "native_M0_beta_cell": "'Complete data set'!C13",
+      "native_M0_f_squared": 0.0869942480327669,
+      "native_M0_f_squared_cell": "'Complete data set'!C325",
+      "native_M0_inner_VIF": 2.588763408788131,
+      "native_M0_inner_VIF_cell": "'Complete data set'!C621"
+    },
+    {
+      "path": "PP -> TR",
+      "native_M0_beta": 0.31545154208151455,
+      "native_M0_beta_cell": "'Complete data set'!C14",
+      "native_M0_f_squared": 0.09927112326491237,
+      "native_M0_f_squared_cell": "'Complete data set'!C326",
+      "native_M0_inner_VIF": 2.6131425392273524,
+      "native_M0_inner_VIF_cell": "'Complete data set'!C622"
+    },
+    {
+      "path": "TR -> AD",
+      "native_M0_beta": 0.6879642565170908,
+      "native_M0_beta_cell": "'Complete data set'!C15",
+      "native_M0_f_squared": 0.898595333101109,
+      "native_M0_f_squared_cell": "'Complete data set'!C327",
+      "native_M0_inner_VIF": 0.9999999999999991,
+      "native_M0_inner_VIF_cell": "'Complete data set'!C623"
+    }
+  ],
+  "n261_uniform_answer_sensitivity": {
+    "status": "Previously independently recalculated Python point estimates, not a native n261 run; no n261 bootstrap intervals or p-values provided",
+    "original_n": 271,
+    "uniform_answer_rows_flagged": 10,
+    "remaining_n": 261,
+    "uniform_definition": "The same value is supplied for all20indicators within a respondent row; flag is x.nunique(axis=1)==1",
+    "uniform_flag_does_not_establish_invalid_responding": true,
+    "sample_change": "Only remove these10rows in a labeled sensitivity analysis; retain all271rows as primary sample",
+    "model": "Same M0 AIR/EXP/PP -> TR -> AD; all20indicators retained",
+    "estimator": "Independent covariance PLS-PM reflective Mode A, path weighting, max normalized-weight change<1e-12",
+    "data_source": "/workspace/smartpls4_native/KidSense_SmartPLS4_Input_271.csv",
+    "data_source_sha256": "ab7e5333f80e50f89dcf90d885556f5b60bb30848052153e77325500af216624",
+    "recalculated_result_file": "/workspace/validation/pls_point_verification.json",
+    "recalculated_result_file_sha256": "998285836802ad5fa466ff4a64335fdc512ea37d028bc292c5e106023937f1b2",
+    "result_keys": [
+      "straightline_removed_n",
+      "sensitivity_beta",
+      "sensitivity_r2"
+    ],
+    "reproduction_script": "/workspace/validation/verify_pls.py",
+    "script_sha256": "73590474381395951bba9b47f1f6c4f84484cbb6be52c36ff9b6dd756f57377f",
+    "original_reported_sensitivity_source": "/workspace/attachments/6cb0d79d-f565-4c78-977d-a9f20909c62b/KidSense_JADS_Validasi_Lanjutan_10000.xlsx",
+    "original_reported_sensitivity_sheet_row": "Sensitivity_paths, row4",
+    "path_results": [
+      {
+        "path": "AIR -> TR",
+        "M0_n271_native_beta": 0.26037932301829125,
+        "sensitivity_n261_Python_beta": 0.25420926315574327,
+        "delta_sensitivity_minus_main": -0.006170059862547983,
+        "previous_workbook_sensitivity_value": 0.2542092631551749,
+        "previous_workbook_sensitivity_cell": "'Sensitivity_paths'!C4",
+        "max_abs_reproduction_difference": 5.683786774568489e-13
+      },
+      {
+        "path": "EXP -> TR",
+        "M0_n271_native_beta": 0.2939213182473352,
+        "sensitivity_n261_Python_beta": 0.2835613596116837,
+        "delta_sensitivity_minus_main": -0.010359958635651478,
+        "previous_workbook_sensitivity_value": 0.2835613596118257,
+        "previous_workbook_sensitivity_cell": "'Sensitivity_paths'!D4",
+        "max_abs_reproduction_difference": 1.4199752484955752e-13
+      },
+      {
+        "path": "PP -> TR",
+        "M0_n271_native_beta": 0.31545154208151455,
+        "sensitivity_n261_Python_beta": 0.31566028474402924,
+        "delta_sensitivity_minus_main": 0.00020874266251469376,
+        "previous_workbook_sensitivity_value": 0.3156602847445875,
+        "previous_workbook_sensitivity_cell": "'Sensitivity_paths'!E4",
+        "max_abs_reproduction_difference": 5.5827564793276e-13
+      },
+      {
+        "path": "TR -> AD",
+        "M0_n271_native_beta": 0.6879642565170908,
+        "sensitivity_n261_Python_beta": 0.6551565557347782,
+        "delta_sensitivity_minus_main": -0.032807700782312654,
+        "previous_workbook_sensitivity_value": 0.6551565557348674,
+        "previous_workbook_sensitivity_cell": "'Sensitivity_paths'!F4",
+        "max_abs_reproduction_difference": 8.926193117986259e-14
+      }
+    ],
+    "r2_results": [
+      {
+        "construct": "TR",
+        "M0_n271_native_r2": 0.6163994035941076,
+        "M0_native_cell": "'Complete data set'!C285",
+        "sensitivity_n261_Python_r2": 0.5810877957733146,
+        "delta_sensitivity_minus_main": -0.03531160782079301,
+        "previous_workbook_sensitivity_value": 0.5810877957735434,
+        "previous_workbook_sensitivity_cell": "'Sensitivity_paths'!G4",
+        "max_abs_reproduction_difference": 2.2881696537524476e-13
+      },
+      {
+        "construct": "AD",
+        "M0_n271_native_r2": 0.47329481824511294,
+        "M0_native_cell": "'Complete data set'!C284",
+        "sensitivity_n261_Python_r2": 0.42923011252225746,
+        "delta_sensitivity_minus_main": -0.04406470572285548,
+        "previous_workbook_sensitivity_value": 0.42923011252237364,
+        "previous_workbook_sensitivity_cell": "'Sensitivity_paths'!H4",
+        "max_abs_reproduction_difference": 1.1618483952702263e-13
+      }
+    ],
+    "limits": [
+      "Directions remain positive in these point estimates; without n261 bootstrap results this is not a replication of significance decisions.",
+      "Excluding uniform answers is a sensitivity condition, not evidence those10respondents were invalid.",
+      "No assertion that the exclusion rule was preregistered or used for the primary sample.",
+      "D1/D2-based subsets n228 and n220 remain unverified from the supplied indicator-only CSV."
+    ]
+  },
+  "f_squared_note": "Report original-sample effect sizes and inner VIF. Hypothesis significance is assessed using path/indirect bootstrap results; do not substitute bootstrap tests of f_squared for path significance.",
+  "original_files_modified": false
+}
